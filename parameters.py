@@ -19,6 +19,7 @@ import numpy as np
 from numpy import log1p
 from numpy import exp
 from scipy.special import logsumexp
+from scipy.optimize import minimize
 
 
 def sumLogProb(a, b):
@@ -48,7 +49,20 @@ def read_fasta(filename):
     return s
 
 
-def forward_backward(obs, trans_probs, emiss_probs, init_probs):
+def unfold_params(params, nstates=2):
+    """
+    Unfold 1d array of params into init, emiss, and trans probs
+    :param params: 1d array of init, emiss, and trans probs
+    :param nstates: number of states in the HMM
+    :return: init, emiss, and trans probs
+    """
+    init = params[:nstates]
+    emiss = params[nstates:nstates * 5].reshape((nstates, 4))
+    trans = params[nstates * 5:].reshape((nstates, nstates))
+    return init, emiss, trans
+
+
+def forward(obs, trans_probs, emiss_probs, init_probs):
     """ Outputs the forward and backward probabilities of a given observation.
     Arguments:
         obs: observed sequence of emitted states (list of emissions)
@@ -58,15 +72,10 @@ def forward_backward(obs, trans_probs, emiss_probs, init_probs):
     Returns:
         F: matrix of forward probabilities
         likelihood_f: P(obs) calculated using the forward algorithm
-        B: matrix of backward probabilities
-        likelihood_b: P(obs) calculated using the backward algorithm
-        R: matrix of posterior probabilities
     """
     ind_bases = {b: i for i, b in enumerate('ACGT')}
     n, m = init_probs.shape[0], len(obs)
     F = np.zeros((n, m))
-    B = np.zeros((n, m))
-    R = np.zeros((n, m))
 
     # forwards
     for i, p in enumerate(init_probs):
@@ -81,40 +90,81 @@ def forward_backward(obs, trans_probs, emiss_probs, init_probs):
 
     likelihood_f = logsumexp(F[:, -1])
 
-    # # backwards (note that log(1) = 0, so last col is already set)
-    # for i, c in reversed(list(enumerate(obs))[1:]):
-    #     for j, s in enumerate(init_probs):
-    #         probs = [trans_probs[s][s1] + emiss_probs[s1][c] + B[k, i]
-    #                  for k, s1 in enumerate(init_probs)]
-    #         B[j, i - 1] = sumLogProbList(probs)
-    #
-    # likelihood_b = logsumexp([p + v + emiss_probs[k][obs[0]]
-    #                           for p, (k, v) in zip(B[:, 0], init_probs.items())])
-    #
-    # # Calculate posterior probabilities
-    # pzi_x = []
-    # for i in range(m):
-    #     pzi_x.append(logsumexp([F[j, i] + B[j, i] for j in range(n)]))
-    #
-    # for j in range(m):
-    #     for i in range(n):
-    #         R[i, j] = (F[i, j] + B[i, j]) - pzi_x[j]
+    return likelihood_f
 
-    return F, likelihood_f
-    # B, likelihood_b, np.exp(R)
+
+def normalize(arr):
+    """
+    return normalized array
+    """
+    if arr.ndim <= 1:
+        return arr - logsumexp(arr)
+    return arr - (logsumexp(arr, axis=1)[:, None])
+
+
+def getProb(params, nstates, seq):
+    """
+    Compute the posterior probability of seq given an HMM with
+    nstates states and parameters params
+    :param params: 1d array of parameters
+    :param nstates: number of states in HMM
+    :param seq: Sequence to test
+    :return: prob of seq given params
+    """
+    init, emiss, trans = unfold_params(params, nstates=nstates)
+    # print(-forward(seq, normalize(trans), normalize(emiss), normalize(init)))
+    p = 0
+    for s in seq:
+        p += -forward(s, normalize(trans), normalize(emiss), normalize(init))
+    return p
+
+
+def optimize(seq, nstates=2):
+    """
+    Find the parameters of a hidden markov model with nstates
+    states given observation seq
+    :param seq: observation data
+    :param nstates: number of states
+    :return: tuple of initial, emission, and transition probabilities
+    that define the HMM
+    """
+    num_params = nstates * (nstates + 5)
+    guess = np.log(np.random.rand(num_params))
+    # guess = np.log(np.array([0.5, 0.5, 0.13, 0.37, 0.37, 0.13,
+    #                          0.32, 0.18, 0.18, 0.32, 0.95, 0.05, 0.05, 0.95]))
+    i, e, t = unfold_params(guess, nstates=nstates)
+    i = np.log(np.ones(nstates) / nstates)
+    # e = np.log(np.ones((nstates, 4)) / (nstates * 4.0))
+    # t = np.log(np.ones((nstates, nstates)) / (nstates * nstates))
+    i, e, t = normalize(i), normalize(e), normalize(t)
+    # print(np.exp(i))
+    # print(np.exp(e))
+    # print(np.exp(t))
+    guess = np.concatenate((i, np.ndarray.flatten(e), np.ndarray.flatten(t)))
+    # print(forward(seq, t, e, i))
+    res = minimize(getProb, guess, args=(nstates, seq), method="BFGS",
+                   options={"maxiter": 100, "disp": False})
+                   # bounds=([(np.NINF, 0)] * num_params))
+    i, e, t = unfold_params(res.x, nstates=nstates)
+    i, e, t = normalize(i), normalize(e), normalize(t)
+    for s in seq:
+        print(forward(s, t, e, i))
+    return np.exp(i), np.exp(e), np.exp(t)
 
 
 def main():
     parser = argparse.ArgumentParser(
         description='Compute posterior probabilities at each position of a given sequence.')
     parser.add_argument('-f', action="store", dest="f", type=str, required=True)
-    parser.add_argument('-mu', action="store", dest="mu", type=float, required=True)
+    # parser.add_argument('-mu', action="store", dest="mu", type=float, required=True)
 
     args = parser.parse_args()
     fasta_file = args.f
-    mu = args.mu
+    # mu = args.mu
+    mu = 0.05
 
     obs_sequence = read_fasta(fasta_file)
+    seqs = list(map(read_fasta, ["hmm-sequence.fa", "test.fa"]))
     trans_probs = np.log(np.array([
         [1 - mu, mu],
         [mu, 1 - mu]
@@ -124,11 +174,15 @@ def main():
         [0.32, 0.18, 0.18, 0.32]
     ]))
     init_probs = np.log(np.array([0.5, 0.5]))
-    F, likelihood_f = \
-        forward_backward(obs_sequence, trans_probs, em_probs, init_probs)
-    # np.savetxt("posteriors.csv", R, delimiter=",", fmt='%.4e')
-    print("Forward likelihood: {:.8f}".format(likelihood_f))
-    # print("Backward likelihood: {:.8f}".format(likelihood_b))
+
+    init, emiss, trans = optimize(seqs)
+    print(init)
+    print(emiss)
+    print(trans)
+    # F, likelihood_f = forward(obs_sequence, trans_probs, em_probs, init_probs)
+    # # np.savetxt("posteriors.csv", R, delimiter=",", fmt='%.4e')
+    # print("Forward likelihood: {:.8f}".format(likelihood_f))
+    # # print("Backward likelihood: {:.8f}".format(likelihood_b))
 
 
 if __name__ == "__main__":
