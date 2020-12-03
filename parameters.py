@@ -112,7 +112,6 @@ def getProb(params, nstates, seq):
     :return: prob of seq given params
     """
     init, emiss, trans = unfold_params(params, nstates=nstates)
-    # print(-forward(seq, normalize(trans), normalize(emiss), normalize(init)))
     p = 0
     for s in seq:
         p += -forward(s, normalize(trans), normalize(emiss), normalize(init))
@@ -134,16 +133,10 @@ def optimize(seq, nstates=2):
     #                          0.32, 0.18, 0.18, 0.32, 0.95, 0.05, 0.05, 0.95]))
     i, e, t = unfold_params(guess, nstates=nstates)
     i = np.log(np.ones(nstates) / nstates)
-    # e = np.log(np.ones((nstates, 4)) / (nstates * 4.0))
-    # t = np.log(np.ones((nstates, nstates)) / (nstates * nstates))
     i, e, t = normalize(i), normalize(e), normalize(t)
-    # print(np.exp(i))
-    # print(np.exp(e))
-    # print(np.exp(t))
     guess = np.concatenate((i, np.ndarray.flatten(e), np.ndarray.flatten(t)))
-    # print(forward(seq, t, e, i))
     res = minimize(getProb, guess, args=(nstates, seq), method="BFGS",
-                   options={"maxiter": 100, "disp": False})
+                   options={"maxiter": 250, "disp": True})
                    # bounds=([(np.NINF, 0)] * num_params))
     i, e, t = unfold_params(res.x, nstates=nstates)
     i, e, t = normalize(i), normalize(e), normalize(t)
@@ -155,15 +148,15 @@ def optimize(seq, nstates=2):
 def main():
     parser = argparse.ArgumentParser(
         description='Compute posterior probabilities at each position of a given sequence.')
-    parser.add_argument('-f', action="store", dest="f", type=str, required=True)
+    # parser.add_argument('-f', action="store", dest="f", type=str, required=True)
     # parser.add_argument('-mu', action="store", dest="mu", type=float, required=True)
 
     args = parser.parse_args()
-    fasta_file = args.f
+    # fasta_file = args.f
     # mu = args.mu
     mu = 0.05
 
-    obs_sequence = read_fasta(fasta_file)
+    # obs_sequence = read_fasta(fasta_file)
     seqs = list(map(read_fasta, ["hmm-sequence.fa", "test.fa"]))
     trans_probs = np.log(np.array([
         [1 - mu, mu],
@@ -179,10 +172,6 @@ def main():
     print(init)
     print(emiss)
     print(trans)
-    # F, likelihood_f = forward(obs_sequence, trans_probs, em_probs, init_probs)
-    # # np.savetxt("posteriors.csv", R, delimiter=",", fmt='%.4e')
-    # print("Forward likelihood: {:.8f}".format(likelihood_f))
-    # # print("Backward likelihood: {:.8f}".format(likelihood_b))
 
 
 if __name__ == "__main__":
