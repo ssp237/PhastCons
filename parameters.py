@@ -51,15 +51,15 @@ def read_fasta(filename):
 
 def unfold_params(params, nstates=2):
     """
-    Unfold 1d array of params into init, emiss, and trans probs
-    :param params: 1d array of init, emiss, and trans probs
+    Unfold 1d array of params into init and trans probs
+    :param params: 1d array of init and trans probs
     :param nstates: number of states in the HMM
-    :return: init, emiss, and trans probs
+    :return: init and trans probs
     """
     init = params[:nstates]
-    emiss = params[nstates:nstates * 5].reshape((nstates, 4))
-    trans = params[nstates * 5:].reshape((nstates, nstates))
-    return init, emiss, trans
+    # emiss = params[nstates:nstates * 5].reshape((nstates, 4))
+    trans = params[nstates:].reshape((nstates, nstates))
+    return init, trans
 
 
 def forward(obs, trans_probs, emiss_probs, init_probs):
@@ -102,16 +102,17 @@ def normalize(arr):
     return arr - (logsumexp(arr, axis=1)[:, None])
 
 
-def getProb(params, nstates, seq):
+def getProb(params, nstates, seq, emiss):
     """
     Compute the posterior probability of seq given an HMM with
     nstates states and parameters params
     :param params: 1d array of parameters
+    :param emiss: emission probabilities
     :param nstates: number of states in HMM
     :param seq: Sequence to test
     :return: prob of seq given params
     """
-    init, emiss, trans = unfold_params(params, nstates=nstates)
+    init, trans = unfold_params(params, nstates=nstates)
     p = 0
     for s in seq:
         p += -forward(s, normalize(trans), normalize(emiss), normalize(init))
@@ -127,19 +128,30 @@ def optimize(seq, nstates=2):
     :return: tuple of initial, emission, and transition probabilities
     that define the HMM
     """
-    num_params = nstates * (nstates + 5)
+    num_params = nstates * (nstates + 1)
     guess = np.log(np.random.rand(num_params))
     # guess = np.log(np.array([0.5, 0.5, 0.13, 0.37, 0.37, 0.13,
     #                          0.32, 0.18, 0.18, 0.32, 0.95, 0.05, 0.05, 0.95]))
-    i, e, t = unfold_params(guess, nstates=nstates)
+    i, t = unfold_params(guess, nstates=nstates)
     i = np.log(np.ones(nstates) / nstates)
-    i, e, t = normalize(i), normalize(e), normalize(t)
-    guess = np.concatenate((i, np.ndarray.flatten(e), np.ndarray.flatten(t)))
-    res = minimize(getProb, guess, args=(nstates, seq), method="BFGS",
+    i, t = normalize(i), normalize(t)
+
+    i = np.log(np.array([0.5, 0.5]))
+    e = np.log(np.array([
+        [0.13, 0.37, 0.37, 0.13],
+        [0.32, 0.18, 0.18, 0.32]
+    ]))
+    t = np.log(np.array([
+        [1 - 0.01, 0.01],
+        [0.01, 1 - 0.01]
+    ]))
+
+    guess = np.concatenate((i, np.ndarray.flatten(t)))
+    res = minimize(getProb, guess, args=(nstates, seq, e), method="BFGS",
                    options={"maxiter": 250, "disp": True})
                    # bounds=([(np.NINF, 0)] * num_params))
-    i, e, t = unfold_params(res.x, nstates=nstates)
-    i, e, t = normalize(i), normalize(e), normalize(t)
+    i, t = unfold_params(res.x, nstates=nstates)
+    i, t = normalize(i), normalize(t)
     for s in seq:
         print(forward(s, t, e, i))
     return np.exp(i), np.exp(e), np.exp(t)
@@ -157,7 +169,10 @@ def main():
     mu = 0.05
 
     # obs_sequence = read_fasta(fasta_file)
-    seqs = list(map(read_fasta, ["hmm-sequence.fa", "test.fa"]))
+    seqs = list(map(read_fasta, [
+        "hmm-sequence.fa",
+        "test.fa"
+    ]))
     trans_probs = np.log(np.array([
         [1 - mu, mu],
         [mu, 1 - mu]
