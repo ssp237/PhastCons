@@ -12,17 +12,23 @@ top1 = "((human:0.075170, dog:0.117610):0.000000, (mouse:0.030590, rat:0.031610)
 t1 = Node.from_str(top1)
 assert(str(t1) == top1)
 data, l = read_data("fel test.fa")
-assert(round(t1.felsenstein(data, l), 2) == -292.79)
+t1.setData(data, l)
+assert(round(t1.tot_prob, 2) == -292.79)
+assert(round((t1 * 1).tot_prob, 2) == -292.79)
 
 top2 = "((human:0.208430, mouse:0.033970):0.000000, (rat:0.034970, dog:0.249520):0.000000):0.000000;"
 t2 = Node.from_str(top2)
 assert(str(t2) == top2)
-assert(round(t2.felsenstein(data, l), 2) == -283.47)
+t2.setData(data, l)
+assert(round(t2.tot_prob, 2) == -283.47)
+assert(round((t2 * 1).tot_prob, 2) == -283.47)
 
 top3 = "((mouse:0.033970, dog:0.249520):0.000000, (human:0.208430, rat:0.034970):0.000000):0.000000;"
 t3 = Node.from_str(top3)
 assert(str(t3) == top3)
-assert(round(t2.felsenstein(data, l), 2) == -283.47)
+t3.setData(data, l)
+assert(round(t3.tot_prob, 2) == -283.47)
+assert(round((t3 * 1).tot_prob, 2) == -283.47)
 
 # branch_lengths = np.array(
 #     [[0.07517, 0.03059, 0.03161, 0.11761, 0.14289],

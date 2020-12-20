@@ -23,7 +23,6 @@ ordering = [leaves[0], leaves[3], hum_dog, leaves[1], leaves[2], mouse_rat, root
         output = ""
         size = 0
         curr = ""
-        flag = False
         for l in lines:
             if l[0] == ">":
                 if len(output) != 0:
@@ -55,12 +54,21 @@ class Node:
         self.parent_id = parent_id
         self.probs = [None for _ in bases]
         self.bp = np.array([[Node.jcm(b, a, self.branch_length) for b in bases] for a in bases])
+        self.data = {}
+        self.seqlen = 0
+        self.fel_probs = np.array([])
+        self.tot_prob = 0
 
     def is_leaf(self):
         return (self.left is None) and (self.right is None)
 
     def __getitem__(self, item):
-        return self.probs[item]
+        """
+        Return cached felsenstein prob at index
+        :param item: index of felsenstein probability to return
+        :return: cached felsenstein prob at index item
+        """
+        return self.fel_probs[item]
 
     def swap_names(self, mapping):
         """
@@ -77,7 +85,6 @@ class Node:
         """
         :return: Newick representation of this tree
         """
-        out = ""
         if self.is_leaf():
             out = f"{self.name}:{self.branch_length:.6f}"
         elif self.right is None:
@@ -140,36 +147,61 @@ class Node:
         else:
             return 0.25 * (1 - e_4ut)
 
-    def fel_helper(self, ind, data):
+    def fel_at_ind(self, ind, data, fel_probs):
         bases = 'ACGT'
         if self.is_leaf():
             c = data[self.name][ind]
-            self.probs = [1 if c == a else 0 for a in bases]
+            self.probs = [int(c == a) for a in bases]
+            fel_probs[ind] = np.log(0.25 * np.sum(self.probs))
             return
 
         if self.left:
-            self.left.fel_helper(ind, data)
+            self.left.fel_at_ind(ind, data, fel_probs)
         if self.right:
-            self.right.fel_helper(ind, data)
+            self.right.fel_at_ind(ind, data, fel_probs)
 
         for i_a, a in enumerate(bases):
             p_i, p_j = 0, 0
             for i_b, b in enumerate(bases):
-                p_i += (self.left[i_b] * self.left.bp[i_a, i_b])
+                p_i += (self.left.probs[i_b] * self.left.bp[i_a, i_b])
             for i_c, c in enumerate(bases):
                 p_j += (self.right.probs[i_c] * self.right.bp[i_a, i_c])
             self.probs[i_a] = p_i * p_j
 
-    def felsenstein(self, data, seqlen):
+        fel_probs[ind] = np.log(0.25 * np.sum(self.probs))
+
+    def felsenstein(self):
         """
-        Calculate felsenstein probability of this tree
-        :param seqlen:
-        :param data: Sequence? maybe?
+        Calculate and cache felsenstein probability of this tree
         :return:
         """
-        prob = 0
-        for i in range(seqlen):
-            self.fel_helper(i, data)
-            prob += np.log(0.25 * np.sum(self.probs))
+        for i in range(self.seqlen):
+            self.fel_at_ind(i, self.data, self.fel_probs)
+        self.tot_prob = np.sum(self.fel_probs)
 
-        return prob
+    def setData(self, data, seqlen):
+        """
+        Set data and cache felsenstein probabilities
+        :param seqlen: length of data
+        :param data: Sequences for leaves of the phylogeny
+        :return: None
+        """
+        self.data = data
+        self.seqlen = seqlen
+        self.fel_probs = np.zeros(seqlen)
+        self.felsenstein()
+
+    def __mul__(self, other):
+        """
+        Multiply branch lengths by constant
+        :param other: (float) constant to scale branch lengths
+        :return: Tree with new branch lengths. Cached data _is_ transferred.
+        """
+        left = self.left * other if self.left else None
+        right = self.right * other if self.left else None
+        out = Node(self.name, left, right, self.branch_length, self.id, self.parent_id)
+
+        if self.data:
+            out.setData(self.data, self.seqlen)
+
+        return out
