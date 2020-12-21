@@ -47,35 +47,17 @@ t_prim = Node.from_str(primates2)
 t_prim.setData(d_prim, l_prim)
 t_prim.E(l_prim)
 W = t_prim.findW()
-
-# branch_lengths = np.array(
-#     [[0.07517, 0.03059, 0.03161, 0.11761, 0.14289],
-#      [0.20843, 0.03397, 0.03497, 0.24952, 0.00000],
-#      [0.20843, 0.03397, 0.03497, 0.24952, 0.00000]], dtype=float)
-#
-# index = 2
-# names = ['human', 'mouse', 'rat', 'dog']
-# branches = [0, 1, 2, 3]
-# leaves = [Node(s, None, None, bl, i) for (s, i, bl) in
-#           zip(names, branches, branch_lengths[index, :])]
-# branch_probs = [np.zeros((4, 4), dtype=float) for _ in range(6)]
-# # Note that branch 5 (or 6 in 1-index) is the branch of 0-length
-# if index == 0:
-#         hum_dog = Node(None, leaves[0], leaves[3], 0, 5)
-#         mouse_rat = Node(None, leaves[1], leaves[2], branch_lengths[index,4], 4)
-#         root = Node('root', hum_dog, mouse_rat, None, None)
-#         ordering = [leaves[0], leaves[3], hum_dog, leaves[1], leaves[2], \
-#                     mouse_rat, root]
-# elif index == 1:
-#         hum_mouse = Node(None, leaves[0], leaves[1], 0, 5)
-#         rat_dog = Node(None, leaves[2], leaves[3], branch_lengths[index, 4], 4)
-#         root = Node('root', hum_mouse, rat_dog, None, None)
-#         ordering = [leaves[0], leaves[1], hum_mouse, leaves[2], leaves[3], \
-#                     rat_dog, root]
-# else:
-#         mouse_dog = Node(None, leaves[1], leaves[3], 0, 5)
-#         hum_rat = Node(None, leaves[0], leaves[2], branch_lengths[index, 4], 4)
-#         root = Node('root', mouse_dog, hum_rat, None, None)
-#         ordering = [leaves[1], leaves[3], mouse_dog, leaves[0], leaves[2], \
-#                     hum_rat, root]
+g = t_prim.kruskal(W)
+g.setChildren()
+g.print_deg()
+# print(" ------- ")
+g.bifurcate_step_1()
+g.print_deg()
+# print(g.size())
+# print(g.children[0].children[0].name)
+# print(" ------- ")
+g = g.bifurcate_step_2()
+# g.print_deg()
+t_new = g.to_node()
+print(list(map(lambda x: x.id, t_new.preorder())))
 
