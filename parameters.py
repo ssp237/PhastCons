@@ -135,13 +135,9 @@ def forward_backward(obs, trans_probs, init_probs, trees):
     likelihood_b = logsumexp([p + i + e[0] for p, i, e in zip(B[:, 0], init_probs, trees)])
 
     # Calculate posterior probabilities
-    pzi_x = []
-    for i in range(m):
-        pzi_x.append(logsumexp([F[j, i] + B[j, i] for j in range(n)]))
-
+    pzi_x = np.array([logsumexp([F[j, i] + B[j, i] for j in range(n)]) for i in range(m)])
     for j in range(m):
-        for i in range(n):
-            R[i, j] = (F[i, j] + B[i, j]) - pzi_x[j]
+        R[:, j] = (F[:, j] + B[:, j]) - pzi_x[j]
 
     return F, likelihood_f, B, likelihood_b, np.exp(R)
 
@@ -245,7 +241,7 @@ def main():
         "hmm-sequence.fa",
         "test.fa"
     ]))
-
+    print(args.mul)
     trees = np.array([cons, non_cons])
 
     init, trans = optimize(data_len, trees)
@@ -253,8 +249,6 @@ def main():
     print(trans)
     F, l_f, B, l_b, R = forward_backward(data_len, trans, init, trees)
     saveplot(R, args.mul)
-    print(F)
-    print(B)
 
 
 if __name__ == "__main__":
