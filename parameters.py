@@ -21,6 +21,7 @@ from numpy import exp
 from scipy.special import logsumexp
 from scipy.optimize import minimize
 from tree import read_data, Node
+import matplotlib.pyplot as plt
 
 
 def sumLogProb(a, b):
@@ -93,6 +94,58 @@ def forward(obs, trans_probs, init_probs, trees):
     return likelihood_f
 
 
+def forward_backward(obs, trans_probs, init_probs, trees):
+    """ Outputs the forward and backward probabilities of a given observation.
+    Arguments:
+        obs: observed sequence of emitted states (list of emissions)
+        trans_probs: transition log-probabilities (dictionary of dictionaries)
+        trees: numpy array of trees
+        init_probs: initial log-probabilities for each hidden state (dictionary)
+    Returns:
+        F: matrix of forward probabilities
+        likelihood_f: P(obs) calculated using the forward algorithm
+        B: matrix of backward probabilities
+        likelihood_b: P(obs) calculated using the backward algorithm
+        R: matrix of posterior probabilities
+    """
+    n, m = len(init_probs), obs
+    F = np.zeros((n, m))
+    B = np.zeros((n, m))
+    R = np.zeros((n, m))
+
+    # forwards
+    for i, p in enumerate(init_probs):
+        F[i, 0] = p + trees[i][0]
+
+    for i in range(obs)[1:]:
+        for j in range(n):
+            e = trees[j][i]
+            probs = [F[k, i - 1] + trans_probs[k][j] for k in range(n)]
+            F[j, i] = e + logsumexp(probs)
+
+    likelihood_f = logsumexp(F[:, -1])
+
+    # backwards (note that log(1) = 0, so last col is already set)
+    for i in reversed(list(range(obs))[1:]):
+        for j in range(n):
+            probs = [trans_probs[j][k] + trees[k][i] + B[k, i]
+                     for k in range(n)]
+            B[j, i - 1] = logsumexp(probs)
+
+    likelihood_b = logsumexp([p + i + e[0] for p, i, e in zip(B[:, 0], init_probs, trees)])
+
+    # Calculate posterior probabilities
+    pzi_x = []
+    for i in range(m):
+        pzi_x.append(logsumexp([F[j, i] + B[j, i] for j in range(n)]))
+
+    for j in range(m):
+        for i in range(n):
+            R[i, j] = (F[i, j] + B[i, j]) - pzi_x[j]
+
+    return F, likelihood_f, B, likelihood_b, np.exp(R)
+
+
 def normalize(arr):
     """
     return normalized array
@@ -151,6 +204,24 @@ def optimize(seqlen, trees, nstates=2):
     return np.exp(i), np.exp(t)
 
 
+def saveplot(probs, factor):
+    """ Helper function to save plot of log likelihoods over iterations to file for
+        visualization.
+    Arguments:
+        probs: probability of each state at each iteration
+        factor: The scaling factor for branch lengths
+    Outputs:
+        plot of log likelihoods to file
+    """
+    plt.title("Probability vs ind")
+    plt.xlabel("Index")
+    plt.ylabel("Probability of state")
+    n, m = probs.shape
+    plt.plot(range(m), probs[0, :], 'r-')
+    plt.plot(range(m), probs[1, :], 'r-')
+    plt.savefig("phylohmm%.2f.png" % factor)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Compute posterior probabilities at each position of a given sequence.')
@@ -180,6 +251,10 @@ def main():
     init, trans = optimize(data_len, trees)
     print(init)
     print(trans)
+    F, l_f, B, l_b, R = forward_backward(data_len, trans, init, trees)
+    saveplot(R, args.mul)
+    print(F)
+    print(B)
 
 
 if __name__ == "__main__":
