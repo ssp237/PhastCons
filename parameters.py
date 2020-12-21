@@ -228,7 +228,7 @@ def main():
     parser.add_argument('-f', action="store", dest="f", type=str, default='apoe.fa')
     # parser.add_argument('-mu', action="store", dest="mu", type=float, required=True)
     parser.add_argument('-c', action='store', dest='c', type=str, required=True)
-    parser.add_argument('-mul', action='store', dest='mul', type=float, default=1.5)
+    parser.add_argument('-mul', action='store', dest='mul', type=float, default=2.0)
     parser.add_argument('-nc', action='store', dest='nc', type=str, default=None)
 
     args = parser.parse_args()

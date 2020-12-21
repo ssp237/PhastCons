@@ -30,6 +30,8 @@ t3.setData(data, l)
 assert(round(t3.tot_prob, 2) == -283.47)
 assert(round((t3 * 1).tot_prob, 2) == -283.47)
 
+chimp_corner = "(bonobo:0.007840, (human:0.006550, chimp:0.006840):0.001220):0.00500;"
+
 # branch_lengths = np.array(
 #     [[0.07517, 0.03059, 0.03161, 0.11761, 0.14289],
 #      [0.20843, 0.03397, 0.03497, 0.24952, 0.00000],
