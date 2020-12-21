@@ -57,12 +57,13 @@ def unfold_params(params, nstates=2):
     Unfold 1d array of params into init and trans probs
     :param params: 1d array of init and trans probs
     :param nstates: number of states in the HMM
-    :return: init and trans probs
+    :return: init and trans probs as well as scale factor
     """
     init = params[:nstates]
     # emiss = params[nstates:nstates * 5].reshape((nstates, 4))
-    trans = params[nstates:].reshape((nstates, nstates))
-    return init, trans
+    trans = params[nstates:(nstates * (nstates + 1))].reshape((nstates, nstates))
+    scale = params[-1]
+    return init, trans, scale
 
 
 def forward(obs, trans_probs, init_probs, trees):
@@ -162,9 +163,10 @@ def getProb(params, nstates, seqlen, trees):
     :param seqlen: length of sequence
     :return: prob of seq given params
     """
-    init, trans = unfold_params(params, nstates=nstates)
+    init, trans, scale = unfold_params(params, nstates=nstates)
     p = 0
-    return -forward(seqlen, normalize(trans), normalize(init), trees)
+    new_trees = trees * scale
+    return -forward(seqlen, normalize(trans), normalize(init), new_trees)
 
 
 def optimize(seqlen, trees, nstates=2):
@@ -181,7 +183,7 @@ def optimize(seqlen, trees, nstates=2):
     guess = np.log(np.random.rand(num_params))
     # guess = np.log(np.array([0.5, 0.5, 0.13, 0.37, 0.37, 0.13,
     #                          0.32, 0.18, 0.18, 0.32, 0.95, 0.05, 0.05, 0.95]))
-    i, t = unfold_params(guess, nstates=nstates)
+    i, t, s = unfold_params(guess, nstates=nstates)
     i = np.log(np.ones(nstates) / nstates)
     i, t = normalize(i), normalize(t)
 
@@ -194,15 +196,16 @@ def optimize(seqlen, trees, nstates=2):
         [0.5, 0.5],
         [0.5, 0.5]
     ]))
+    s = 1.0 / trees[0].tot_branch_len()
 
-    guess = np.concatenate((i, np.ndarray.flatten(t)))
+    guess = np.concatenate((i, np.ndarray.flatten(t), [s]))
     res = minimize(getProb, guess, args=(nstates, seqlen, trees), method="BFGS",
                    options={"maxiter": 250, "disp": True})
     # bounds=([(np.NINF, 0)] * num_params))
-    i, t = unfold_params(res.x, nstates=nstates)
+    i, t, s = unfold_params(res.x, nstates=nstates)
     i, t = normalize(i), normalize(t)
-    print(forward(seqlen, t, i, trees))
-    return np.exp(i), np.exp(t)
+    print(forward(seqlen, t, i, (trees * s)))
+    return np.exp(i), np.exp(t), s
 
 
 def saveplot(probs, factor, smooth=False):
@@ -250,7 +253,7 @@ def main():
     args = parser.parse_args()
     data, data_len = read_data(args.f)
     cons = Node.from_str(args.c)
-    cons = cons * (1 / cons.tot_branch_len())
+    # cons = cons * (1 / cons.tot_branch_len())
     print(cons.tot_branch_len())
     cons.setData(data, data_len)
     if not args.nc:
@@ -265,10 +268,11 @@ def main():
     ]))
     trees = np.array([cons, non_cons])
 
-    init, trans = optimize(data_len, trees)
+    init, trans, s = optimize(data_len, trees)
     print(init)
     print(trans)
-    F, l_f, B, l_b, R = forward_backward(data_len, trans, init, trees)
+    print(s)
+    F, l_f, B, l_b, R = forward_backward(data_len, trans, init, trees * s)
     saveplot(R, args.mul)
 
 

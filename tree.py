@@ -3,6 +3,7 @@ File to store data on phylogenetic trees
 """
 import re
 import numpy as np
+from scipy.optimize import minimize
 
 
 def read_data(filename):
@@ -291,4 +292,16 @@ class Node:
         for a in range(num_b):
             for b in range(num_b):
                 out += self.E_abij[a, b, i, j] * (np.log(self.jcm(bases[a], bases[b], t) - np.log(0.25)))
+        return out
+
+    def findW(self):
+        n = self.size()
+        out = np.zeros((n, n))
+        for i in range(n):
+            for j in range(n):
+                res = minimize(self.L_local, np.array([0.0]),
+                               args=(i, j),
+                               method="BFGS",
+                               options={"maxiter": 250, "disp": False})
+                out[i, j] = res.x[0]
         return out
