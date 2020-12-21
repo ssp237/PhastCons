@@ -268,8 +268,11 @@ class Node:
         """
         n = self.size()
         bases = 'ACGT'
-        self.E_abij = np.zeros((len(bases), len(bases), n, n))
+        m = len(bases)
+        self.E_abij = np.zeros((m, m, n, n))
         for i in range(seqlen):
             # Make sure that self.probs are right for entire tree
             self.fel_at_ind(i, self.data, self.fel_probs)
-            self.E_at_ind(i, [], self.data, self.E_abij)
+            temp = np.zeros((m, m, n, n))
+            self.E_at_ind(i, [], self.data, temp)
+            self.E_abij += temp
