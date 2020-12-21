@@ -152,7 +152,10 @@ class Node:
         bases = 'ACGT'
         if self.is_leaf():
             c = data[self.name][ind]
-            self.probs = [int(c == a) for a in bases]
+            if c == '-':
+                self.probs = [1 for _ in bases]
+            else:
+                self.probs = [int(c == a) for a in bases]
             fel_probs[ind] = np.log(0.25 * np.sum(self.probs))
             return
 
@@ -276,3 +279,16 @@ class Node:
             temp = np.zeros((m, m, n, n))
             self.E_at_ind(i, [], self.data, temp)
             self.E_abij += temp
+
+    def L_local(self, t, i, j):
+        """
+        Calculate l local of (i, j, t) in T using precomputed E matrix
+        :return: L local(i, j, t) according to formula in paper
+        """
+        bases = 'ACGT'
+        num_b = len(bases)
+        out = 0
+        for a in range(num_b):
+            for b in range(num_b):
+                out += self.E_abij[a, b, i, j] * (np.log(self.jcm(bases[a], bases[b], t) - np.log(0.25)))
+        return out

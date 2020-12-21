@@ -20,6 +20,7 @@ from numpy import log1p
 from numpy import exp
 from scipy.special import logsumexp
 from scipy.optimize import minimize
+from scipy.interpolate import make_interp_spline, BSpline
 from tree import read_data, Node
 import matplotlib.pyplot as plt
 
@@ -204,7 +205,7 @@ def optimize(seqlen, trees, nstates=2):
     return np.exp(i), np.exp(t)
 
 
-def saveplot(probs, factor):
+def saveplot(probs, factor, smooth=False):
     """ Helper function to save plot of log likelihoods over iterations to file for
         visualization.
     Arguments:
@@ -217,8 +218,19 @@ def saveplot(probs, factor):
     plt.xlabel("Index")
     plt.ylabel("Probability of state")
     n, m = probs.shape
-    plt.plot(range(m), probs[0, :], 'r-')
-    plt.plot(range(m), probs[1, :], 'b-')
+    if smooth:
+
+        xnew = np.linspace(0, m ,300)
+        spl_cons = make_interp_spline(range(m), probs[0, :], k=3)
+        cons_smooth = spl_cons(xnew)
+        spl_ncons = make_interp_spline(range(m), probs[1, :], k=3)
+        ncons_smooth = spl_ncons(xnew)
+
+        plt.plot(xnew, cons_smooth, 'r-')
+        plt.plot(xnew, ncons_smooth, 'b-')
+    else:
+        plt.plot(range(m), probs[0, :], 'r-')
+        plt.plot(range(m), probs[1, :], 'b-')
     plt.savefig("phylohmm%.2f.png" % factor)
 
 
@@ -232,7 +244,7 @@ def main():
     parser.add_argument('-f', action="store", dest="f", type=str, default='apoe.fa')
     # parser.add_argument('-mu', action="store", dest="mu", type=float, required=True)
     parser.add_argument('-c', action='store', dest='c', type=str, default=primates)
-    parser.add_argument('-mul', action='store', dest='mul', type=float, default=10.0)
+    parser.add_argument('-mul', action='store', dest='mul', type=float, default=4.0)
     parser.add_argument('-nc', action='store', dest='nc', type=str, default=None)
 
     args = parser.parse_args()

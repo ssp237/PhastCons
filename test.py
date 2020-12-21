@@ -1,6 +1,7 @@
 """ Basic test cases for the files """
 from tree import Node, read_data
 import numpy as np
+from scipy.optimize import minimize
 
 s1 = "(((One:0.200000,Two:0.300000):0.300000,(Three:0.500000," \
      "Four:0.300000):0.200000):0.300000,Five:0.700000):0.000000;"
@@ -44,6 +45,14 @@ d_prim, l_prim = read_data("Data/H1-1/Data_total.txt")
 t_prim = Node.from_str(primates2)
 # d_prim, l_prim = read_data("Data/HI1-Compiled.txt")
 t_prim.setData(d_prim, l_prim)
+t_prim.E(l_prim)
+n = t_prim.size()
+Ll = np.zeros((n, n))
+for i in range(n):
+    for j in range(n):
+        res = minimize(t_prim.L_local, np.array([0.0]), args=(i, j), method="BFGS",
+                       options={"maxiter": 250, "disp": True})
+        Ll[i, j] = res.x[0]
 # branch_lengths = np.array(
 #     [[0.07517, 0.03059, 0.03161, 0.11761, 0.14289],
 #      [0.20843, 0.03397, 0.03497, 0.24952, 0.00000],
