@@ -205,3 +205,8 @@ class Node:
             out.setData(self.data, self.seqlen)
 
         return out
+
+    def tot_branch_len(self):
+        return self.branch_length + \
+               (self.left.branch_length if self.left else 0.0) + \
+               (self.right.branch_length if self.right else 0.0)
