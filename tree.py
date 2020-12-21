@@ -235,24 +235,24 @@ class Node:
         """
         bases = 'ACGT'
         n = len(bases)
+        if self.id != 0:
+            last = visited[-1]
+            tot = np.sum(self.probs)
+            for a in range(n):
+                for b in range(n):
+                    E_abij[a, b, self.id, last.id] = \
+                        (0.25 * self.probs[a] * self.bp[a, b] * last.probs[a]) / tot
+            for node in list(reversed(visited))[1:]:
+                for a in range(n):
+                    for b in range(n):
+                        E_abij[a, b, self.id, node.id] = \
+                            E_abij[a, b, self.id, last.id] + E_abij[a, b, last.id, node.id]
 
-        for a in range(n):
-            for b in range(n):
-                pass
-
-        if self.is_leaf():
-            c = data[self.name][ind]
-            self.probs = [int(c == a) for a in bases]
-            # fel_probs[ind] = np.log(0.25 * np.sum(self.probs))
-            return
-
-        for i_a, a in enumerate(bases):
-            p_i, p_j = 0, 0
-            for i_b, b in enumerate(bases):
-                p_i += (self.left.probs[i_b] * self.left.bp[i_a, i_b])
-            for i_c, c in enumerate(bases):
-                p_j += (self.right.probs[i_c] * self.right.bp[i_a, i_c])
-            self.probs[i_a] = p_i * p_j
+        # if self.is_leaf():
+        #     c = data[self.name][ind]
+        #     self.probs = [int(c == a) for a in bases]
+        #     # fel_probs[ind] = np.log(0.25 * np.sum(self.probs))
+        #     return
 
         visited.append(self)
         if self.left:
