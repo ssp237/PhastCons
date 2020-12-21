@@ -31,7 +31,7 @@ ordering = [leaves[0], leaves[3], hum_dog, leaves[1], leaves[2], mouse_rat, root
                     output = ""
                 curr = l[2:].strip()
             else:
-                output += l.strip().upper()
+                output += l.strip().upper().replace("-", "")
         sequences[curr] = output
     return sequences, size
 

@@ -223,10 +223,10 @@ def saveplot(probs, factor):
 
 
 def main():
-    primates = "((gorilla:0.086940, (orangutan:0.018940, (gibbon:0.022270, (green_monkey:0.027000, " \
-               "(baboon:0.008042, (rhesus:0.004991, " \
-               "macaque:0.004991):0.003000):0.019610):0.022040):0.003471):0.009693):0.000500, " \
-               "(bonobo:0.007840, (human:0.006550, chimp:0.006840):0.001220):0.000500):0.000000;"
+    primates = "((Gorilla:0.086940, (Orangutan:0.018940, (Gibbon:0.022270, (Green_monkey:0.027000, " \
+                "(Baboon:0.008042, (Rhesus:0.004991, " \
+                "Crab_eating_macaque:0.004991):0.003000):0.019610):0.022040):0.003471):0.009693):0.000500, " \
+                "(Human:0.006550, Chimp:0.006840):0.000500):0.000000;"
     parser = argparse.ArgumentParser(
         description='Compute posterior probabilities at each position of a given sequence.')
     parser.add_argument('-f', action="store", dest="f", type=str, default='apoe.fa')
