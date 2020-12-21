@@ -20,6 +20,7 @@ from numpy import log1p
 from numpy import exp
 from scipy.special import logsumexp
 from scipy.optimize import minimize
+from tree import read_data, Node
 
 
 def sumLogProb(a, b):
@@ -62,29 +63,28 @@ def unfold_params(params, nstates=2):
     return init, trans
 
 
-def forward(obs, trans_probs, emiss_probs, init_probs):
+def forward(obs, trans_probs, init_probs, trees):
     """ Outputs the forward and backward probabilities of a given observation.
     Arguments:
         obs: observed sequence of emitted states (list of emissions)
         trans_probs: transition log-probabilities (dictionary of dictionaries)
-        emiss_probs: emission log-probabilities (dictionary of dictionaries)
         init_probs: initial log-probabilities for each hidden state (dictionary)
+        trees: numpy array of trees
     Returns:
         F: matrix of forward probabilities
         likelihood_f: P(obs) calculated using the forward algorithm
     """
     ind_bases = {b: i for i, b in enumerate('ACGT')}
-    n, m = init_probs.shape[0], len(obs)
+    n, m = init_probs.shape[0], obs
     F = np.zeros((n, m))
 
     # forwards
     for i, p in enumerate(init_probs):
-        F[i, 0] = p + emiss_probs[i][ind_bases[obs[0]]]
+        F[i, 0] = p + trees[i][0]
 
-    for i, c in list(enumerate(obs))[1:]:
-        ic = ind_bases[c]
+    for i in range(obs)[1:]:
         for j in range(n):
-            e = emiss_probs[j][ic]
+            e = trees[j][i]
             probs = [F[k, i - 1] + trans_probs[k][j] for k in range(n)]
             F[j, i] = e + logsumexp(probs)
 
@@ -102,28 +102,27 @@ def normalize(arr):
     return arr - (logsumexp(arr, axis=1)[:, None])
 
 
-def getProb(params, nstates, seq, emiss):
+def getProb(params, nstates, seqlen, trees):
     """
     Compute the posterior probability of seq given an HMM with
     nstates states and parameters params
     :param params: 1d array of parameters
-    :param emiss: emission probabilities
+    :param trees: numpy array of trees
     :param nstates: number of states in HMM
-    :param seq: Sequence to test
+    :param seqlen: length of sequence
     :return: prob of seq given params
     """
     init, trans = unfold_params(params, nstates=nstates)
     p = 0
-    for s in seq:
-        p += -forward(s, normalize(trans), normalize(emiss), normalize(init))
-    return p
+    return -forward(seqlen, normalize(trans), normalize(init), trees)
 
 
-def optimize(seq, nstates=2):
+def optimize(seqlen, trees, nstates=2):
     """
     Find the parameters of a hidden markov model with nstates
     states given observation seq
-    :param seq: observation data
+    :param trees: numpy array of trees
+    :param seqlen: length of
     :param nstates: number of states
     :return: tuple of initial, emission, and transition probabilities
     that define the HMM
@@ -137,55 +136,49 @@ def optimize(seq, nstates=2):
     i, t = normalize(i), normalize(t)
 
     i = np.log(np.array([0.5, 0.5]))
-    e = np.log(np.array([
-        [0.13, 0.37, 0.37, 0.13],
-        [0.32, 0.18, 0.18, 0.32]
-    ]))
     t = np.log(np.array([
         [1 - 0.01, 0.01],
         [0.01, 1 - 0.01]
     ]))
 
     guess = np.concatenate((i, np.ndarray.flatten(t)))
-    res = minimize(getProb, guess, args=(nstates, seq, e), method="BFGS",
+    res = minimize(getProb, guess, args=(nstates, seqlen, trees), method="BFGS",
                    options={"maxiter": 250, "disp": True})
-                   # bounds=([(np.NINF, 0)] * num_params))
+    # bounds=([(np.NINF, 0)] * num_params))
     i, t = unfold_params(res.x, nstates=nstates)
     i, t = normalize(i), normalize(t)
-    for s in seq:
-        print(forward(s, t, e, i))
-    return np.exp(i), np.exp(e), np.exp(t)
+    print(forward(seqlen, t, i, trees))
+    return np.exp(i), np.exp(t)
 
 
 def main():
     parser = argparse.ArgumentParser(
         description='Compute posterior probabilities at each position of a given sequence.')
-    # parser.add_argument('-f', action="store", dest="f", type=str, required=True)
+    parser.add_argument('-f', action="store", dest="f", type=str, default='apoe.fa')
     # parser.add_argument('-mu', action="store", dest="mu", type=float, required=True)
+    parser.add_argument('-c', action='store', dest='c', type=str, required=True)
+    parser.add_argument('-mul', action='store', dest='mul', type=float, default=2.0)
+    parser.add_argument('-nc', action='store', dest='nc', type=str, default=None)
 
     args = parser.parse_args()
-    # fasta_file = args.f
-    # mu = args.mu
-    mu = 0.05
+    data, data_len = read_data(args.f)
+    cons = Node.from_str(args.c)
+    cons.setData(data, data_len)
+    if not args.nc:
+        non_cons = cons * args.mul
+    else:
+        non_cons = Node.from_str(args.nc)
+        non_cons.setData(data, data_len)
 
-    # obs_sequence = read_fasta(fasta_file)
     seqs = list(map(read_fasta, [
         "hmm-sequence.fa",
         "test.fa"
     ]))
-    trans_probs = np.log(np.array([
-        [1 - mu, mu],
-        [mu, 1 - mu]
-    ]))
-    em_probs = np.log(np.array([
-        [0.13, 0.37, 0.37, 0.13],
-        [0.32, 0.18, 0.18, 0.32]
-    ]))
-    init_probs = np.log(np.array([0.5, 0.5]))
 
-    init, emiss, trans = optimize(seqs)
+    trees = np.array([cons, non_cons])
+
+    init, trans = optimize(data_len, trees)
     print(init)
-    print(emiss)
     print(trans)
 
 
