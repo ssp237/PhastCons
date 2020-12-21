@@ -223,17 +223,23 @@ def saveplot(probs, factor):
 
 
 def main():
+    primates = "((Gorilla:0.086940, (Orangutan:0.018940, (Gibbon:0.022270, (Green_monkey:0.027000, " \
+                "(Baboon:0.008042, (Rhesus:0.004991, " \
+                "Crab_eating_macaque:0.004991):0.003000):0.019610):0.022040):0.003471):0.009693):0.000500, " \
+                "(Human:0.006550, Chimp:0.006840):0.000500):0.000000;"
     parser = argparse.ArgumentParser(
         description='Compute posterior probabilities at each position of a given sequence.')
     parser.add_argument('-f', action="store", dest="f", type=str, default='apoe.fa')
     # parser.add_argument('-mu', action="store", dest="mu", type=float, required=True)
-    parser.add_argument('-c', action='store', dest='c', type=str, required=True)
+    parser.add_argument('-c', action='store', dest='c', type=str, default=primates)
     parser.add_argument('-mul', action='store', dest='mul', type=float, default=2.0)
     parser.add_argument('-nc', action='store', dest='nc', type=str, default=None)
 
     args = parser.parse_args()
     data, data_len = read_data(args.f)
     cons = Node.from_str(args.c)
+    cons = cons * (0.1 / cons.tot_branch_len())
+    print(cons.tot_branch_len())
     cons.setData(data, data_len)
     if not args.nc:
         non_cons = cons * args.mul

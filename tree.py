@@ -31,7 +31,7 @@ ordering = [leaves[0], leaves[3], hum_dog, leaves[1], leaves[2], mouse_rat, root
                     output = ""
                 curr = l[2:].strip()
             else:
-                output += l.strip().upper()
+                output += l.strip().upper().replace("-", "")
         sequences[curr] = output
     return sequences, size
 
@@ -205,3 +205,8 @@ class Node:
             out.setData(self.data, self.seqlen)
 
         return out
+
+    def tot_branch_len(self):
+        return self.branch_length + \
+               (self.left.branch_length if self.left else 0.0) + \
+               (self.right.branch_length if self.right else 0.0)

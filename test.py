@@ -31,7 +31,19 @@ assert(round(t3.tot_prob, 2) == -283.47)
 assert(round((t3 * 1).tot_prob, 2) == -283.47)
 
 chimp_corner = "(bonobo:0.007840, (human:0.006550, chimp:0.006840):0.001220):0.00500;"
+primates = "((Gorilla:0.086940, (Orangutan:0.018940, (Gibbon:0.022270, (Green_monkey:0.027000, " \
+           "(Baboon:0.008042, (Rhesus:0.004991, " \
+           "Crab_eating_macaque:0.004991):0.003000):0.019610):0.022040):0.003471):0.009693):0.000500, " \
+           "(Bonobo:0.007840, (Human:0.006550, Chimp:0.006840):0.001220):0.000500):0.000000;"
 
+primates2 = "((Gorilla:0.086940, (Orangutan:0.018940, (Gibbon:0.022270, (Green_monkey:0.027000, " \
+           "(Baboon:0.008042, (Rhesus:0.004991, " \
+           "Crab_eating_macaque:0.004991):0.003000):0.019610):0.022040):0.003471):0.009693):0.000500, " \
+           "(Human:0.006550, Chimp:0.006840):0.000500):0.000000;"
+d_prim, l_prim = read_data("Data/H1-1/Data_temp.txt")
+t_prim = Node.from_str(primates)
+# d_prim, l_prim = read_data("Data/HI1-Compiled.txt")
+# t_prim.setData(d_prim, l_prim)
 # branch_lengths = np.array(
 #     [[0.07517, 0.03059, 0.03161, 0.11761, 0.14289],
 #      [0.20843, 0.03397, 0.03497, 0.24952, 0.00000],
