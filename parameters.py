@@ -185,9 +185,13 @@ def optimize(seqlen, trees, nstates=2):
     i, t = normalize(i), normalize(t)
 
     i = np.log(np.array([0.5, 0.5]))
+    # t = np.log(np.array([
+    #     [1 - 0.01, 0.01],
+    #     [0.01, 1 - 0.01]
+    # ]))
     t = np.log(np.array([
-        [1 - 0.01, 0.01],
-        [0.01, 1 - 0.01]
+        [0.5, 0.5],
+        [0.5, 0.5]
     ]))
 
     guess = np.concatenate((i, np.ndarray.flatten(t)))
@@ -214,7 +218,7 @@ def saveplot(probs, factor):
     plt.ylabel("Probability of state")
     n, m = probs.shape
     plt.plot(range(m), probs[0, :], 'r-')
-    plt.plot(range(m), probs[1, :], 'r-')
+    plt.plot(range(m), probs[1, :], 'b-')
     plt.savefig("phylohmm%.2f.png" % factor)
 
 
@@ -224,7 +228,7 @@ def main():
     parser.add_argument('-f', action="store", dest="f", type=str, default='apoe.fa')
     # parser.add_argument('-mu', action="store", dest="mu", type=float, required=True)
     parser.add_argument('-c', action='store', dest='c', type=str, required=True)
-    parser.add_argument('-mul', action='store', dest='mul', type=float, default=2.0)
+    parser.add_argument('-mul', action='store', dest='mul', type=float, default=1.5)
     parser.add_argument('-nc', action='store', dest='nc', type=str, default=None)
 
     args = parser.parse_args()
@@ -241,7 +245,6 @@ def main():
         "hmm-sequence.fa",
         "test.fa"
     ]))
-    print(args.mul)
     trees = np.array([cons, non_cons])
 
     init, trans = optimize(data_len, trees)

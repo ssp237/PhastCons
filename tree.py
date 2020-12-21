@@ -199,7 +199,7 @@ class Node:
         """
         left = self.left * other if self.left else None
         right = self.right * other if self.left else None
-        out = Node(self.name, left, right, self.branch_length, self.id, self.parent_id)
+        out = Node(self.name, left, right, self.branch_length * other, self.id, self.parent_id)
 
         if self.data:
             out.setData(self.data, self.seqlen)
