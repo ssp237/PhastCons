@@ -1,0 +1,782 @@
+Human  t--a
+Chimp  t--a
+Gorilla  t--a
+Orangutan  t--a
+Gibbon  t--a
+Rhesus  t--a
+Crab-eating macaque  t--a
+Baboon  t--a
+Green monkey  t--a
+
+Alignment block 2 of 62 in window, 26017262 - 26017264, 3 bps 
+B D                     Human  ggt
+B D                     Chimp  ggt
+B D                   Gorilla  ggt
+B D                 Orangutan  ggt
+B D                    Gibbon  ggt
+B D                    Rhesus  ggt
+B D       Crab-eating macaque  ggt
+B D                    Baboon  ggt
+                 Green monkey  ggt
+
+Alignment block 3 of 62 in window, 26017265 - 26017288, 24 bps 
+B D                     Human  ggctcttaaaagagccgttg-g-------g-----t-t
+B D                     Chimp  ggctcttaaaagagccgttg-g-------g-----t-t
+B D                   Gorilla  ggctcttaaaagagccgttg-g-------g-----t-t
+B D                 Orangutan  ggctcttaaaagagccgttg-g-------g-----t-t
+B D                    Gibbon  ggctcttaaaagagccgttg-g-------g-----t-t
+B D                    Rhesus  ggctcttaaaagagccgttg-g-------g-----t-t
+B D       Crab-eating macaque  ggctcttaaaagagccgttg-g-------g-----t-t
+B D                    Baboon  ggctcttaaaagagccgttg-g-------g-----t-t
+                 Green monkey  ggctcttaaaagagccgttg-g-------g-----t-t
+
+Alignment block 4 of 62 in window, 26017289 - 26017315, 27 bps 
+B D                     Human  ac-----tag----aa----g----aaac----ttctaact-ga--a-----------------------
+B D                     Chimp  ac-----tag----aa----g----aaac----ttctaact-ga--a-----------------------
+B D                   Gorilla  ac-----tag----aa----g----aagc----ttctaact-ga--a-----------------------
+B D                 Orangutan  ac-----tag----aa----g----aagt----ttccaacc-ga--a-----------------------
+B D                    Gibbon  ac-----tag----aa----g----aagc----ttccaacc-ga--a-----------------------
+B D                    Rhesus  --------ag----ta----g----aagt----ttccaacc-ga--a-----------------------
+B D       Crab-eating macaque  --------ag----ta----g----aagt----ttccaacc-ga--a-----------------------
+B D                    Baboon  --------ag----ta----g----aagt----ttccaaca-ga--a-----------------------
+                 Green monkey  --------ag----ta----g----aagt----ttccaacc-ga--a-----------------------
+
+                        Human  -------------------------------------------t--------tta
+                        Chimp  -------------------------------------------t--------tta
+                      Gorilla  -------------------------------------------t--------tta
+                    Orangutan  -------------------------------------------t--------tta
+                       Gibbon  -------------------------------------------t--------tta
+                       Rhesus  -------------------------------------------t--------tta
+          Crab-eating macaque  -------------------------------------------t--------tta
+                       Baboon  -------------------------------------------t--------tta
+                 Green monkey  -------------------------------------------t--------tta
+
+Alignment block 5 of 62 in window, 26017316 - 26017318, 3 bps 
+B D                     Human  ctt
+B D                     Chimp  ctt
+B D                   Gorilla  ctt
+B D                 Orangutan  ctt
+B D                    Gibbon  ctt
+B D                    Rhesus  ctt
+B D       Crab-eating macaque  ctt
+B D                    Baboon  ctt
+                 Green monkey  ctt
+
+Alignment block 6 of 62 in window, 26017319 - 26017343, 25 bps 
+B D                     Human  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                     Chimp  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                   Gorilla  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                 Orangutan  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                    Gibbon  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                    Rhesus  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D       Crab-eating macaque  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                    Baboon  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+                 Green monkey  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+
+                        Human  ------------
+                        Chimp  ------------
+                      Gorilla  ------------
+                    Orangutan  ------------
+                       Gibbon  ------------
+                       Rhesus  ------------
+          Crab-eating macaque  ------------
+                       Baboon  ------------
+                 Green monkey  ------------
+
+Alignment block 7 of 62 in window, 26017344 - 26017354, 11 bps 
+B D                     Human  ttg------gca------------gt------ctt
+B D                     Chimp  ttg------gca------------gt------ctt
+B D                   Gorilla  ttg------gca------------gt------ctt
+B D                 Orangutan  ttg------gca------------gt------ctt
+B D                    Gibbon  ttg------gca------------gt------ctt
+B D                    Rhesus  ttg------gca------------gt------ctt
+B D       Crab-eating macaque  ttg------gca------------gt------ctt
+B D                    Baboon  ttg------gca------------gt------ctt
+                 Green monkey  ttg------gca------------gt------ctt
+
+Alignment block 8 of 62 in window, 26017355 - 26017385, 31 bps 
+B D                     Human  tggcttcgtc------------------accctag------------------------ccttggc---c
+B D                     Chimp  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                   Gorilla  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                 Orangutan  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                    Gibbon  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                    Rhesus  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D       Crab-eating macaque  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                    Baboon  tggcttcgtc------------------accttag------------------------ccttggc---c
+                 Green monkey  tggcttcgtc------------------accttag------------------------ccttggc---c
+
+                        Human  ---gccttg
+                        Chimp  ---gccttg
+                      Gorilla  ---gccttg
+                    Orangutan  ---gccttg
+                       Gibbon  ---gccttg
+                       Rhesus  ---gccttg
+          Crab-eating macaque  ---gccttg
+                       Baboon  ---gcctta
+                 Green monkey  ---gccttg
+
+Alignment block 9 of 62 in window, 26017386 - 26017427, 42 bps 
+B D                     Human  ggtttt---------aca-g---------------------ccttagc--tttagcagggctttt-----
+B D                     Chimp  ggtttt---------aca-g---------------------ccttagc--tttagcagggctttt-----
+B D                   Gorilla  ggtttt---------aca-c---------------------ccttagc--tttagcagggctttt-----
+B D                 Orangutan  ggtttt---------aca-g---------------------ccttagc--tttagcagggctttt-----
+B D                    Gibbon  ggtttt---------aca-g---------------------ccttagc--tttagcagggctttt-----
+B D                    Rhesus  ggtttt---------ata-g---------------------ccttagt--tttagcagggctttt-----
+B D       Crab-eating macaque  ggtttt---------ata-g---------------------ccttagt--tttagcagggctttt-----
+B D                    Baboon  ggtttt---------ata-g---------------------ccttagt--tttagcagggctttt-----
+                 Green monkey  ggtttt---------atg-g---------------------ccttagt--tttagcagggctttt-----
+
+                        Human  ----a---------gc---t------a---------c--tttc
+                        Chimp  ----a---------gc---t------a---------c--tttc
+                      Gorilla  ----a---------gc---t------a---------c--tttc
+                    Orangutan  ----a---------gc---t------a---------c--tttc
+                       Gibbon  ----g---------gc---t------a---------c--tttc
+                       Rhesus  ----a---------gc---t------a---------c--tttc
+          Crab-eating macaque  ----a---------gc---t------a---------c--tttc
+                       Baboon  ----a---------gc---t------a---------c--tttc
+                 Green monkey  ----a---------gc---t------a---------c--tttc
+
+Alignment block 10 of 62 in window, 26017428 - 26017445, 18 bps 
+B D                     Human  ttg------ggctttacagtt---ttg
+B D                     Chimp  ttg------ggctttacaatt---ttg
+B D                   Gorilla  ttg------ggctttacagtt---ttg
+B D                 Orangutan  ttg------ggctttagagtt---ttg
+B D                    Gibbon  ttg------ggctttacagtt---ttg
+B D                    Rhesus  ttg------ggttttacagct---ttg
+B D       Crab-eating macaque  ttg------ggttttacagct---ttg
+B D                    Baboon  ttg------ggttttacagct---ttg
+                 Green monkey  ttg------ggttttacagct---ttg
+
+Alignment block 11 of 62 in window, 26017446 - 26017446, 1 bps 
+B D                     Human  g
+B D                     Chimp  g
+B D                   Gorilla  g
+B D                 Orangutan  g
+B D                    Gibbon  g
+B D                    Rhesus  g
+B D       Crab-eating macaque  g
+B D                    Baboon  g
+                 Green monkey  g
+
+Alignment block 12 of 62 in window, 26017447 - 26017466, 20 bps 
+B D                     Human  gtttttttggattctt---ggag
+B D                     Chimp  gtttttttggattctt---ggag
+B D                   Gorilla  gttttttcggattctt---ggag
+B D                 Orangutan  gtttttttggattctt---ggag
+B D                    Gibbon  gtttt---------tt---ggaa
+B D                    Rhesus  gttttttgggactctt---agag
+B D       Crab-eating macaque  gttttttgggactctt---agag
+B D                    Baboon  gttttttgggactctt---agag
+                 Green monkey  gttttttgggactctt---agag
+
+Alignment block 13 of 62 in window, 26017467 - 26017487, 21 bps 
+B D                     Human  ga---tttccttg---ttgcc------gca---gg---c
+B D                     Chimp  ga---tttccttg---ttgcc------gca---gg---c
+B D                   Gorilla  ga---tttccttg---ttgcc------gca---gg---c
+B D                 Orangutan  ga---tttccttg---ttgcc------gca---gg---c
+B D                    Gibbon  ga---tttccttg---ttgcc------gca---gg---c
+B D                    Rhesus  ga---tttccttg---ttgcc------gca---ga---c
+B D       Crab-eating macaque  ga---tttccttg---ttgcc------gca---ga---c
+B D                    Baboon  ga---tttccttg---ttgcc------gca---ga---c
+                 Green monkey  ga---tttctttg---ttgcc------gca---gg---c
+
+Alignment block 14 of 62 in window, 26017488 - 26017498, 11 bps 
+B D                     Human  tttttagcctt
+B D                     Chimp  tttttagcctt
+B D                   Gorilla  tttttagcctt
+B D                 Orangutan  tttttagcctt
+B D                    Gibbon  tttttagcctt
+B D                    Rhesus  tttttagcatt
+B D       Crab-eating macaque  tttttagcatt
+B D                    Baboon  tttttagcatt
+                 Green monkey  tttttagcatt
+
+Alignment block 15 of 62 in window, 26017499 - 26017562, 64 bps 
+B D                     Human  tttcggag---t--------c---ttgac------------------------------gct---ctt--
+B D                     Chimp  tttcggag---t--------c---ttgac------------------------------gct---ctt--
+B D                   Gorilla  tttcggag---t--------c---ttgac------------------------------ggt---ctt--
+B D                 Orangutan  tttcggag---t--------c---ttgac------------------------------gct---ctt--
+B D                    Gibbon  tttcggag---t--------c---ttgac------------------------------gct---ctt--
+B D                    Rhesus  ttttggag---t--------c---ttgac------------------------------gtt---ctt--
+B D       Crab-eating macaque  ttttggag---t--------c---ttgac------------------------------gtt---ctt--
+B D                    Baboon  ttttggag---t--------c---ttgac------------------------------gtt---ctt--
+                 Green monkey  tttcggag---t--------c---ttgac------------------------------gtt---ctt--
+
+                        Human  -t---tt---gct------------ag---cc---------cccgtg---gcctt------------ttt
+                        Chimp  -t---tt---gct------------ag---cc---------cccgtg---gcctt------------ttt
+                      Gorilla  -t---tt---gct------------ag---cc---------cccgtg---gcctt------------ttt
+                    Orangutan  -t---tt---gct------------ag---cc---------cccgta---gcctt------------ttt
+                       Gibbon  -t---tt---gct------------ag---cc---------cccgtg---gcctt------------ttt
+                       Rhesus  -t---tt---gct------------aa---cc---------cccgtg---gcctt------------ttt
+          Crab-eating macaque  -t---tt---gct------------aa---cc---------cccgtg---gcctt------------ttt
+                       Baboon  -t---tt---gct------------aa---cc---------cccgtg---gcctt------------ttt
+                 Green monkey  -c---tt---gct------------aa---cc---------cccgtg---gcctt------------ttt
+
+                        Human  gag---c---ttt------ttag--a---tgcacc-c
+                        Chimp  ggg---c---ttt------ttag--a---tgcacc-c
+                      Gorilla  gag---c---ttt------ttag--a---tgcacc-c
+                    Orangutan  gag---c---ttt------ttag--a---tgcacc-c
+                       Gibbon  ggg---c---ttt------ttag--a---tgcacc-c
+                       Rhesus  ggg---c---ttt------ttag--a---cgcacc-c
+          Crab-eating macaque  ggg---c---ttt------ttag--a---cgcacc-c
+                       Baboon  ggg---c---ttt------ttag--a---cgcacc-c
+                 Green monkey  ggg---c---ttt------ttag--a---tgcacc-c
+
+Alignment block 16 of 62 in window, 26017563 - 26017598, 36 bps 
+B D                     Human  gttg---ccttagtttt---tgtagcc---a-------------c------c------tttga-------
+B D                     Chimp  gttg---ccttagtttt---tgtagcc---a-------------c------c------tttga-------
+B D                   Gorilla  gttg---ccttagtttt---tgcagcc---a-------------c------c------tttga-------
+B D                 Orangutan  gttg---ccttagtttt---tgcagcc---a-------------c------c------tttga-------
+B D                    Gibbon  gttg---tcttggtttt---tgcagcc---a-------------c------c------tttga-------
+B D                    Rhesus  gttg---ccttggtttt---tgcagcc---a-------------c------c------cttga-------
+B D       Crab-eating macaque  gttg---ccttggtttt---tgcagcc---a-------------c------c------cttga-------
+B D                    Baboon  gttg---ccttggtttt---tgcagcc---a-------------c------c------cttga-------
+                 Green monkey  gttg---ccttggtttt---tgcagcc---a-------------c------c------cttga-------
+
+                        Human  ----ggcgc------cg
+                        Chimp  ----ggcgc------cg
+                      Gorilla  ----ggcgc------cg
+                    Orangutan  ----ggcgc------cg
+                       Gibbon  ----ggcgc------cg
+                       Rhesus  ----agcgc------cg
+          Crab-eating macaque  ----agcgc------cg
+                       Baboon  ----agcgc------ca
+                 Green monkey  ----agcgc------cg
+
+Alignment block 17 of 62 in window, 26017599 - 26017668, 70 bps 
+B D                     Human  ggctt------ggttt---ccacggag---ga--------------------------------------
+B D                     Chimp  ggctt------ggttt---ccacggag---ga--------------------------------------
+B D                   Gorilla  ggctt------ggttt---ccacggag---ga--------------------------------------
+B D                 Orangutan  ggctt------ggttt---ccacggag---aa--------------------------------------
+B D                    Gibbon  ggctt------ggttt---ccacggag---ga--------------------------------------
+B D                    Rhesus  ggctt------ggttt---ccacggag---ga--------------------------------------
+B D       Crab-eating macaque  ggctt------ggttt---ccacggag---ga--------------------------------------
+B D                    Baboon  ggctt------ggttt---ccacggag---ga--------------------------------------
+                 Green monkey  ggctt------ggttt---ccacggag---ga--------------------------------------
+
+                        Human  ----------------------c---gcct---------t---------cttgttgagcttgaaggaacc
+                        Chimp  ----------------------c---gcct---------t---------cttgttgagcttgaaggaacc
+                      Gorilla  ----------------------c---gcct---------t---------cttgttgagcttgaaggaacc
+                    Orangutan  ----------------------c---gcct---------t---------cttgttgagcttgaaggaacc
+                       Gibbon  ----------------------c---gcct---------t---------cttgctgagcttgaaggaacc
+                       Rhesus  ----------------------t---gcct---------t---------cttgttgagtttgaaggaacc
+          Crab-eating macaque  ----------------------t---gcct---------t---------cttgttgagtttgaaggaacc
+                       Baboon  ----------------------t---gcct---------t---------cttgttgagtttgaaggaacc
+                 Green monkey  ----------------------t---gcct---------t---------cttgttgagtttgaaggaacc
+
+                        Human  cgaggctccggtaccctttgtct
+                        Chimp  cgaggctccggtgccctttgtct
+                      Gorilla  cgaggctccggtgccctttgtct
+                    Orangutan  cgaggctccggtgccctttgtct
+                       Gibbon  cgaggctccggtgcccttcgtct
+                       Rhesus  cgaggcgccggtgcccttcgtct
+          Crab-eating macaque  cgaggcgccggtgcccttcgtct
+                       Baboon  cgaggcgccggtgcccttcgtct
+                 Green monkey  cgaggcgccggtgcccttcgtct
+
+Alignment block 18 of 62 in window, 26017669 - 26017674, 6 bps 
+B D                     Human  gcacca
+B D                     Chimp  gcacca
+B D                   Gorilla  gcacca
+B D                 Orangutan  gcacca
+B D                    Gibbon  gcacca
+B D                    Rhesus  gcacca
+B D       Crab-eating macaque  gcacca
+B D                    Baboon  gcacca
+                 Green monkey  gcacca
+
+Alignment block 19 of 62 in window, 26017675 - 26017685, 11 bps 
+B D                     Human  acgttcccttg
+B D                     Chimp  acgttcccttg
+B D                   Gorilla  acgttcccttg
+B D                 Orangutan  acgttcccttg
+B D                    Gibbon  acgttcccttg
+B D                    Rhesus  acgttcccttg
+B D       Crab-eating macaque  acgttcccttg
+B D                    Baboon  acgttcccttg
+                 Green monkey  acgttcccttg
+
+Alignment block 20 of 62 in window, 26017686 - 26017703, 18 bps 
+B D                     Human  cttaccaggctcttaatg
+B D                     Chimp  cttaccaggctcttaatg
+B D                   Gorilla  cttaccaggctcttaatg
+B D                 Orangutan  cttaccaggctcttaatg
+B D                    Gibbon  cttaccaggctcttaatg
+B D                    Rhesus  cttaccaggctcttaata
+B D       Crab-eating macaque  cttaccaggctcttaata
+B D                    Baboon  cttaccaggctcttaata
+                 Green monkey  cttaccaggctcttaata
+
+Alignment block 21 of 62 in window, 26017704 - 26017743, 40 bps 
+B D                     Human  cccagcttaatgcggctgttgttcttc------tccacgtcgtagc
+B D                     Chimp  cccagcttaatgcggctgttgttcttc------tccacgtcgtagc
+B D                   Gorilla  cccagcttaatgcggctgttgttcttc------tccacgtcgtagc
+B D                 Orangutan  cccagcttaatgcggctgttgttcttc------tccacgtcgtagc
+B D                    Gibbon  cccagcttaatgcggctgttgttcttc------tccacgtcgtagc
+B D                    Rhesus  cccagcttaatgcggctgttgttcttc------tccacatcgtagc
+B D       Crab-eating macaque  cccagcttaatgcggctgttgttcttc------tccacatcgtagc
+B D                    Baboon  cccagcttaatgcggctgttgttcttc------tccacatcgtagc
+                 Green monkey  cccagcttaatgcggctgttgttcttc------tccacatcgtagc
+
+Alignment block 22 of 62 in window, 26017744 - 26017744, 1 bps 
+B D                     Human  c
+B D                     Chimp  c
+B D                   Gorilla  c
+B D                 Orangutan  c
+B D                    Gibbon  c
+B D                    Rhesus  c
+B D       Crab-eating macaque  c
+B D                    Baboon  c
+                 Green monkey  c
+
+Alignment block 23 of 62 in window, 26017745 - 26017747, 3 bps 
+B D                     Human  tgc-
+B D                     Chimp  tgc-
+B D                   Gorilla  tgc-
+B D                 Orangutan  tgc-
+B D                    Gibbon  tgc-
+B D                    Rhesus  tgc-
+B D       Crab-eating macaque  tgc-
+B D                    Baboon  tgc-
+                 Green monkey  cgc-
+
+Alignment block 24 of 62 in window, 26017748 - 26017757, 10 bps 
+B D                     Human  ggccgccagc
+B D                     Chimp  ggccgccagc
+B D                   Gorilla  ggccgccagc
+B D                 Orangutan  gaccgccagc
+B D                    Gibbon  ggccgccagc
+B D                    Rhesus  ggccgccagc
+B D       Crab-eating macaque  ggccgccagc
+B D                    Baboon  ggccgccagc
+                 Green monkey  ggccgccagc
+
+Alignment block 25 of 62 in window, 26017758 - 26017774, 17 bps 
+B D                     Human  gcctttttaagagctgc
+B D                     Chimp  gcctttttaagagctgc
+B D                   Gorilla  gcttttttaagagctgc
+B D                 Orangutan  gcctttttaagagctgc
+B D                    Gibbon  gcctttttaagagcagc
+B D                    Rhesus  gcctttttaagagcagc
+B D       Crab-eating macaque  gcctttttaagagcagc
+B D                    Baboon  gcctttttaagggcagc
+                 Green monkey  gcctttttaagagcagc
+
+Alignment block 26 of 62 in window, 26017775 - 26017803, 29 bps 
+B D                     Human  caacgacacaccaccacgctccttagagg
+B D                     Chimp  caacgacacaccaccacgctccttagagg
+B D                   Gorilla  caacgacacaccaccacgctccttagagg
+B D                 Orangutan  caacgacacaccaccacgctccttagagg
+B D                    Gibbon  caacgacacaccaccacgctccttagagg
+B D                    Rhesus  caacgacacaccaccacgctccttagagg
+B D       Crab-eating macaque  caacgacacaccaccacgctccttggagg
+B D                    Baboon  caacgacacaccaccacgctccttggagg
+                 Green monkey  caacgacacaccaccacgctccttggagg
+
+Alignment block 27 of 62 in window, 26017804 - 26017824, 21 bps 
+B D                     Human  aggaagcagcctgcacgatca
+B D                     Chimp  aggaagcagcctgcacgatca
+B D                   Gorilla  aagaagcagcctgcacgatca
+B D                 Orangutan  aggaagcagcctgcacgatca
+B D                    Gibbon  aagaagcagcctgcacgatca
+B D                    Rhesus  aggaagcagcctgcacgatca
+B D       Crab-eating macaque  aggaagcagcctgcacgatca
+B D                    Baboon  aggaagcagcctgcacgatca
+                 Green monkey  aggaggcagcctgcacgatca
+
+Alignment block 28 of 62 in window, 26017825 - 26017834, 10 bps 
+B D                     Human  gctctgacac
+B D                     Chimp  gctctgacac
+B D                   Gorilla  gctctgacac
+B D                 Orangutan  gctctgacac
+B D                    Gibbon  gctctgacac
+B D                    Rhesus  gctctgacac
+B D       Crab-eating macaque  gctctgacac
+B D                    Baboon  gctctgacac
+                 Green monkey  
+
+Alignment block 29 of 62 in window, 26017835 - 26017835, 1 bps 
+B D                     Human  g
+B D                     Chimp  g
+B D                   Gorilla  g
+B D                 Orangutan  a
+B D                    Gibbon  g
+B D                    Rhesus  g
+B D       Crab-eating macaque  g
+B D                    Baboon  g
+                 Green monkey  
+
+Alignment block 30 of 62 in window, 26017836 - 26017843, 8 bps 
+B D                     Human  gaagggcc
+B D                     Chimp  gaagggcc
+B D                   Gorilla  gaaggacc
+B D                 Orangutan  gaagggcc
+B D                    Gibbon  gaagggcc
+B D                    Rhesus  gaagggcc
+B D       Crab-eating macaque  gaagggcc
+B D                    Baboon  gaagggcc
+                 Green monkey  
+
+Alignment block 31 of 62 in window, 26017844 - 26017844, 1 bps 
+B D                     Human  -a
+B D                     Chimp  -a
+B D                   Gorilla  -a
+B D                 Orangutan  -a
+B D                    Gibbon  -a
+B D                    Rhesus  -a
+B D       Crab-eating macaque  -a
+B D                    Baboon  -a
+                 Green monkey  
+
+Alignment block 32 of 62 in window, 26017845 - 26017847, 3 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+Alignment block 33 of 62 in window, 26017848 - 26017848, 1 bps 
+B D                     Human  -g
+B D                     Chimp  -g
+B D                   Gorilla  -g
+B D                 Orangutan  -g
+B D                    Gibbon  -g
+B D                    Rhesus  -g
+B D       Crab-eating macaque  -g
+B D                    Baboon  
+                 Green monkey  
+
+Alignment block 34 of 62 in window, 26017849 - 26017851, 3 bps 
+B D                     Human  gctctgacacggaagggcc-agcg-ggttt-ggttt---tttc-----tt---------gg----------------a---ggc----tgctgca---------gccttagcaggtttcttt---gc----------cttcttgc---cagctaa---agg---tttctcagga------g-----------------------------------------------------------------ca---gcagaagcg---gcg------gg---ggcgggaggcactg---------------------tttcggacat-ggt-gact--a---c------a--------------------ca-g-caca----------------------------------------ccaa--------ataa--agtgg-tat--aaacctgac------gaagcag-gatgc
+
+B D                     Chimp  gctctgacacggaagggcc-agcg-ggttt-ggttt---tttc-----tt---------gg----------------a---ggc----tgctgca---------gccttagcaggtttcttt---gc----------cttcttgc---cagctaa---agg---tttctcagga------g-----------------------------------------------------------------ca---gcagaggcg---gcg------gg---agcgggaggcaccg---------------------tttcggacat-ggt-gact--a---c------a--------------------ca-g-caca----------------------------------------ccaa--------gtaa--agtgg-tat--aaacctgac------gaagcag-gatga
+
+B D                   Gorilla  gctctgacacggaagggcc-agcg-ggctt-ggctt---tttc-----tt---------gg----------------a---ggc----tgctgca---------gccttggcaggtttcttt---gc----------cttcttgc---cagctaa---aag---tttctcagga------g-----------------------------------------------------------------ca---gtagaagcg---gcg------gg---agcgggaggcactg---------------------tttcggacat-ggt-gacc--a---c------a--------------------ca-g-caca----------------------------------------caaa--------gtaa--agtgg-tat--aaacctgac------gaagcag-gatgc
+
+B D                 Orangutan  gctctgacacggaagggcc-agcg-ggttt-ggttt---tttc-----tt---------gg----------------a---ggc----tactaca---------gccttagccggtttcttt---gc----------cttcttgc---cagctaa---agg---tttctcagga------g-----------------------------------------------------------------ct---gcagaagcg---gcg------gg---agccgtgggcactg---------------------tttcggacat-ggt-gact--a---c------a--------------------ca-g-caca----------------------------------------ccaa--------gtaa--actgg-tat--aaacctgac------gaagcag-gaggc
+
+B D                    Gibbon  gctctgacacggaagggcc-agcg-ggttt-ggttt---tttc-----tt---------gg----------------a---ggc----tgctgca---------gctttagcaggtttcttt---gc----------cttcttgc---cagctaa---agg---tttctcagga------g-----------------------------------------------------------------ca---gcagaagcg---gcg------gg---agcgggaggcgctg---------------------tttcggacat-ggt-gact--a----------a--------------------ca-g-caca----------------------------------------ccaa--------gtaa--actgg-tat--aaacctgac------gaagcag-gatgt
+
+B D                    Rhesus  gctctgacacggaagggcc-agca-ggctt-ggctt---tttc-----tt---------ag----------------t---ggc----caccgca---------accttagcaggtttcttt---gc----------cttcctgc---tagctga---agg---tttctcagga------g-----------------------------------------------------------------ca---gcagaagcg---gcg------gg---agcgggaggcgccg---------------------tttcggacat-ggt-gact--a---t------a--------------------ca-g-caca----------------------------------------ccaa--------gtaa--actgg-tat--aaacctgac------caagcag-gatgc
+
+B D       Crab-eating macaque  gctctgacacggaagggcc-agca-ggctt-ggctt---tttc-----tt---------ag----------------t---ggc----caccgca---------accttagcaggtttcttt---gc----------cttcctgc---tagctga---agg---tttctcagga------g-----------------------------------------------------------------ca---gcagaagcg---gcg------gg---agcgggaggcgccg---------------------tttcggacat-ggt-gact--a---t------a--------------------ca-g-caca----------------------------------------ccaa--------gtaa--actgg-tat--aaacctgac------caagcag-gatgc
+
+B D                    Baboon  gctctgacacggaagggcc-agca-ggctt-ggctt---tttc-----tt---------ag----------------t---ggc----caccgca---------accttagcaggtttcttt---gc----------cttcctgc---tagctga---agg---tttctcagga------g-----------------------------------------------------------------ca---gcagaagcg---gcg------gg---agcgggaggcgccg---------------------tttcggacat-ggc-gact--a---t------a--------------------ca-g-caca----------------------------------------ccaa--------gtaa--actgg-tat--aaacctgac------caagcag-gatgc
+
+                 Green monkey  gctctgacacggaagggcc-agcg-ggctt-ggctt---tttc-----tt---------ag----------------t---ggc----cgctgca---------accttagcaggtctcttt---cc----------cttcctgc---tagcaga---agg---tttctcagga------g-----------------------------------------------------------------ca---gcagaagcg---gcg------gg---agccggaggcgccg---------------------tttcggacat-ggt-gact--a---t------a--------------------ca-g-caca----------------------------------------ccaa--------gtaa--actgg-tat--aaacctgac------caagcag-gatgc
+
+
+Alignment block 35 of 62 in window, 26017852 - 26017852, 1 bps 
+B D                     Human  t
+B D                     Chimp  t
+B D                   Gorilla  t
+B D                 Orangutan  t
+B D                    Gibbon  t
+B D                    Rhesus  t
+B D       Crab-eating macaque  t
+B D                    Baboon  t
+                 Green monkey  t
+
+Alignment block 36 of 62 in window, 26017853 - 26017864, 12 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  -
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+Alignment block 37 of 62 in window, 26017865 - 26017872, 8 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+Alignment block 38 of 62 in window, 26017873 - 26017873, 1 bps 
+B D                     Human  c
+B D                     Chimp  c
+B D                   Gorilla  c
+B D                 Orangutan  c
+B D                    Gibbon  c
+B D                    Rhesus  c
+B D       Crab-eating macaque  c
+B D                    Baboon  c
+                 Green monkey  c
+
+Alignment block 39 of 62 in window, 26017874 - 26017876, 3 bps 
+B D                     Human  ctt
+B D                     Chimp  ctt
+B D                   Gorilla  ctt
+B D                 Orangutan  ctt
+B D                    Gibbon  ttt
+B D                    Rhesus  ctt
+B D       Crab-eating macaque  ctt
+B D                    Baboon  ctt
+                 Green monkey  ctt
+
+Alignment block 40 of 62 in window, 26017877 - 26017891, 15 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+Alignment block 41 of 62 in window, 26017892 - 26017900, 9 bps 
+B D                     Human  
+B D                     Chimp  ----------cttcttgc---c
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+Alignment block 42 of 62 in window, 26017901 - 26017923, 23 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+                        Human  ---------------------------ca---g
+                        Chimp  ---------------------------ca---g
+                      Gorilla  ---------------------------ca---g
+                    Orangutan  ---------------------------ct---g
+                       Gibbon  ---------------------------ca---g
+                       Rhesus  ---------------------------ca---g
+          Crab-eating macaque  ---------------------------ca---g
+                       Baboon  ---------------------------ca---g
+                 Green monkey  ---------------------------ca---g
+
+Alignment block 43 of 62 in window, 26017924 - 26017927, 4 bps 
+B D                     Human  caga
+B D                     Chimp  caga
+B D                   Gorilla  taga
+B D                 Orangutan  caga
+B D                    Gibbon  caga
+B D                    Rhesus  caga
+B D       Crab-eating macaque  caga
+B D                    Baboon  caga
+                 Green monkey  caga
+
+Alignment block 44 of 62 in window, 26017928 - 26017932, 5 bps 
+B D                     Human  agcg---gcg------g
+B D                     Chimp  ggcg---g
+B D                   Gorilla  agca---g
+B D                 Orangutan  agcg---g
+B D                    Gibbon  agcg---g
+B D                    Rhesus  agcg---g
+B D       Crab-eating macaque  agcg---g
+B D                    Baboon  agcg---g
+                 Green monkey  agcg---g
+
+Alignment block 45 of 62 in window, 26017933 - 26017935, 3 bps 
+B D                     Human  cg------g
+B D                     Chimp  cg------g
+B D                   Gorilla  cg------g
+B D                 Orangutan  ca------g
+B D                    Gibbon  cg------g
+B D                    Rhesus  cg------g
+B D       Crab-eating macaque  cg------g
+B D                    Baboon  cg------g
+                 Green monkey  cg------g
+
+Alignment block 46 of 62 in window, 26017936 - 26017950, 15 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus 
+B D       Crab-eating macaque  
+B D                    Baboon  g---agcgggaggcgccg---------------------
+                 Green monkey  g---agccggaggcgccg---------------------
+
+Alignment block 47 of 62 in window, 26017951 - 26017960, 10 bps 
+B D                     Human  tttcagacat
+B D                     Chimp  tttcagacat
+B D                   Gorilla  tttcggacat
+B D                 Orangutan  tttcggacat
+B D                    Gibbon  tttcggacat
+B D                    Rhesus  tttcggacat
+B D       Crab-eating macaque  tttcggacat
+B D                    Baboon  tttcggacat
+                 Green monkey  tttcggacat
+
+Alignment block 48 of 62 in window, 26017961 - 26017961, 1 bps 
+B D                     Human  -g
+B D                     Chimp  -g
+B D                   Gorilla  -g
+B D                 Orangutan  -g
+B D                    Gibbon  -g
+B D                    Rhesus  -g
+B D       Crab-eating macaque  -g
+B D                    Baboon  -g
+                 Green monkey  -g
+
+Alignment block 49 of 62 in window, 26017962 - 26017964, 3 bps 
+B D                     Human  B D                     Chimp  B D                   Gorilla  B D                 Orangutan  B D                    Gibbon  B D                    Rhesus  B D       Crab-eating macaque  B D                    Baboon                   Green monkey  
+
+Alignment block 50 of 62 in window, 26017965 - 26017965, 1 bps 
+B D                     Human  a
+B D                     Chimp  a
+B D                   Gorilla  a
+B D                 Orangutan  a
+B D                    Gibbon  a
+B D                    Rhesus  a
+B D       Crab-eating macaque  a
+B D                    Baboon  a
+                 Green monkey  a
+
+Alignment block 51 of 62 in window, 26017966 - 26017966, 1 bps 
+B D                     Human  c
+B D                     Chimp  c
+B D                   Gorilla  c
+B D                 Orangutan  c
+B D                    Gibbon  c
+B D                    Rhesus  c
+B D       Crab-eating macaque  c
+B D                    Baboon  c
+                 Green monkey  c
+
+
+Alignment block 52 of 62 in window, 26017967 - 26017968, 2 bps 
+B D                     Human  t--a-
+B D                     Chimp  t--a-
+B D                   Gorilla  c--a-
+B D                 Orangutan  t--a-
+B D                    Gibbon  t--a-
+B D                    Rhesus  t--a-
+B D       Crab-eating macaque  t--a-
+B D                    Baboon  t--a-
+                 Green monkey  t--a-
+
+
+Alignment block 54 of 62 in window, 26017970 - 26017971, 2 bps 
+B D                     Human  --c------a
+B D                     Chimp  --c------a
+B D                   Gorilla  --c------a
+B D                 Orangutan  --c------a
+B D                    Gibbon  ---------a
+B D                    Rhesus  --t------a
+B D       Crab-eating macaque  --t------a
+B D                    Baboon  --t------a
+                 Green monkey  --t------a
+
+
+Alignment block 55 of 62 in window, 26017972 - 26017991, 20 bps 
+B D                     Human  --------------------ca-g-caca----------------------------------------c
+B D                     Chimp  --------------------ca-g-caca----------------------------------------c
+B D                   Gorilla  --------------------ca-g-caca----------------------------------------c
+B D                 Orangutan  --------------------ca-g-caca----------------------------------------c
+B D                    Gibbon  --------------------ca-g-caca----------------------------------------c
+B D                    Rhesus  --------------------ca-g-caca----------------------------------------c
+B D       Crab-eating macaque  --------------------ca-g-caca----------------------------------------c
+B D                    Baboon  --------------------ca-g-caca----------------------------------------c
+                 Green monkey  --------------------ca-g-caca----------------------------------------c
+
+                        Human                          Chimp                        Gorilla                      Orangutan                         Gibbon                         Rhesus            Crab-eating macaque                         Baboon                   Green monkey  
+
+Alignment block 56 of 62 in window, 26017992 - 26017992, 1 bps 
+B D                     Human  -t
+B D                     Chimp  -t
+B D                   Gorilla  -t
+B D                 Orangutan  -t
+B D                    Gibbon  -t
+B D                    Rhesus  -t
+B D       Crab-eating macaque  -t
+B D                    Baboon  -t
+                 Green monkey  -t
+
+
+Alignment block 57 of 62 in window, 26017993 - 26017994, 2 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  -tat--aaacctgac------caagcag-gatgc
+
+
+Alignment block 58 of 62 in window, 26017995 - 26017999, 5 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+
+Alignment block 59 of 62 in window, 26018000 - 26018001, 2 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+
+Alignment block 60 of 62 in window, 26018002 - 26018002, 1 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+
+Alignment block 61 of 62 in window, 26018003 - 26018003, 1 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+Alignment block 62 of 62 in window, 26018004 - 26018015, 12 bps 
+B D                     Human  
+B D                     Chimp  
+B D                   Gorilla  
+B D                 Orangutan  
+B D                    Gibbon  
+B D                    Rhesus  
+B D       Crab-eating macaque  
+B D                    Baboon  
+                 Green monkey  
+
+
+	
