@@ -238,7 +238,7 @@ def main():
     args = parser.parse_args()
     data, data_len = read_data(args.f)
     cons = Node.from_str(args.c)
-    cons = cons * (0.1 / cons.tot_branch_len())
+    cons = cons * (1 / cons.tot_branch_len())
     print(cons.tot_branch_len())
     cons.setData(data, data_len)
     if not args.nc:

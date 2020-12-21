@@ -58,6 +58,7 @@ class Node:
         self.seqlen = 0
         self.fel_probs = np.array([])
         self.tot_prob = 0
+        self.E_abij = None
 
     def is_leaf(self):
         return (self.left is None) and (self.right is None)
@@ -207,6 +208,68 @@ class Node:
         return out
 
     def tot_branch_len(self):
+        """
+        Sum of branch lengths in this tree
+        :return:
+        """
         return self.branch_length + \
-               (self.left.branch_length if self.left else 0.0) + \
-               (self.right.branch_length if self.right else 0.0)
+            (self.left.tot_branch_len() if self.left else 0.0) + \
+            (self.right.tot_branch_len() if self.right else 0.0)
+
+    def size(self):
+        """
+        Number of nodes in this tree
+        """
+        return 1 + \
+            (self.left.size() if self.left else 0) + \
+            (self.right.size() if self.right else 0)
+
+    def E_at_ind(self, ind, visited, data, E_abij):
+        """
+        Preform E from paper at single index and cache results in E_abij
+        :param data: data from root node
+        :param E_abij: array to cache results
+        :param ind: index to preform step at
+        :param visited: list of nodes visited on the way to this one
+        :return:
+        """
+        bases = 'ACGT'
+        n = len(bases)
+
+        for a in range(n):
+            for b in range(n):
+                pass
+
+        if self.is_leaf():
+            c = data[self.name][ind]
+            self.probs = [int(c == a) for a in bases]
+            # fel_probs[ind] = np.log(0.25 * np.sum(self.probs))
+            return
+
+        for i_a, a in enumerate(bases):
+            p_i, p_j = 0, 0
+            for i_b, b in enumerate(bases):
+                p_i += (self.left.probs[i_b] * self.left.bp[i_a, i_b])
+            for i_c, c in enumerate(bases):
+                p_j += (self.right.probs[i_c] * self.right.bp[i_a, i_c])
+            self.probs[i_a] = p_i * p_j
+
+        visited.append(self)
+        if self.left:
+            self.left.E_at_ind(ind, visited, data, E_abij)
+        if self.right:
+            self.right.E_at_ind(ind, visited, data, E_abij)
+        visited.pop()
+        # fel_probs[ind] = np.log(0.25 * np.sum(self.probs))
+
+    def E(self, seqlen):
+        """
+        Preform E step from paper and store in self.E_abij
+        """
+        n = self.size()
+        bases = 'ACGT'
+        self.E_abij = np.zeros((len(bases), len(bases), n, n))
+        for i in range(seqlen):
+            # Make sure that self.probs are right for entire tree
+            self.fel_at_ind(i, self.data, self.fel_probs)
+            self.E_at_ind(i, [], self.data, self.E_abij)
