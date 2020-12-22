@@ -267,7 +267,7 @@ class Graph:
         e = 0
 
         # Step 1:  Sort all the edges in non-decreasing order of their weight.
-        self.graph = sorted(self.graph, key=lambda item: -item[2])
+        self.graph = list(reversed(sorted(self.graph, key=lambda item: item[2])))
 
         parent = []
         rank = []
