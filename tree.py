@@ -4,6 +4,7 @@ File to store data on phylogenetic trees
 import re
 import numpy as np
 from scipy.optimize import minimize
+from collections import deque
 
 
 def read_data(filename):
@@ -37,6 +38,243 @@ ordering = [leaves[0], leaves[3], hum_dog, leaves[1], leaves[2], mouse_rat, root
     return sequences, size
 
 
+# Classes for Kruskal's algorithm on generic graphs
+
+
+class Edge:
+    def __init__(self, length, left, right):
+        self.length = length
+        self.left = left
+        self.right = right
+
+
+class Vertex:
+    def __init__(self, this_id, name):
+        self.id = this_id
+        self.neighbors = []
+        self.children = []
+        self.parent_len = 0.0
+        self.name = name
+        self.visited = False
+        self.parent = None
+
+    def is_leaf(self):
+        return not self.children
+
+    def d(self):
+        return len(self.neighbors)
+
+    def setChildren(self):
+        self.visited = True
+        for w, n in self.neighbors:
+            if not n.visited:
+                n.visited = True
+                self.children.append(n)
+                n.parent = self
+                n.parent_len = w
+                n.setChildren()
+
+    def unvisit(self):
+        self.visited = False
+        for c in self.children:
+            c.unvisit()
+
+    def bifurcate_step_1(self):
+        to_visit = deque([self])
+        cur = self
+        while to_visit:
+            cur = to_visit.pop()
+            children = deque(cur.children)
+            while children:
+                c = children.pop()
+                if c.d() == 1 and not c.name:
+                    cur.children.remove(c)
+                    cur.neighbors.remove((c.parent_len, c))
+                elif c.d() == 2 and not c.name:
+                    cur.children.remove(c)
+                    cur.neighbors.remove((c.parent_len, c))
+                    assert(len(c.children) == 1)
+                    new_child = c.children[0]
+                    new_child.parent = cur
+                    new_child.parent_len += c.parent_len
+                    cur.children.append(new_child)
+                    cur.neighbors.append((new_child.parent_len, new_child))
+                    children.append(new_child)
+                else:
+                    to_visit.appendleft(c)
+
+    def bifurcate_step_2(self):
+        to_visit = deque([self])
+        root = self
+        while to_visit:
+            cur = to_visit.pop()
+            if cur.name:
+                if cur.d() > 1:
+                    new_parent = Vertex(-1, "")
+                    new_parent.neighbors.append((0, cur))
+                    cur.neighbors.append((0, new_parent))
+                    new_parent.children.append(cur)
+                    new_parent.parent, cur.parent = cur.parent, new_parent
+                    new_parent.parent_len, cur.parent_len = cur.parent_len, 0
+                    daddy = new_parent.parent
+                    if daddy:
+                        new_parent.neighbors.append((new_parent.parent_len, daddy))
+                        daddy.children.append(new_parent)
+                        daddy.children.remove(cur)
+                        daddy.neighbors.append((new_parent.parent_len, new_parent))
+                        daddy.neighbors.remove((new_parent.parent_len, cur))
+                        cur.neighbors.remove((new_parent.parent_len, daddy))
+                    else:
+                        root = new_parent
+                        to_visit.appendleft(root)
+                    for c in cur.children:
+                        new_parent.neighbors.append((c.parent_len, c))
+                        new_parent.children.append(c)
+                        cur.children.remove(c)
+                        cur.neighbors.remove((c.parent_len, c))
+                    to_visit.appendleft(cur)
+                else:
+                    for c in cur.children:
+                        to_visit.append(c)
+            else:
+                if cur.d() > 3 or (cur.d() == 3 and not cur.parent):
+                    new_parent = Vertex(-1, "")
+                    new_parent.neighbors.append((0, cur))
+                    cur.neighbors.append((0, new_parent))
+                    new_parent.children.append(cur)
+                    new_parent.parent, cur.parent = cur.parent, new_parent
+                    new_parent.parent_len, cur.parent_len = cur.parent_len, 0
+                    daddy = new_parent.parent
+                    if daddy:
+                        new_parent.neighbors.append((new_parent.parent_len, daddy))
+                        daddy.children.append(new_parent)
+                        daddy.children.remove(cur)
+                        daddy.neighbors.append((new_parent.parent_len, new_parent))
+                        daddy.neighbors.remove((new_parent.parent_len, cur))
+                        cur.neighbors.remove((new_parent.parent_len, daddy))
+                    else:
+                        root = new_parent
+                        to_visit.appendleft(root)
+                    for c in cur.children[2:]:
+                        new_parent.neighbors.append((c.parent_len, c))
+                        new_parent.children.append(c)
+                        cur.children.remove(c)
+                        cur.neighbors.remove((c.parent_len, c))
+                    to_visit.appendleft(cur)
+                    for c in cur.children:
+                        to_visit.append(c)
+                else:
+                    for c in cur.children:
+                        to_visit.append(c)
+        return root
+
+    def print_deg(self):
+        def printer(node, tabs):
+            print(("\t" * tabs) + str(len(node.children)), node.name)
+            for c in node.children:
+                printer(c, tabs + 1)
+        printer(self, 0)
+
+    def size(self):
+        return 1 + sum(map(lambda x: x.size(), self.children))
+
+    def node_of_vertex(self):
+        if len(self.children) == 0:
+            return Node(self.name, None, None, self.parent_len, self.id)
+        if len(self.children) == 1:
+            return Node(self.name, self.children[0].node_of_vertex(), None,
+                        self.parent_len, self.id)
+        if len(self.children) == 2:
+            return Node(self.name, self.children[0].node_of_vertex(),
+                        self.children[1].node_of_vertex(), self.parent_len, self.id)
+        raise TypeError("Attempted to convert non binary tree to phylogeny!")
+
+    def to_node(self):
+        out = self.node_of_vertex()
+        out.assignIDs()
+        return out
+
+
+class Graph:
+    def __init__(self, vertices):
+        self.vertices = sorted(vertices, key=lambda v: v.id)
+        self.V = len(vertices)
+        self.graph = []
+
+    # function to add an edge to graph
+    def addEdge(self, u, v, w):
+        self.graph.append([u, v, w])
+
+    # A utility function to find set of an element i
+    # (uses path compression technique)
+    def find(self, parent, i):
+        if parent[i] == i:
+            return i
+        return self.find(parent, parent[i])
+
+    # A function that does union of two sets of x and y (uses union by rank)
+    def union(self, parent, rank, x, y):
+        xroot = self.find(parent, x)
+        yroot = self.find(parent, y)
+
+        # Attach smaller rank tree under root of high rank tree (Union by Rank)
+        if rank[xroot] < rank[yroot]:
+            parent[xroot] = yroot
+        elif rank[xroot] > rank[yroot]:
+            parent[yroot] = xroot
+
+        # If ranks are same, then make one as root and increment its rank by one
+        else:
+            parent[yroot] = xroot
+            rank[xroot] += 1
+
+    # The main function to construct MST using Kruskal's algorithm
+    def KruskalMST(self):
+        result = []  # This will store the resultant MST
+        # An index variable, used for sorted edges
+        i = 0
+        # An index variable, used for result[]
+        e = 0
+
+        # Step 1:  Sort all the edges in non-decreasing order of their weight.
+        self.graph = sorted(self.graph, key=lambda item: -item[2])
+
+        parent = []
+        rank = []
+
+        # Create V subsets with single elements
+        for node in self.vertices:
+            parent.append(node.id)
+            rank.append(0)
+
+        # Number of edges to be taken is equal to V-1
+        while e < self.V - 1:
+
+            # Step 2: Pick the smallest edge and increment the index for next iteration
+            u, v, w = self.graph[i]
+            i = i + 1
+            x = self.find(parent, u)
+            y = self.find(parent, v)
+
+            # If including this edge does't cause cycle, include it in result
+            #  and increment the indexof result for next edge
+            if x != y:
+                e = e + 1
+                result.append([u, v, w])
+                self.vertices[u].neighbors.append((w, self.vertices[v]))
+                self.vertices[v].neighbors.append((w, self.vertices[u]))
+
+                self.union(parent, rank, x, y)
+            # Else discard the edge
+
+        minimumCost = 0
+        print("Edges in the constructed MST")
+        for u, v, weight in result:
+            minimumCost += weight
+            print("%d -- %d == %d" % (u, v, weight))
+        print("Minimum Spanning Tree", minimumCost)
+
+
 class Node:
     def __init__(self, name, left, right, branch_len=0.0, this_id=0, parent_id=0):
         """ Initializes a node with given parameters.
@@ -63,6 +301,13 @@ class Node:
 
     def is_leaf(self):
         return (self.left is None) and (self.right is None)
+
+    def assignIDs(self):
+        for i, n in enumerate(self.preorder()):
+            n.id = i
+
+        self.parent_id = -1
+        print(list(map(lambda x: x.id, self.preorder())))
 
     def __getitem__(self, item):
         """
@@ -217,16 +462,16 @@ class Node:
         :return:
         """
         return self.branch_length + \
-            (self.left.tot_branch_len() if self.left else 0.0) + \
-            (self.right.tot_branch_len() if self.right else 0.0)
+               (self.left.tot_branch_len() if self.left else 0.0) + \
+               (self.right.tot_branch_len() if self.right else 0.0)
 
     def size(self):
         """
         Number of nodes in this tree
         """
         return 1 + \
-            (self.left.size() if self.left else 0) + \
-            (self.right.size() if self.right else 0)
+               (self.left.size() if self.left else 0) + \
+               (self.right.size() if self.right else 0)
 
     def E_at_ind(self, ind, visited, data, E_abij):
         """
@@ -299,9 +544,29 @@ class Node:
         out = np.zeros((n, n))
         for i in range(n):
             for j in range(n):
+                if i == j:
+                    break
                 res = minimize(self.L_local, np.array([0.0]),
                                args=(i, j),
                                method="BFGS",
                                options={"maxiter": 250, "disp": False})
                 out[i, j] = res.x[0]
         return out
+
+    def preorder(self):
+        return [self] + \
+               (self.left.preorder() if self.left else []) + \
+               (self.right.preorder() if self.right else [])
+
+    def kruskal(self, adj_mat):
+        pre_nodes = self.preorder()
+        krusk_nodes = list(map(lambda x: Vertex(x.id, x.name), pre_nodes))
+        krusk_graph = Graph(krusk_nodes)
+        n = self.size()
+        for i in range(n):
+            for j in range(n):
+                if i == j:
+                    break
+                krusk_graph.addEdge(i, j, adj_mat[i, j])
+        krusk_graph.KruskalMST()
+        return krusk_nodes[0]
