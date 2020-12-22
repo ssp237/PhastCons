@@ -1,0 +1,2571 @@
+
+
+    Home
+    Genomes
+    Genome Browser
+    Tools
+    Mirrors
+    Downloads
+    My Data
+    Projects
+    Help
+    About Us
+
+Multiz Alignments of 100 Vertebrates
+ 	
+
+Capitalize
+exons based on show
+bases
+Place cursor over species for alignment detail. Click on 'B' to link to browser for aligned species, click on 'D' to get DNA for aligned species.
+
+Alignment block 1 of 27 in window, 55865159 - 55865159, 1 bps 
+B D                     Human  -----c-----
+B D                     Chimp  -----c-----
+B D                   Gorilla  -----c-----
+B D                 Orangutan  -----c-----
+B D                    Gibbon  -----c-----
+B D                    Rhesus  -----c-----
+B D       Crab-eating macaque  -----c-----
+B D                    Baboon  -----c-----
+                 Green monkey  -----c-----
+B D                  Marmoset  -----c-----
+B D           Squirrel monkey  -----c-----
+B D                  Bushbaby  -----c-----
+           Chinese tree shrew  -----c-----
+B D            Naked mole-rat  -----g-----
+B D                Guinea pig  -----g-----
+                   Chinchilla  -----g-----
+             Brush-tailed rat  -----g-----
+B D                    Alpaca  -----t-----
+                 Killer whale  -----t-----
+             Tibetan antelope  -----a-----
+B D                       Cow  -----a-----
+B D                     Sheep  -----a-----
+                Domestic goat  -----a-----
+B D                     Horse  -----a-----
+B D          White rhinoceros  ag--cg-----
+B D                       Cat  -----g-----
+B D                   Ferret   -----g-----
+B D                     Panda  -----g-----
+               Pacific walrus  -----g-----
+                 Weddell seal  -----g-----
+             Black flying-fox  -----a-----
+B D                   Megabat  -----a-----
+                Big brown bat  -----a-----
+B D                  Hedgehog  tggaca-----
+B D                     Shrew  ag---a-----
+B D        American alligator  ----------c
+  D  Chinese softshell turtle  -----gaaaat
+  D    Spiny softshell turtle  -----gacaat
+         Cape elephant shrew  -----------
+              Golden hamster  -----------
+                Prairie vole  -----------
+B D                     Mouse  -----------
+B D                       Rat  -----------
+      Yellowbelly pufferfish  ===========
+B D                   Lamprey  ===========
+B D           Chinese hamster  -----------
+      Lesser Egyptian jerboa  -----------
+B D                      Pika  -----------
+            Cape golden mole  -----------
+B D                    Tenrec  -----------
+B D                   Wallaby  -----------
+             Star-nosed mole  -----------
+B D           Tasmanian devil  ===========
+B D               Zebra finch  ===========
+B D                   Opossum  -----------
+B D               Stickleback  ===========
+         Pundamilia nyererei  ===========
+                 Zebra mbuna  ===========
+       Burton's mouthbreeder  ===========
+         Princess of Burundi  ===========
+B D                   Dolphin  NNNNNNNNNNN
+        David's myotis (bat)  ===========
+B D                       Dog  ===========
+              Bactrian camel  NNNNNNNNNNN
+B D                 Armadillo  -----------
+                    Aardvark  -----------
+B D                   Manatee  -----------
+B D                  Elephant  -----------
+B D                  Squirrel  NNNNNNNNNNN
+
+Alignment block 2 of 27 in window, 55865160 - 55865169, 10 bps 
+B D                     Human  --------------------------a--gggag-----cggg
+B D                     Chimp  --------------------------a--gggag-----cggg
+B D                   Gorilla  --------------------------a--gggag-----cggg
+B D                 Orangutan  --------------------------a--gggag-----cggg
+B D                    Gibbon  --------------------------a--gggag-----cggg
+B D                    Rhesus  --------------------------a--gggag-----cggg
+B D       Crab-eating macaque  --------------------------a--gggag-----cggg
+B D                    Baboon  --------------------------a--gggag-----cggg
+                 Green monkey  --------------------------a--gggag-----cggg
+B D                  Marmoset  --------------------------g--gggag-----cggg
+B D           Squirrel monkey  --------------------------g--gggag-----cggg
+B D                  Bushbaby  --------------------------g--ggcag-----cggg
+           Chinese tree shrew  --------------------------a--gggag-----cggg
+       Lesser Egyptian jerboa  --------------------------g--g---------tcca
+                 Prairie vole  --------------------------a--ggtcc----cccca
+B D           Chinese hamster  --------------------------g--gggga-----ccca
+               Golden hamster  --------------------------a--ggggagggacccca
+B D                     Mouse  --------------------------a--gggac-----cccg
+B D                       Rat  --------------------------a--gggac-----ccgg
+B D            Naked mole-rat  --------------------------a--ggggg-----cgtg
+B D                Guinea pig  --------------------------a--ggggg-----cgcg
+                   Chinchilla  --------------------------a--ggggt-----cgca
+             Brush-tailed rat  --------------------------a--ggggg-----tgtg
+B D                      Pika  -----------------------------gggcg-----cgcg
+B D                    Alpaca  --------------------------g--gggag-----cggg
+                 Killer whale  --------------------------g--gggag-----cggg
+             Tibetan antelope  --------------------------g--gggag-----tggg
+B D                       Cow  --------------------------g--gggag-----tgag
+B D                     Sheep  --------------------------g--gggag-----tggg
+                Domestic goat  --------------------------g--gggag-----tgga
+B D                     Horse  --------------------------a--gggag-----gagg
+B D          White rhinoceros  --------------------------a--gggag-----cagg
+B D                       Cat  --------------------------a--ggcgg-----cggg
+B D                   Ferret   --------------------------a--gtccg-----aggg
+B D                     Panda  --------------------------a--ggcgg-----aggg
+               Pacific walrus  --------------------------a--ggcag-----aggg
+                 Weddell seal  --------------------------a--ggcag-----aggg
+             Black flying-fox  --------------------------g--gtgcg-----ccag
+B D                   Megabat  --------------------------g--gtgcg-----ccag
+                Big brown bat  --------------------------g----------------
+B D                  Hedgehog  --------------------------g--gggcg-----gggg
+B D                     Shrew  --------------------------a--gggta-----ggag
+B D                  Elephant  --------------------------a--gggat-----ggga
+          Cape elephant shrew  --------------------------agggggaa-----gggg
+B D                   Manatee  --------------------------a--ggggc-----gggg
+             Cape golden mole  --------------------------a--gaagg-----gagg
+B D                    Tenrec  --------------------------g--gaagg-----gggt
+                     Aardvark  --------------------------a--gaggc-----ggag
+B D                 Armadillo  --------------------------a--gcg-----------
+B D                   Opossum  --------------------------a--gggac-----tgag
+B D                   Wallaby  --------------------------g--gggaa-----ggag
+B D        American alligator  aagct---------------cactggg--ggtgg-----agtc
+  D  Chinese softshell turtle  gagttggggggggggccgtgccctgaa--agcag-gtccaggc
+  D    Spiny softshell turtle  gagttggggggagccatg--ccctgaa--agcag-ctccacac
+      Yellowbelly pufferfish  ===========================================
+B D                   Lamprey  ===========================================
+             Star-nosed mole  -------------------------------------------
+B D           Tasmanian devil  ===========================================
+B D               Zebra finch  ===========================================
+B D               Stickleback  ===========================================
+         Pundamilia nyererei  ===========================================
+                 Zebra mbuna  ===========================================
+       Burton's mouthbreeder  ===========================================
+         Princess of Burundi  ===========================================
+B D                   Dolphin  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+        David's myotis (bat)  ===========================================
+B D                       Dog  ===========================================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+Alignment block 3 of 27 in window, 55865170 - 55865183, 14 bps 
+B D                     Human  a--------cg----cc---------ggctca-gc-c
+B D                     Chimp  a--------cg----cc---------ggctca-gc-c
+B D                   Gorilla  a--------cg----cc---------ggctca-gc-c
+B D                 Orangutan  a--------cg----cc---------ggctca-gc-c
+B D                    Gibbon  a--------cg----cc---------ggctca-gc-c
+B D                    Rhesus  a--------cg----cc---------ggctca-gc-c
+B D       Crab-eating macaque  a--------cg----cc---------ggctca-gc-c
+B D                    Baboon  a--------cg----cc---------ggctca-gc-c
+                 Green monkey  a--------cg----cc---------ggctca-gc-c
+B D                  Marmoset  a--------cg----cc---------ggctca-gc-c
+B D           Squirrel monkey  a--------cg----cc---------ggctca-gc-c
+B D                  Bushbaby  g--------ca----cc---------agctca-gc-c
+           Chinese tree shrew  ---------cg----cc---------ggccca-gc-t
+       Lesser Egyptian jerboa  ---------------------------gctca-gc-c
+                 Prairie vole  g--------ca----tc---------tgctca-gc-c
+B D           Chinese hamster  g--------cg----tc---------tgctca-gc-c
+               Golden hamster  g--------cg----tc---------tgctca-gc-c
+B D                     Mouse  g--------ca----gc---------tgctca-gc-c
+B D                       Rat  g--------cg----gc---------tgctca-gc-c
+B D            Naked mole-rat  ---------------------------gctca-----
+B D                Guinea pig  ---------------------------gctca-gc-c
+                   Chinchilla  ---------------------------gctca-gc-c
+             Brush-tailed rat  ---------------------------gctca-gc-c
+B D                      Pika  -----------------------------tcaggt-c
+B D                    Alpaca  ---------cg----ct---------ggctca-gc--
+                 Killer whale  ---------cg----ct---------tgctca-ac--
+             Tibetan antelope  ---------cg----cc---------gtccta-ac--
+B D                       Cow  ---------cg----cc---------gtccta-ac--
+B D                     Sheep  ---------cg----cc---------gtccta-ac--
+                Domestic goat  ---------cg----cc---------gtccta-at--
+B D                     Horse  ---------gg----tc---------ggctcg-gc--
+B D          White rhinoceros  ---------gg----tc---------cgctcg-cc--
+B D                       Cat  ---------cg----ct---------tgttca-gc--
+B D                   Ferret   ---------cg----cc---------ggctca-gc--
+B D                     Panda  ---------cg----cc---------ggctca-gc--
+               Pacific walrus  ---------cg----cc---------ggctca-gc--
+                 Weddell seal  ---------cg----cc---------gattca-gc--
+             Black flying-fox  ---------c-----tc---------agctca-gc--
+B D                   Megabat  ---------c-----tc---------agctca-gc--
+                Big brown bat  ---------------------------gcccc-gg--
+B D                  Hedgehog  gccg-----gc----tc---------ggctca-gcc-
+B D                     Shrew  gcagaggacgc----cc---------tgctca-gc--
+              Star-nosed mole  ---------gc----cc---------ggctca-gcc-
+B D                  Elephant  ---------ag----cg---------gcctta-gc-c
+          Cape elephant shrew  ---------ag----ggagagggggaggctca-gc-c
+B D                   Manatee  ---------aa----ac---------agctta-gc-c
+             Cape golden mole  ---------ac----agagagcc---ggctca-gt-c
+B D                    Tenrec  ---------gg----ttcggagc---ggctca-gc-c
+                     Aardvark  ---------gg----ca---------agctca-gg-c
+B D                 Armadillo  --------------------------ggctca-gc-c
+B D                   Opossum  g--------cag---gc---------ggccct-cc-a
+B D                   Wallaby  g--------ca----gc---------ggtcca-gc-g
+B D             X. tropicalis  -----------acccct---------agtctg-gc--
+      Yellowbelly pufferfish  =====================================
+B D                   Lamprey  =====================================
+B D           Tasmanian devil  =====================================
+B D               Zebra finch  =====================================
+  D    Spiny softshell turtle  -------------------------------------
+  D  Chinese softshell turtle  -------------------------------------
+B D               Stickleback  =====================================
+         Pundamilia nyererei  =====================================
+                 Zebra mbuna  =====================================
+       Burton's mouthbreeder  =====================================
+         Princess of Burundi  =====================================
+B D        American alligator  -------------------------------------
+B D                   Dolphin  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+        David's myotis (bat)  =====================================
+B D                       Dog  =====================================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+Inserts between block 3 and 4 in window
+B D                 Hedgehog 5bp
+             Star-nosed mole 449bp
+
+Alignment block 4 of 27 in window, 55865184 - 55865200, 17 bps 
+B D                     Human  tcg------gcc-g----ag----------ccctgcac------
+B D                     Chimp  tcg------gcc-g----ag----------ccctgcgc------
+B D                   Gorilla  tcg------gcc-g----ag----------ccctgcgc------
+B D                 Orangutan  tcg------gcc-t----ag----------ccctgcgc------
+B D                    Gibbon  tcg------gcc-g----ag----------ccctcagc------
+B D                    Rhesus  tca------gcc-g----ag----------ccctcccc------
+B D       Crab-eating macaque  tca------gcc-g----ag----------ccctcccc------
+B D                    Baboon  tca------gcc-g----ag----------ccttcccc------
+                 Green monkey  tca------gcc-g----ag----------ccctcccc------
+B D                  Marmoset  tcg------gac-a----ag----------ccctccct------
+B D           Squirrel monkey  tcg------gcc-a----ag----------ccctcccc------
+B D                  Bushbaby  tca------gcc-gcccagg----------ccctccac------
+           Chinese tree shrew  cag------ccc-c----ag----------ccctccct------
+       Lesser Egyptian jerboa  cga------gccca----ag----------ccctccac------
+                 Prairie vole  tga------gtctg----ag----------ctcaccgc------
+B D           Chinese hamster  ggg------gtctg----ag----------cccaccac------
+               Golden hamster  tga------gtctg----ag----------tccctcac------
+B D                     Mouse  tga------gtctg----aa----------gccactac------
+B D                       Rat  tga------gtctg----aa----------gccactac------
+B D            Naked mole-rat  ---------gccct----cg----------ccggtgcc------
+B D                Guinea pig  tcagtcctcgcctt----cg----------ccctcgcc------
+                   Chinchilla  tcagcactcgccct----cg----------ccctcgcc------
+             Brush-tailed rat  tca------gccct----cg----------ccctcagc------
+B D                      Pika  ccg------gcccg----ag----------cccttgcc------
+B D                    Alpaca  tca------ccc-g----gg----------ccatccac------
+                 Killer whale  tca------gcc-g----gc----------ccatccac------
+             Tibetan antelope  tca------gcc-g----ac----------ccatcctc------
+B D                       Cow  tca------gcc-g----ac----------ccatccac------
+B D                     Sheep  cca------gcc-g----ac----------ccatccac------
+                Domestic goat  tca------gcc-a----ac----------ccatccac------
+B D                     Horse  tca------gct-g----cg----------ccctccac------
+B D          White rhinoceros  tca------gcc-g----gg----------ctctccac------
+B D                       Cat  tcc------gcg-g----ga----------ccctccac------
+B D                   Ferret   tcc------acg-g----aa----------ccctgcac------
+B D                     Panda  tcc------acg-g----ga----------ccctccac------
+               Pacific walrus  tac------acg-g----ga----------ccctcgac------
+                 Weddell seal  tac------acg-g----ga----------ccctccac------
+             Black flying-fox  tca------gcc-a----ag----------cccgccct------
+B D                   Megabat  tca------gcc-a----ag----------cccgccct------
+                Big brown bat  tca------gct-c----cg----------cccgccc-------
+B D                  Hedgehog  gca------ccc-g----ag----------ccctgcgc------
+B D                     Shrew  ----------tc-g----a-------------ctgccc------
+B D                  Elephant  gtg------gccga----ag----------ccctccac------
+          Cape elephant shrew  gcg------gccgc----ag----------ccccccac------
+B D                   Manatee  ctg------gccag----ag----------ccctccac------
+             Cape golden mole  -tg------gcagg----gg-------gagccctccgc------
+B D                    Tenrec  -cg------gctca----ag-------ccaacccctgc------
+                     Aardvark  tcg------accgg----ag----------ccctccac------
+B D                 Armadillo  ccc------gcccg----ggcgccgccgcccccgccgc------
+B D                   Opossum  ---------------------gaacctgggcccgcccc------
+B D                   Wallaby  ---------------------g---------ccgcccc------
+B D        American alligator  ------agggca-g----gc----------cccggccc------
+  D  Chinese softshell turtle  ------agagca-g----gg----------cccagccc------
+  D    Spiny softshell turtle  ------agagca-g----gg----------cccagctc------
+B D             X. tropicalis  -----------------tag----------tcctaccctcactc
+      Yellowbelly pufferfish  ============================================
+B D                   Lamprey  ============================================
+             Star-nosed mole  ============================================
+B D           Tasmanian devil  ============================================
+B D               Zebra finch  ============================================
+B D               Stickleback  ============================================
+         Pundamilia nyererei  ============================================
+                 Zebra mbuna  ============================================
+       Burton's mouthbreeder  ============================================
+         Princess of Burundi  ============================================
+B D                   Dolphin  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+        David's myotis (bat)  ============================================
+B D                       Dog  ============================================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+Inserts between block 4 and 5 in window
+B D       American alligator 14bp
+  D Chinese softshell turtle 66bp
+  D   Spiny softshell turtle 48bp
+
+Alignment block 5 of 27 in window, 55865201 - 55865208, 8 bps 
+B D                     Human  --acgcct-------------gg
+B D                     Chimp  --acgcct-------------gg
+B D                   Gorilla  --acgcct-------------gg
+B D                 Orangutan  --acgcct-------------gg
+B D                    Gibbon  --acgcct-------------gg
+B D                    Rhesus  --acgcct-------------gg
+B D       Crab-eating macaque  --acgcct-------------gg
+B D                    Baboon  --acgcct-------------gg
+                 Green monkey  --acgcct-------------gg
+B D                  Marmoset  --acgcct-------------gg
+B D           Squirrel monkey  --atgcct-------------gg
+B D                  Bushbaby  --ccatcc-------------cg
+           Chinese tree shrew  --cgctcc-------------cg
+       Lesser Egyptian jerboa  --cctctc-------------cg
+                 Prairie vole  --cctctc-------------ca
+B D           Chinese hamster  --cctctc-------------ca
+               Golden hamster  --cctctc-------------ca
+B D                     Mouse  --cctttc-------------ca
+B D                       Rat  --cctgtc-------------ca
+B D            Naked mole-rat  --ctcggc-ccagc-------cg
+B D                Guinea pig  --cttggtgtggcg-------cg
+                   Chinchilla  --ctcggc-ctggc-------ag
+             Brush-tailed rat  --cttggc-tggcg-------cg
+B D                      Pika  --cc--gc-------------cg
+B D                    Alpaca  --cctcgt-cc----------gg
+                 Killer whale  --cctcgc-cc----------gg
+             Tibetan antelope  --cctcgc-cc----------gg
+B D                       Cow  --cctcgc-cc----------gg
+B D                     Sheep  --cctcgc-cc----------gg
+                Domestic goat  --cctcgc-cc----------gg
+B D                     Horse  --cctcgc-cc----------gg
+B D          White rhinoceros  --cctcgc-cc----------gg
+B D                       Cat  --cctcgc-ccggtctggtctcg
+B D                   Ferret   --cc-------------------
+B D                     Panda  --cctcgc-cc----------ca
+               Pacific walrus  --cctagc-cc----------cg
+                 Weddell seal  --cctcgc-cc----------cg
+             Black flying-fox  --ccttgc-c-----------ga
+B D                   Megabat  --ccttgc-c-----------ga
+                Big brown bat  --cctcgc-c-----------gg
+B D                  Hedgehog  --cgtcgg-cc----------gg
+B D                     Shrew  --ctccac-cc----------gg
+B D                  Elephant  --cctttc-tc----------cc
+          Cape elephant shrew  --cc--gc-cc----------ct
+B D                   Manatee  --cctctc-cc----------ct
+             Cape golden mole  --ct--gg-cc----------cc
+B D                    Tenrec  --c------cc----------gc
+                     Aardvark  --ccgctc-cc----------cg
+B D                 Armadillo  --ccccgc-cg----------cc
+B D                   Opossum  --tccgca-------------gc
+B D                   Wallaby  --gccccc-------------ac
+B D        American alligator  --cccag----------------
+B D            Painted turtle  --cctgg----------------
+  D    Spiny softshell turtle  --cctgg----------------
+B D             X. tropicalis  acccccgg---------------
+      Yellowbelly pufferfish  =======================
+B D                   Lamprey  =======================
+             Star-nosed mole  =======================
+B D           Tasmanian devil  =======================
+B D               Zebra finch  =======================
+  D  Chinese softshell turtle  =======================
+B D               Stickleback  =======================
+         Pundamilia nyererei  =======================
+                 Zebra mbuna  =======================
+       Burton's mouthbreeder  =======================
+         Princess of Burundi  =======================
+B D                   Dolphin  NNNNNNNNNNNNNNNNNNNNNNN
+        David's myotis (bat)  =======================
+B D                       Dog  =======================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNN
+
+Inserts between block 5 and 6 in window
+B D       American alligator 9bp
+B D           Painted turtle 11bp
+  D   Spiny softshell turtle 44bp
+
+Alignment block 6 of 27 in window, 55865209 - 55865225, 17 bps 
+B D                     Human  ccc--g---------------gc-----------gccccct--c----------tg---c
+B D                     Chimp  ccc--g---------------gc-----------gccccct--c----------tg---c
+B D                   Gorilla  ccc--g---------------gc-----------gtcccct--c----------tg---c
+B D                 Orangutan  ccc--g---------------gc-----------gccccct--c----------tg---c
+B D                    Gibbon  ccc--g---------------gc-----------gctccct--t----------tg---c
+B D                    Rhesus  ccg--g---------------gc-----------gcccccg--c----------tg---c
+B D       Crab-eating macaque  ccc--g---------------gc-----------gccccct--c----------tg---c
+B D                    Baboon  ccc--g---------------gc-----------gccccct--c----------tg---c
+                 Green monkey  ccc--g---------------gc-----------gccccct--c----------tg---c
+B D                  Marmoset  ccc--g---------------gc-----------ccccc----t----------cg---t
+B D           Squirrel monkey  ccc--g---------------gc-----------cctcccccgc----------cg---t
+B D                  Bushbaby  ctt--c---------------tc-----------gcccc-t--c----------tg---c
+           Chinese tree shrew  ccc--g---------------gc-----------gcccggc--c----------tg---c
+       Lesser Egyptian jerboa  ccc--a--------------gcg-------------cccct--c----------tg---g
+                 Prairie vole  ccc--a------------------------------------------------------
+B D           Chinese hamster  ccc--a----------gtccccc-------------ccgct--c----------cg---c
+               Golden hamster  ccc--accaatcccccgctccct-------------ccgcg--c-tctctctctct---c
+B D                     Mouse  cca--a---------------cc-------------cctct--c----------cg---c
+B D                       Rat  cca--a---------------cc-------------cctct--c----------cg---c
+B D            Naked mole-rat  gcc--c---------------ga-------------cccct--g----------------
+B D                Guinea pig  cca--g---------------gg-------------cccgg--g----------at---c
+                   Chinchilla  ccc--t---------------gg-----------gcccctt--g---------------c
+             Brush-tailed rat  ccc--a---------------gg-------------cccgt--g---------------c
+B D                      Pika  ccc--a---------------cc-------------tgccc--c----------gg---c
+B D                    Alpaca  ctc--g---------------tcggtg---cggcgcccccc--t-----------g---t
+                 Killer whale  ccc--g---------------tctgtg---cgctgcccctc--t-----------g---t
+             Tibetan antelope  ccc--g---------------tccgtg---c---ggccctc--t-----------g---t
+B D                       Cow  ccc--g---------------tccgtg---c---ggccctc--t-----------g---t
+B D                     Sheep  ccc--g---------------tccgtg---c---ggccctc--t-----------g---t
+                Domestic goat  ccc--g---------------tccgtg---c---ggccctc--t-----------g---t
+B D                     Horse  ccc--g---------------gccagc---ccgcgccccctc-c----------tg---c
+B D          White rhinoceros  ccc--g---------------tccggc---cggcgccccct--c----------tg---c
+B D                       Cat  ccc--g---------------gccggctgtcgacgccccct--c----------ggcctc
+B D                   Ferret   -cc--g---------------gccagccgccggcgcccccc--c----------gg---c
+B D                     Panda  gtc--g---------------gccggcgaacggcgccccct--c----------gg---c
+               Pacific walrus  gcc--g---------------gccggccgccggcgccccct--c----------gg---c
+                 Weddell seal  gcc--g---------------gccggccgccggcgccccct--c----------gg---c
+             Black flying-fox  tcc--g---------------gccggc---cggcgccctct--t-----------g---c
+B D                   Megabat  tcc--g---------------gccggc---cggcgccctct--t-----------g---c
+                Big brown bat  ccc--c---------------acc---------cgccgccc--c-----------g---c
+B D                  Hedgehog  ------------------------------------cgccc--c----------ca---g
+B D                     Shrew  act---------------------------cgagttcgcac--g----------ac---t
+B D                  Elephant  tcc--g---------------tc------------cccctc--t----------cg---c
+          Cape elephant shrew  ccc--g---------------gg------------cctctg--c----------cg---c
+B D                   Manatee  tcc--g---------------tc------------ctcttc--t----------cg---c
+             Cape golden mole  ttc--g---------------at------------tcc--t--c----------gc---c
+B D                    Tenrec  tgc--g---------------gc------------cccggt--c----------ga---c
+                     Aardvark  tcc--g---------------tc------------cccctc--t----------gg---c
+B D                 Armadillo  ccc--g---------------cc-----------gcccccg--c----------cg---c
+B D                   Opossum  ccc--g---------------cc-----------ccttccc--c----------cc---c
+B D                   Wallaby  cccctg---------------cc-----------ccctccc--cctccctgacgcc---c
+B D        American alligator  ccc---------------------------------------------------------
+  D           Green seaturtle  ccc---------------------------------------------------------
+B D            Painted turtle  ccc---------------------------------------------------------
+  D  Chinese softshell turtle  ccc---------------------------------------------------------
+  D    Spiny softshell turtle  ccc---------------------------------------------------------
+B D             X. tropicalis  ---------------------------------------------------tctgg---c
+      Yellowbelly pufferfish  ============================================================
+B D                   Lamprey  ============================================================
+             Star-nosed mole  ============================================================
+B D           Tasmanian devil  ============================================================
+B D               Zebra finch  ============================================================
+B D               Stickleback  ============================================================
+         Pundamilia nyererei  ============================================================
+                 Zebra mbuna  ============================================================
+       Burton's mouthbreeder  ============================================================
+         Princess of Burundi  ============================================================
+B D                   Dolphin  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+        David's myotis (bat)  ============================================================
+B D                       Dog  ============================================================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+Alignment block 7 of 27 in window, 55865226 - 55865226, 1 bps 
+B D                     Human  c
+B D                     Chimp  c
+B D                   Gorilla  c
+B D                 Orangutan  c
+B D                    Gibbon  c
+B D                    Rhesus  c
+B D       Crab-eating macaque  c
+B D                    Baboon  c
+                 Green monkey  c
+B D                  Marmoset  c
+B D           Squirrel monkey  c
+B D                  Bushbaby  c
+           Chinese tree shrew  c
+       Lesser Egyptian jerboa  c
+B D           Chinese hamster  t
+               Golden hamster  t
+B D                     Mouse  c
+B D                       Rat  c
+B D                Guinea pig  c
+                   Chinchilla  c
+             Brush-tailed rat  c
+B D                      Pika  c
+B D                    Alpaca  c
+                 Killer whale  c
+             Tibetan antelope  c
+B D                       Cow  c
+B D                     Sheep  c
+                Domestic goat  c
+B D                     Horse  c
+B D          White rhinoceros  c
+B D                       Cat  c
+B D                   Ferret   c
+B D                     Panda  c
+               Pacific walrus  c
+                 Weddell seal  c
+             Black flying-fox  c
+B D                   Megabat  c
+                Big brown bat  c
+B D                  Hedgehog  c
+B D                     Shrew  c
+B D                  Elephant  c
+          Cape elephant shrew  c
+B D                   Manatee  c
+             Cape golden mole  c
+B D                    Tenrec  c
+                     Aardvark  c
+B D                 Armadillo  c
+B D                   Opossum  a
+B D                   Wallaby  c
+B D             X. tropicalis  c
+       Yellowbelly pufferfish  c
+                Prairie vole  -
+B D                   Lamprey  =
+             Star-nosed mole  =
+B D           Tasmanian devil  =
+B D               Zebra finch  =
+  D    Spiny softshell turtle  -
+  D           Green seaturtle  -
+  D  Chinese softshell turtle  -
+B D            Painted turtle  -
+B D               Stickleback  =
+         Pundamilia nyererei  =
+                 Zebra mbuna  =
+       Burton's mouthbreeder  =
+         Princess of Burundi  =
+B D        American alligator  -
+B D                   Dolphin  N
+B D            Naked mole-rat  -
+        David's myotis (bat)  =
+B D                       Dog  =
+              Bactrian camel  N
+B D                  Squirrel  N
+
+Inserts between block 7 and 8 in window
+B D            X. tropicalis 11bp
+
+Alignment block 8 of 27 in window, 55865227 - 55865227, 1 bps 
+B D                     Human  -g
+B D                     Chimp  -g
+B D                   Gorilla  -g
+B D                 Orangutan  -g
+B D                    Gibbon  -g
+B D                    Rhesus  -g
+B D       Crab-eating macaque  -g
+B D                    Baboon  -g
+                 Green monkey  -g
+B D                  Marmoset  -g
+B D           Squirrel monkey  -g
+B D                  Bushbaby  -g
+           Chinese tree shrew  -c
+       Lesser Egyptian jerboa  -c
+B D           Chinese hamster  -c
+               Golden hamster  -c
+B D                     Mouse  -c
+B D                       Rat  -c
+B D            Naked mole-rat  -c
+B D                Guinea pig  -c
+                   Chinchilla  -c
+             Brush-tailed rat  -c
+B D                      Pika  -c
+B D                    Alpaca  -c
+                 Killer whale  -c
+             Tibetan antelope  -c
+B D                       Cow  -c
+B D                     Sheep  -c
+                Domestic goat  -c
+B D                     Horse  -c
+B D          White rhinoceros  -c
+B D                       Cat  -t
+B D                   Ferret   -t
+B D                     Panda  -t
+               Pacific walrus  -t
+                 Weddell seal  -t
+             Black flying-fox  -c
+B D                   Megabat  -c
+                Big brown bat  -c
+B D                  Hedgehog  -t
+B D                     Shrew  -t
+B D                  Elephant  -t
+          Cape elephant shrew  -t
+B D                   Manatee  -c
+             Cape golden mole  -c
+B D                    Tenrec  -c
+                     Aardvark  -c
+B D                 Armadillo  -t
+B D                   Opossum  -t
+B D                   Wallaby  -t
+B D                  Platypus  -g
+B D             X. tropicalis  -c
+       Yellowbelly pufferfish  a-
+                Prairie vole  --
+B D                   Lamprey  ==
+             Star-nosed mole  ==
+B D           Tasmanian devil  ==
+B D               Zebra finch  ==
+  D    Spiny softshell turtle  --
+  D           Green seaturtle  --
+  D  Chinese softshell turtle  --
+B D            Painted turtle  --
+B D               Stickleback  ==
+         Pundamilia nyererei  ==
+                 Zebra mbuna  ==
+       Burton's mouthbreeder  ==
+         Princess of Burundi  ==
+B D        American alligator  --
+B D                   Dolphin  NN
+        David's myotis (bat)  ==
+B D                       Dog  ==
+              Bactrian camel  NN
+B D                  Squirrel  NN
+
+Alignment block 9 of 27 in window, 55865228 - 55865262, 35 bps 
+B D                     Human  actcacc--------------------cagctgatggggcacagcga----gtggtaca
+B D                     Chimp  actcacc--------------------cagctgatggggcacagcga----gtggtaca
+B D                   Gorilla  actcacc--------------------cagctgatggggcacagcga----atggtaca
+B D                 Orangutan  actcacc--------------------cagctgctggggcacagcga----gtggtaca
+B D                    Gibbon  actcacc--------------------cagctgatggggcacagcga----gtggtaca
+B D                    Rhesus  cctcacc--------------------cagctggtggggcacagcga----gtggtaca
+B D       Crab-eating macaque  actcacc--------------------cagctggtggggcacagcga----gtggtaca
+B D                    Baboon  actcacc--------------------cagctggtggggcacagcga----gtggtaca
+                 Green monkey  actcacc--------------------cagctggtggggcacagcga----gtggtaca
+B D                  Marmoset  actcacc--------------------cagctggtggggcacagcga----ggtgtaca
+B D           Squirrel monkey  actcacc--------------------cagctggtggggcacagcga----gttgtaca
+B D                  Bushbaby  gctcacc--------------------cagctgattgggcacagcga----gcggtaca
+           Chinese tree shrew  gctcacc--------------------ccgctggcggggcacagcga----gcggtaca
+       Lesser Egyptian jerboa  tctcacc--------------------cagctgatggggcacagtga----gtggtaca
+                 Prairie vole  -----------------------------gctgacaggacacagtga----atggaaca
+B D           Chinese hamster  tctcacc--------------------cagctgatgggacacagaga----gtgataca
+               Golden hamster  tctcacc--------------------cagctgatgggacacaggga----atggaaca
+B D                     Mouse  tctcacc--------------------cagctgatgggacacagtga----atggaata
+B D                       Rat  tctcacc--------------------cagctgacgggacacagtga----atggaata
+B D            Naked mole-rat  actcacc--------------------cagctgagggggcacagcaa----gcggtaca
+B D                Guinea pig  gctcacc--------------------cagctgatggggcacagtga----gtggtaca
+                   Chinchilla  gctcacc--------------------cagctaatggggcacagcga----gcggtaca
+             Brush-tailed rat  gctcacc--------------------cagctgatggggcacagcga----gtggtaca
+B D                      Pika  gctcacc--------------------cagctgacggggcacagcga----gcggtaca
+B D                    Alpaca  tctcacc--------------------cagctcatggggcacagcga----gtggtaca
+                 Killer whale  gctcacc--------------------cagctcatggggcacagcgc----gtggaaca
+             Tibetan antelope  gctcacc--------------------cagctgatggggcacagcga----gtggtaca
+B D                       Cow  gctcacc--------------------cagctgatggggcacagcga----gtggtaca
+B D                     Sheep  gctcacc--------------------cagctgatggggcacagcga----gtggtaca
+                Domestic goat  gctcacc--------------------cagctgatggggcacagcga----gtggtaca
+B D                     Horse  actcacc--------------------cagctcatggggcacagcga----atggaaca
+B D          White rhinoceros  actcacc--------------------cagctcatggggcacagcga----gtggaaca
+B D                       Cat  gctcacc--------------------cagctcttggggcacagcga----gtggaaca
+B D                   Ferret   gctcacc--------------------cagctcatggggcacagcga----gtggaaca
+B D                     Panda  gctcacc--------------------cagctcatggggcacagcga----atggaaca
+               Pacific walrus  gctcacc--------------------cagctcatggggcacagcga----gtggaaca
+                 Weddell seal  gctcacc--------------------cagctcatggggcacagcga----atggaaca
+             Black flying-fox  gctcacc--------------------cagctcatggggcacagcga----gtggaaca
+B D                   Megabat  gctcacc--------------------cagctcatggggcacagcga----gtggaaca
+                Big brown bat  gctcacc--------------------cagctgctggggcacagcga----gtggaaca
+B D                  Hedgehog  tctcacc--------------------caactcttgggacacagcgc----gcggaaca
+B D                     Shrew  tctcacc--------------------cagctcttggggcacaacga----gcggaaca
+B D                  Elephant  cctcacc--------------------caactgatggggcacagcga----gtggtaca
+          Cape elephant shrew  -ctcacc--------------------cagctgatggggcacaacga----atggtaca
+B D                   Manatee  cctcacc--------------------caactgatggggcacagcga----gtggtaca
+             Cape golden mole  cctcacc--------------------cagctgatggggcacagaga----gtggtaca
+B D                    Tenrec  cctcacc--------------------cagctgatggggcacagcga----gtggtaca
+                     Aardvark  cctcacc--------------------cagctgatggggcacagcga----gtgataca
+B D                 Armadillo  cctcacc--------------------cagctgatggggcacagcga----gtggtaca
+B D                   Opossum  cctcacc--------------------cagctgagcgggcacaggga----gtggtaga
+B D                   Wallaby  gctcacc--------------------cagctgagggggcacaggga----gtggaaga
+B D                  Platypus  gctcacc--------------------cagctgaggggacgcagggaccttttggtac-
+B D        American alligator  actcaccccctgctcgtccagcttgagcagggtgtcgggcacgcggg----gtgag---
+  D           Green seaturtle  acatacc--------------------caggagatggggcacaggga----cttgtaga
+B D            Painted turtle  acatacc--------------------caggagatggggcacaggga----cttgtaga
+  D  Chinese softshell turtle  acgtacc--------------------caggagatggggcacaggga----cttgtaga
+  D    Spiny softshell turtle  acgtacc--------------------caggagatggggcacaggga----cttgtaga
+B D             X. tropicalis  actcacc--------------------c--ccagtctggcct---------gtcctaca
+       Yellowbelly pufferfish  actcacc--------------------cagctcatggggcagagact----cttgtaaa
+          Princess of Burundi  acttacc--------------------cagctgattggacagagact----cttgtaga
+        Burton's mouthbreeder  atttacc--------------------caggagatggggcacagcga----tttgtaga
+                  Zebra mbuna  atttacc--------------------caggagatggggcacagcga----tttgtaga
+          Pundamilia nyererei  atttacc--------------------caggagatggggcacagcga----tttgtaga
+                  Spotted gar  actcacc--------------------caggacacggggcacaggga----tttataca
+B D                   Lamprey  ===========================================================
+             Star-nosed mole  ===========================================================
+B D           Tasmanian devil  ===========================================================
+B D               Zebra finch  ===========================================================
+B D               Stickleback  ===========================================================
+B D                   Dolphin  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+        David's myotis (bat)  ===========================================================
+B D                       Dog  ===========================================================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+Inserts between block 9 and 10 in window
+B D                  Opossum 3bp
+B D                  Wallaby 3bp
+B D            X. tropicalis 2bp
+
+Alignment block 10 of 27 in window, 55865263 - 55865272, 10 bps 
+B D                     Human  cgcggaaata
+B D                     Chimp  cgcggaaata
+B D                   Gorilla  cgcggaaata
+B D                 Orangutan  cgcggaaata
+B D                    Gibbon  cgcggaaata
+B D                    Rhesus  cgcggtaata
+B D       Crab-eating macaque  cgcggtaata
+B D                    Baboon  cgcggtaata
+                 Green monkey  cgcggtaata
+B D                  Marmoset  cgcggaaata
+B D           Squirrel monkey  cgcggaaata
+B D                  Bushbaby  cgcggaaata
+           Chinese tree shrew  cgcggaaata
+       Lesser Egyptian jerboa  cgcggaaata
+                 Prairie vole  cgcggaaata
+B D           Chinese hamster  cgcggtaata
+               Golden hamster  cgcggaaata
+B D                     Mouse  cacggaaata
+B D                       Rat  cacggaaata
+B D            Naked mole-rat  cgcggaaata
+B D                Guinea pig  cgcggaaata
+                   Chinchilla  cgcggaaata
+             Brush-tailed rat  cgcggaaata
+B D                      Pika  cgcggtagta
+B D                    Alpaca  cgcggaagta
+B D                   Dolphin  cgcggaagta
+                 Killer whale  cgcggaagta
+             Tibetan antelope  cgcggaagta
+B D                       Cow  cgcggaagta
+B D                     Sheep  cgcggaagta
+                Domestic goat  cgcggaagta
+B D                     Horse  cacggaagta
+B D          White rhinoceros  cgcggaagaa
+B D                       Cat  cgcggaagta
+B D                   Ferret   cgcggaagta
+B D                     Panda  cgcggaagta
+               Pacific walrus  cgcggaagta
+                 Weddell seal  cgcggaagta
+             Black flying-fox  cgcgaaagta
+B D                   Megabat  cgcgaaagta
+                Big brown bat  cgtggaagta
+B D                  Hedgehog  ctcgctggta
+B D                     Shrew  cgtgttggta
+B D                  Elephant  cgcggaaata
+          Cape elephant shrew  cgtggtagta
+B D                   Manatee  cgcggaaata
+             Cape golden mole  cgcggaaata
+B D                    Tenrec  cgcggaaata
+                     Aardvark  cgcggaaaaa
+B D                 Armadillo  cgcggaaaaa
+B D                   Opossum  tgcggca---
+B D                   Wallaby  tgcggta---
+B D        American alligator  ---ggcgacg
+  D           Green seaturtle  cccggtagta
+B D            Painted turtle  cccggtagta
+  D  Chinese softshell turtle  cccggtagta
+  D    Spiny softshell turtle  cccggtagta
+B D             X. tropicalis  cac-------
+       Yellowbelly pufferfish  ccctctggta
+          Princess of Burundi  ctctgcggta
+        Burton's mouthbreeder  cccttttgta
+                  Zebra mbuna  cccttttgta
+          Pundamilia nyererei  cccttttgta
+                  Spotted gar  ctcgcttgta
+B D                   Lamprey  ==========
+             Star-nosed mole  ==========
+B D                  Platypus  ----------
+B D           Tasmanian devil  ==========
+B D               Zebra finch  ==========
+B D               Stickleback  ==========
+        David's myotis (bat)  ==========
+B D                       Dog  ==========
+              Bactrian camel  NNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNN
+
+Alignment block 11 of 27 in window, 55865273 - 55865337, 65 bps 
+B D                     Human  gtactcgca-gggctgcgtgctcttcccgcggc-gggtcctggt-cttgag--gcagcggtggtagtc-t
+B D                     Chimp  gtactcgca-gggctgcgtgctcttcccgcggc-gggtcctggt-cttgag--gcagcggtggtagtc-t
+B D                   Gorilla  gtactcgca-gggctgcgtgctcttcccgcggc-gggtcctggt-cttgag--gcagaggtggtagtc-t
+B D                 Orangutan  gtactcgca-aggctgcgtgctcttcccgcggc-gggtcctggt-cttgag--gcagcggtggtagtc-t
+B D                    Gibbon  gtactcgca-gggctgcgtgctcttcccgcggc-gggtcctggt-cttgag--gcagcggtggtagtc-t
+B D                    Rhesus  atactcgca-gggctgcgtgctcttcccacggc-gggtcctgat-cttgag--gcagcggtggtagtc-t
+B D       Crab-eating macaque  gtactcgca-gggctgcgtgctcttcccacggc-gggtcctgat-cttgag--gcagcggtggtagtc-t
+B D                    Baboon  gtactcgca-gggctgcgtgctcttcccacggc-gggtcctgat-cttgag--gcagcggtggtagtc-t
+                 Green monkey  gtactcgca-gggctgcgtgctcttcccacggc-gggtcctgat-cttgag--gcagcggtggtagtc-t
+B D                  Marmoset  gtactcgca-gggctcgctgttcttcccgcggc-ggctcatggt-cttgac--gcagcgctggtagtc-t
+B D           Squirrel monkey  gtactcgca-gggctcgctgttcttcccgcggc-ggctcatggt-cttgac--gcagcgctggtagtc-t
+B D                  Bushbaby  gtactcgca-gggctctgtgctcttcccccggc-ggttcatggc-cttgac--gcagcggtggtagtc-t
+           Chinese tree shrew  atactcgca-gggctgcatgctcttcccgcggc-ggctcgctct-cttccg--gcagcggtgatagtc-t
+       Lesser Egyptian jerboa  gtactcgca-gggctgtgggttcttcccgcggc-ggcgcatgct-cttcat--gcatcggtggtagtc-t
+                 Prairie vole  gtactcgca-gggctgtgtgtttttcccgcggc-ggttcatggt-cttcac--gcaccggtgatagtc-t
+B D           Chinese hamster  gtactcgca-gggctgcgtgttcttcccgcggc-ggttcatagc-cttcaa--gcaccggtgatagtc-t
+               Golden hamster  gtactcgca-gggctgtgtgtctttcccgcgcc-ggttcatagt-cttcaa--gcaccggtggtagtc-t
+B D                     Mouse  gtactcgca-gggttgtgtgctctttccgcggc-gattcatggt-cttcac--acaccggtggtagtc-t
+B D                       Rat  gtagtcgca-ggcctgtgtgttctttccgcggc-gatccatggt-cttcac--acaccggtggtagtc-t
+B D            Naked mole-rat  gtactcgca-gagctgcgagctctggccgcagc-ggctcattgc-cttaac--gcagcggtggtagtc-t
+B D                Guinea pig  gtactcgca-gggctgcgtgctcttgccgcggcgggctcatttc-cttcac--gcagaggtggaagtc-t
+                   Chinchilla  gtactcgca-gggctgcgtgctcttgccgcggc-ggttcatcgc-cttcat--gcagcggtggtagtc-t
+             Brush-tailed rat  gtattcgca-aggctgcgtgctcttgccacggc-ggttcatcgc-cttgac--acagcggtggtagtc-t
+B D                      Pika  gtactcgca-cggctgcgggcttttgccgcggc-ggttcatgtt-cttgag--gcagcggtggaactc-t
+B D                    Alpaca  atactcgca-gggctgtgtgctcttcccgcggc-ggttcatgtt-cttgac--gcagcggtggtagtc-t
+B D                   Dolphin  atactcgta-gtgctgtgtgcttttccctcggc-gcctcatcct-cttaac--gcagggatggtagtc-t
+                 Killer whale  atactcgca-gggctgtgtgcttttcccgcggc-gcctcatcct-cttgac--gcagggatggtagtc-t
+             Tibetan antelope  gtactcgca-gggctgtgtgctcttcccgcggc-ggttcatggt-cttgat--gcagcgatggtagtc-t
+B D                       Cow  gtactcgca-gggctgtgtgctctttccgcggc-ggttcatggt-cttgat--gcagcgatggtagtc-t
+B D                     Sheep  gtactcgca-gggctgtgtgctcttccca-ggt-ggttcatggtccttgat--gcagcgatggtagtc-t
+                Domestic goat  gtactcgca-gggctgtgtgctcttcccgcggc-ggttcatggt-cttgat--gcagcgatggtagtc-t
+B D          White rhinoceros  atactcgca-gggctgcgtgctctggccgcggc-ggtccatgtt-cttgac--gcagcggtggtaatc-t
+B D                       Cat  atactcgca-gggctgcgtgcttttcccacggc-ggttcattct-cttgac--gcagcggtggtagtctt
+B D                   Ferret   atactcgca-gggttgcgtgctcttcccgcggc-ggttcattct-cttgac--acagcggtggtagtc-t
+B D                     Panda  atactcgca-gggctgcgtgcccttcccgcggc-ggttcattct-cttgac--gcagcggtggtagtc-t
+               Pacific walrus  atactcgca-gggctgcgtgctcttcccgcggc-gattcattct-cttgac--gcagcggtggtagtc-t
+                 Weddell seal  atactggca-gggctgcgtgctcttcccgcggc-ggttcattct-cttgac--gcagcggtggtagtc-t
+             Black flying-fox  atagtcgca-gggattcgtgctcttcccgcggc-ggttcatgtt-cttcat--gcagcggtggtagtc-t
+B D                   Megabat  atagtcgca-gggattcgtgctcttcccgcggc-ggttcatgtt-cttcat--gcagcggtggtagtc-t
+                Big brown bat  gtactcgca-gggctgcgtgctcttcccgcggc-ggttcatctt-ccgcac--gcagcggtggaagtc-t
+B D                  Hedgehog  gtactcgca-ggcctccgggtttctcccgcgcc-ggtccatgtt-cttcac--gcagcggtggtaatc-t
+B D                     Shrew  atactggca-gggctcagggctcttgccacgcc-gatccatggc-cttcag--gcagcggtagtagtc-t
+B D                  Elephant  gtactcgca-gggctgcgtgctcttcccgcgcc-ggttcatcct-cttcaa--gcagcggtggtagtc-t
+          Cape elephant shrew  gtactcgca-tggctgcgtgctcctcccacgcc-ggctcatgcg-cttcag--gcagcggtggtagtc-t
+B D                   Manatee  gtactcgca-ggtctgcgtgctcttcccgcgcc-ggctcatccg-cttcaa--gcagcggtgatagtc-t
+             Cape golden mole  gtactcgca-gggctgcgtgctccgcccacgcc-ggttcatcat-cttcag--gcagcggtggaagtc-t
+B D                    Tenrec  gtactcgca-aggctgcgtgctcttcccgcgcc-ggttcatggt-cttcag--gcagcggtggtagtc-t
+                     Aardvark  gtactcgca-gggctgcgtgctcttcccgcgcc-ggttcatggt-cttgag--acagcggtggtagtc-t
+B D                 Armadillo  gtactcgca-cgcctgcgggttcttcccgcgcc-ggctcatgct-gcgcag--gcagcggtggtagtc-t
+B D                   Opossum  gtagtcgca-ggggctcgagtccttgccccgcc-tcttcaggat-cttggt--acagcggtgaaagtc-t
+B D                   Wallaby  ataatcgca-gggggacgggtccttccccctcc-tcttcatcgt-cctggt--acagcggtgaaagtc-t
+B D                  Platypus  -cagtcaca-ggggctggtgtccttcccacacc-ttttcatcac-cttgtt--gcaggggtggtagtc-t
+B D        American alligator  ccaggcgcagcgcccccaaatccagcactggcg-ctaccagctc-cagcagccgccgtggcgacagtg--
+  D           Green seaturtle  ccactggca-tggcttgatgtcctttcccttcg-cccccagtgt-cttcag--gcagcggtaatagtc-t
+B D            Painted turtle  ccactggca-tggcctggtgtcctttcccttcg-cccccagtgt-cttcag--gcagcggtaatagtc-t
+  D  Chinese softshell turtle  ccactggca-cggcttggtatccttgcccttcg-cccccagcgc-cttcag--gcagcggaaatagtc-t
+  D    Spiny softshell turtle  ccattggca-tggcttggtgtccttgccctttg-cccccagcat-cttcag--gcagcggaaatagtc-t
+B D             X. tropicalis  tcaccccca-gtctggccagtcctacactcact-catccctggt-ctggcc--t----------------
+       Yellowbelly pufferfish  ccagtcaca-gggagacacatcctggtctttgg-ctgaaagggc-cttgtt--gcacctgtggaagtc-t
+          Princess of Burundi  ccagtcaca-gggagccgtgtcctggtctttgg-ctgacagaac-tttgtt--acatctgtggaagtc-t
+        Burton's mouthbreeder  ccactcgca-gggctgggtgtctaatcccttgg-catccaaagc-tttctg--gcagcggtagtagtc-t
+                  Zebra mbuna  ccactcgca-gggctgggtgtctaatcccttgg-catccaaagc-tttctg--gcagcgatagtagtc-t
+          Pundamilia nyererei  ccactcgca-gggctgggtgtctaatcccttgg-catccaaagc-tttctg--gcagcggtagtagtc-t
+                  Spotted gar  ccagtcgca-tggagtgatgtcagcccctctgg-ccgtcagggc-cttctg--acagcgatggaaatc-t
+B D                   Lamprey  ======================================================================
+             Star-nosed mole  ======================================================================
+B D           Tasmanian devil  ======================================================================
+B D               Zebra finch  ======================================================================
+B D               Stickleback  ======================================================================
+        David's myotis (bat)  ======================================================================
+B D                       Dog  ======================================================================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                     Horse  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+                        Human  g
+                        Chimp  g
+                      Gorilla  g
+                    Orangutan  g
+                       Gibbon  g
+                       Rhesus  g
+          Crab-eating macaque  g
+                       Baboon  g
+                 Green monkey  g
+                     Marmoset  g
+              Squirrel monkey  g
+                     Bushbaby  g
+           Chinese tree shrew  g
+       Lesser Egyptian jerboa  a
+                 Prairie vole  g
+              Chinese hamster  g
+               Golden hamster  g
+                        Mouse  g
+                          Rat  g
+               Naked mole-rat  g
+                   Guinea pig  g
+                   Chinchilla  g
+             Brush-tailed rat  g
+                         Pika  g
+                       Alpaca  g
+                      Dolphin  g
+                 Killer whale  g
+             Tibetan antelope  g
+                          Cow  g
+                        Sheep  g
+                Domestic goat  g
+             White rhinoceros  g
+                          Cat  g
+                      Ferret   g
+                        Panda  g
+               Pacific walrus  g
+                 Weddell seal  g
+             Black flying-fox  g
+                      Megabat  g
+                Big brown bat  g
+                     Hedgehog  g
+                        Shrew  g
+                     Elephant  g
+          Cape elephant shrew  g
+                      Manatee  g
+             Cape golden mole  g
+                       Tenrec  g
+                     Aardvark  g
+                    Armadillo  g
+                      Opossum  g
+                      Wallaby  g
+                     Platypus  a
+           American alligator  -
+              Green seaturtle  g
+               Painted turtle  g
+     Chinese softshell turtle  g
+       Spiny softshell turtle  g
+                X. tropicalis  -
+       Yellowbelly pufferfish  g
+          Princess of Burundi  g
+        Burton's mouthbreeder  a
+                  Zebra mbuna  a
+          Pundamilia nyererei  a
+                  Spotted gar  a
+                      Lamprey  =
+              Star-nosed mole  =
+              Tasmanian devil  =
+                  Zebra finch  =
+                  Stickleback  =
+         David's myotis (bat)  =
+                          Dog  =
+               Bactrian camel  N
+                        Horse  N
+                     Squirrel  N
+
+Inserts between block 11 and 12 in window
+B D                   Alpaca 3bp
+B D                  Dolphin 3bp
+                Killer whale 3bp
+            Tibetan antelope 3bp
+B D                      Cow 2bp
+B D                    Sheep 3bp
+B D         White rhinoceros 3bp
+B D                      Cat 3bp
+B D                  Ferret  3bp
+B D                    Panda 3bp
+              Pacific walrus 3bp
+                Weddell seal 3bp
+            Black flying-fox 3bp
+B D                  Megabat 3bp
+               Big brown bat 3bp
+B D                 Elephant 1bp
+         Cape elephant shrew 1bp
+B D                  Manatee 1bp
+            Cape golden mole 1bp
+B D                   Tenrec 1bp
+                    Aardvark 1bp
+B D                Armadillo 1bp
+B D                  Opossum 3bp
+B D                  Wallaby 3bp
+
+Alignment block 12 of 27 in window, 55865338 - 55865338, 1 bps 
+B D                     Human  t
+B D                     Chimp  t
+B D                   Gorilla  t
+B D                 Orangutan  t
+B D                    Gibbon  t
+B D                    Rhesus  t
+B D       Crab-eating macaque  t
+B D                    Baboon  t
+                 Green monkey  t
+B D                  Marmoset  t
+B D           Squirrel monkey  t
+B D                  Bushbaby  c
+           Chinese tree shrew  c
+       Lesser Egyptian jerboa  c
+                 Prairie vole  c
+B D           Chinese hamster  c
+               Golden hamster  c
+B D                     Mouse  c
+B D                       Rat  c
+B D            Naked mole-rat  g
+B D                Guinea pig  t
+                   Chinchilla  c
+             Brush-tailed rat  c
+B D                      Pika  c
+B D                    Alpaca  g
+B D                   Dolphin  a
+                 Killer whale  a
+             Tibetan antelope  a
+B D                       Cow  a
+B D                     Sheep  a
+B D          White rhinoceros  g
+B D                       Cat  g
+B D                   Ferret   g
+B D                     Panda  g
+               Pacific walrus  g
+                 Weddell seal  g
+             Black flying-fox  g
+B D                   Megabat  g
+B D                  Hedgehog  c
+B D                     Shrew  c
+B D                  Platypus  g
+  D           Green seaturtle  c
+B D            Painted turtle  c
+  D  Chinese softshell turtle  c
+  D    Spiny softshell turtle  c
+       Yellowbelly pufferfish  c
+          Princess of Burundi  t
+        Burton's mouthbreeder  t
+                  Zebra mbuna  t
+          Pundamilia nyererei  t
+                  Spotted gar  c
+         Cape elephant shrew  =
+B D                   Lamprey  =
+            Cape golden mole  =
+B D                    Tenrec  =
+B D                   Wallaby  =
+               Big brown bat  =
+               Domestic goat  N
+             Star-nosed mole  =
+B D             X. tropicalis  -
+B D           Tasmanian devil  =
+B D               Zebra finch  =
+B D                   Opossum  =
+B D               Stickleback  =
+B D        American alligator  -
+        David's myotis (bat)  =
+B D                       Dog  =
+              Bactrian camel  N
+B D                 Armadillo  =
+                    Aardvark  =
+B D                   Manatee  =
+B D                  Elephant  =
+B D                     Horse  N
+B D                  Squirrel  N
+
+Inserts between block 12 and 13 in window
+         Princess of Burundi 3556bp
+       Burton's mouthbreeder 284bp
+                 Zebra mbuna 269bp
+         Pundamilia nyererei 284bp
+                 Spotted gar 6bp
+
+Alignment block 13 of 27 in window, 55865339 - 55865340, 2 bps 
+B D                     Human  gg
+B D                     Chimp  gg
+B D                   Gorilla  gg
+B D                    Gibbon  gg
+B D                    Rhesus  gg
+B D       Crab-eating macaque  gg
+B D                    Baboon  gg
+                 Green monkey  gg
+B D                  Marmoset  gg
+B D           Squirrel monkey  gg
+B D                  Bushbaby  gg
+           Chinese tree shrew  gc
+       Lesser Egyptian jerboa  ag
+                 Prairie vole  ag
+B D           Chinese hamster  ag
+               Golden hamster  ag
+B D                     Mouse  ag
+B D                       Rat  ag
+B D            Naked mole-rat  ga
+B D                Guinea pig  gg
+                   Chinchilla  gg
+             Brush-tailed rat  ca
+B D                      Pika  ag
+B D                    Alpaca  gt
+B D                   Dolphin  gt
+                 Killer whale  gt
+             Tibetan antelope  ag
+B D                       Cow  cg
+B D                     Sheep  ag
+B D          White rhinoceros  gc
+B D                       Cat  gt
+B D                   Ferret   gt
+B D                     Panda  gg
+               Pacific walrus  gt
+                 Weddell seal  gt
+             Black flying-fox  gc
+B D                   Megabat  gc
+B D                  Hedgehog  gg
+B D                     Shrew  gg
+B D                  Platypus  ga
+  D           Green seaturtle  ag
+B D            Painted turtle  ag
+  D  Chinese softshell turtle  ag
+  D    Spiny softshell turtle  ag
+       Yellowbelly pufferfish  ag
+                  Spotted gar  -g
+         Cape elephant shrew  ==
+B D                   Lamprey  ==
+            Cape golden mole  ==
+B D                    Tenrec  ==
+B D                   Wallaby  ==
+               Big brown bat  ==
+               Domestic goat  NN
+             Star-nosed mole  ==
+B D             X. tropicalis  --
+B D           Tasmanian devil  ==
+B D               Zebra finch  ==
+B D                   Opossum  ==
+B D               Stickleback  ==
+         Pundamilia nyererei  ==
+                 Zebra mbuna  ==
+       Burton's mouthbreeder  ==
+         Princess of Burundi  ==
+B D        American alligator  --
+B D                 Orangutan  --
+        David's myotis (bat)  ==
+B D                       Dog  ==
+              Bactrian camel  NN
+B D                 Armadillo  ==
+                    Aardvark  ==
+B D                   Manatee  ==
+B D                  Elephant  ==
+B D                     Horse  NN
+B D                  Squirrel  NN
+
+Inserts between block 13 and 14 in window
+B D                    Shrew 5bp
+  D          Green seaturtle 45bp
+      Yellowbelly pufferfish 301bp
+                 Spotted gar 1bp
+
+Alignment block 14 of 27 in window, 55865341 - 55865344, 4 bps 
+B D                     Human  -c---ggg
+B D                     Chimp  -c---ggg
+B D                   Gorilla  -g---ggg
+B D                    Gibbon  -g---ggg
+B D                    Rhesus  -g---ggg
+B D       Crab-eating macaque  -g---ggg
+B D                    Baboon  -g---ggg
+                 Green monkey  -g---ggg
+B D                  Marmoset  -a---ggg
+B D           Squirrel monkey  -a---ggg
+B D                  Bushbaby  -g---gcg
+           Chinese tree shrew  -g---gcg
+       Lesser Egyptian jerboa  -a---gta
+                 Prairie vole  -a---gtg
+B D           Chinese hamster  -a---gag
+               Golden hamster  -a---gtg
+B D                     Mouse  -a---gtg
+B D                       Rat  -a---gtg
+B D            Naked mole-rat  -a---gag
+B D                Guinea pig  -a---gag
+                   Chinchilla  -a---gag
+             Brush-tailed rat  -a---ga-
+B D                      Pika  -g---cg-
+B D                    Alpaca  -g---ggg
+B D                   Dolphin  -g---ggg
+                 Killer whale  -g---ggg
+             Tibetan antelope  -g---ggg
+B D                       Cow  -g---ggg
+B D                     Sheep  -g---ggg
+B D          White rhinoceros  -gggtgga
+B D                       Cat  -g---ggg
+B D                   Ferret   -g---ggg
+B D                     Panda  -----ggg
+               Pacific walrus  -----ggg
+                 Weddell seal  -g---ggg
+             Black flying-fox  -g---ggg
+B D                   Megabat  -g---ggg
+                Big brown bat  -g---agg
+B D                  Hedgehog  -g---gag
+B D                     Shrew  -t---ggg
+B D                  Elephant  -g---ggg
+          Cape elephant shrew  -a---ggg
+B D                   Manatee  -g---ggg
+             Cape golden mole  -g---gga
+B D                    Tenrec  -a---gg-
+                     Aardvark  -a---gg-
+B D                 Armadillo  -g---gg-
+B D                   Opossum  -g---gag
+B D                   Wallaby  -g---ggg
+B D                  Platypus  -a---gag
+B D            Painted turtle  -g---ga-
+  D  Chinese softshell turtle  -g---ga-
+  D    Spiny softshell turtle  -g---ga-
+                  Spotted gar  ca---gg-
+      Yellowbelly pufferfish  ========
+B D                   Lamprey  ========
+               Domestic goat  NNNNNNNN
+             Star-nosed mole  ========
+B D             X. tropicalis  --------
+B D           Tasmanian devil  ========
+B D               Zebra finch  ========
+  D           Green seaturtle  ========
+B D               Stickleback  ========
+         Pundamilia nyererei  ========
+                 Zebra mbuna  ========
+       Burton's mouthbreeder  ========
+         Princess of Burundi  ========
+B D        American alligator  --------
+B D                 Orangutan  --------
+        David's myotis (bat)  ========
+B D                       Dog  ========
+              Bactrian camel  NNNNNNNN
+B D                     Horse  NNNNNNNN
+B D                  Squirrel  NNNNNNNN
+
+Inserts between block 14 and 15 in window
+            Brush-tailed rat 16bp
+B D                     Pika 17bp
+            Tibetan antelope 484bp
+B D                Armadillo 9bp
+B D           Painted turtle 59bp
+  D Chinese softshell turtle 2523bp
+  D   Spiny softshell turtle 4631bp
+
+Alignment block 15 of 27 in window, 55865345 - 55865347, 3 bps 
+B D                     Human  cgg
+B D                     Chimp  cgg
+B D                   Gorilla  c-g
+B D                    Gibbon  cgg
+B D                    Rhesus  cg-
+B D       Crab-eating macaque  cg-
+B D                    Baboon  cg-
+                 Green monkey  cg-
+B D                  Marmoset  cgg
+B D           Squirrel monkey  cgg
+B D                  Bushbaby  cag
+           Chinese tree shrew  cgg
+       Lesser Egyptian jerboa  ccg
+                 Prairie vole  cct
+B D           Chinese hamster  cct
+               Golden hamster  cct
+B D                     Mouse  cct
+B D                       Rat  cct
+B D            Naked mole-rat  t--
+B D                Guinea pig  c--
+                   Chinchilla  c--
+B D                    Alpaca  cgg
+B D                   Dolphin  cgg
+                 Killer whale  cgg
+B D                       Cow  cgg
+B D                     Sheep  cgg
+B D          White rhinoceros  cgg
+B D                       Cat  cgg
+B D                   Ferret   ccc
+B D                     Panda  ccg
+               Pacific walrus  ccg
+                 Weddell seal  cgg
+             Black flying-fox  cgg
+B D                   Megabat  cgg
+                Big brown bat  cgg
+B D                  Hedgehog  cgg
+B D                     Shrew  cgg
+B D                  Elephant  cgg
+          Cape elephant shrew  cgg
+B D                   Manatee  cgg
+             Cape golden mole  cag
+B D                    Tenrec  cgg
+                     Aardvark  agg
+B D                   Opossum  gcg
+B D                   Wallaby  ggg
+B D                  Platypus  ag-
+                  Spotted gar  cag
+      Yellowbelly pufferfish  ===
+B D                   Lamprey  ===
+B D                      Pika  ===
+               Domestic goat  NNN
+             Star-nosed mole  ===
+B D             X. tropicalis  ---
+B D           Tasmanian devil  ===
+B D               Zebra finch  ===
+  D    Spiny softshell turtle  ===
+  D           Green seaturtle  ===
+  D  Chinese softshell turtle  ===
+B D            Painted turtle  ===
+B D               Stickleback  ===
+         Pundamilia nyererei  ===
+                 Zebra mbuna  ===
+       Burton's mouthbreeder  ===
+         Princess of Burundi  ===
+B D        American alligator  ---
+B D                 Orangutan  ---
+            Tibetan antelope  ===
+            Brush-tailed rat  ===
+        David's myotis (bat)  ===
+B D                       Dog  ===
+              Bactrian camel  NNN
+B D                 Armadillo  ===
+B D                     Horse  NNN
+B D                  Squirrel  NNN
+
+Inserts between block 15 and 16 in window
+B D                   Gibbon 2022bp
+B D                 Bushbaby 6bp
+          Chinese tree shrew 4bp
+      Lesser Egyptian jerboa 16bp
+                Prairie vole 16bp
+B D          Chinese hamster 16bp
+              Golden hamster 16bp
+B D                    Mouse 8bp
+B D                      Rat 20bp
+B D           Naked mole-rat 16bp
+B D               Guinea pig 16bp
+                  Chinchilla 16bp
+B D                   Alpaca 24bp
+B D                  Dolphin 1bp
+                Killer whale 1bp
+B D                      Cow 6bp
+B D                    Sheep 6bp
+B D                 Elephant 12bp
+         Cape elephant shrew 10bp
+B D                  Manatee 12bp
+            Cape golden mole 10bp
+B D                   Tenrec 10bp
+                    Aardvark 12bp
+B D                  Opossum 4bp
+B D                  Wallaby 2bp
+
+Alignment block 16 of 27 in window, 55865348 - 55865350, 3 bps 
+B D                     Human  -gg-------g
+B D                     Chimp  -gg-------g
+B D                   Gorilla  -gg-------g
+B D                    Rhesus  -gg-------g
+B D       Crab-eating macaque  -gg-------g
+B D                    Baboon  -gg-------g
+                 Green monkey  -gg-------g
+B D                  Marmoset  --g-------g
+B D           Squirrel monkey  --g-------g
+B D                  Bushbaby  -gg-------g
+           Chinese tree shrew  -gg-------c
+       Lesser Egyptian jerboa  -gg--------
+                 Prairie vole  -gt-------g
+B D           Chinese hamster  -gg-------g
+               Golden hamster  -ggtgggcgtg
+B D                     Mouse  -gg-------g
+B D                       Rat  -gg-------g
+B D            Naked mole-rat  -ag--------
+B D                Guinea pig  -ag--------
+                   Chinchilla  -ag--------
+             Brush-tailed rat  -aa--------
+B D                      Pika  -gg--------
+B D                   Dolphin  -gg--------
+                 Killer whale  -gg--------
+B D          White rhinoceros  -gg--------
+B D                       Cat  -ag--------
+B D                   Ferret   -gg--------
+B D                     Panda  -gg--------
+               Pacific walrus  -gc--------
+                 Weddell seal  -gg--------
+             Black flying-fox  -gt--------
+B D                   Megabat  -gt--------
+                Big brown bat  -gc--------
+B D                  Hedgehog  -gc--------
+B D                     Shrew  -gg--------
+B D                  Elephant  -ta--------
+          Cape elephant shrew  -ca--------
+B D                   Manatee  -tg--------
+             Cape golden mole  -ag--------
+B D                    Tenrec  -gg--------
+                     Aardvark  -ag--------
+B D                 Armadillo  -gg--------
+B D                   Opossum  -gg--------
+B D             X. tropicalis  --g--------
+                  Spotted gar  aaa--------
+      Yellowbelly pufferfish  ===========
+B D                   Lamprey  ===========
+B D                   Wallaby  ===========
+               Domestic goat  NNNNNNNNNNN
+B D                     Sheep  ===========
+B D                       Cow  ===========
+             Star-nosed mole  ===========
+B D                  Platypus  -----------
+B D           Tasmanian devil  ===========
+B D               Zebra finch  ===========
+  D    Spiny softshell turtle  ===========
+  D           Green seaturtle  ===========
+  D  Chinese softshell turtle  ===========
+B D            Painted turtle  ===========
+B D               Stickleback  ===========
+         Pundamilia nyererei  ===========
+                 Zebra mbuna  ===========
+       Burton's mouthbreeder  ===========
+         Princess of Burundi  ===========
+B D        American alligator  -----------
+B D                 Orangutan  -----------
+            Tibetan antelope  ===========
+B D                    Gibbon  ===========
+        David's myotis (bat)  ===========
+B D                       Dog  ===========
+              Bactrian camel  NNNNNNNNNNN
+B D                    Alpaca  ===========
+B D                     Horse  NNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNN
+
+Inserts between block 16 and 17 in window
+B D                  Dolphin 7bp
+                Killer whale 37bp
+B D         White rhinoceros 13bp
+B D                      Cat 64bp
+B D                  Ferret  17bp
+B D                    Panda 243bp
+              Pacific walrus 17bp
+                Weddell seal 17bp
+            Black flying-fox 5bp
+B D                  Megabat 6bp
+               Big brown bat 860bp
+B D                 Hedgehog 3bp
+B D                    Shrew 3bp
+B D            X. tropicalis 1bp
+
+Alignment block 17 of 27 in window, 55865351 - 55865353, 3 bps 
+B D                     Human  tc-a--
+B D                     Chimp  tc-a--
+B D                   Gorilla  tc-a--
+B D                    Rhesus  tc-a--
+B D       Crab-eating macaque  tc-a--
+B D                    Baboon  tc-a--
+                 Green monkey  tc-a--
+B D                  Marmoset  tc-a--
+B D           Squirrel monkey  gc-a--
+B D                  Bushbaby  cc-a--
+           Chinese tree shrew  cg-g--
+                 Prairie vole  tc-a--
+B D           Chinese hamster  tc-a--
+               Golden hamster  tc-a--
+B D                     Mouse  tc-g--
+B D                       Rat  tc-g--
+B D          White rhinoceros  cc----
+B D                       Cat  cc----
+B D                   Ferret   tc----
+               Pacific walrus  tc----
+                 Weddell seal  tc----
+B D                     Shrew  tga---
+B D                  Elephant  tc-a--
+          Cape elephant shrew  tc-g--
+B D                   Manatee  tc-a--
+             Cape golden mole  tc-a--
+B D                    Tenrec  tc-a--
+                     Aardvark  tc-a--
+B D                 Armadillo  tc-a--
+B D                   Opossum  tc-a--
+B D                  Platypus  ---a--
+B D        American alligator  cc----
+B D             X. tropicalis  cc----
+                  Spotted gar  ---aca
+      Yellowbelly pufferfish  ======
+B D                   Lamprey  ======
+      Lesser Egyptian jerboa  ------
+B D                      Pika  ------
+B D                   Wallaby  ======
+B D                  Hedgehog  ======
+               Big brown bat  ======
+               Domestic goat  NNNNNN
+B D                     Sheep  ======
+B D                       Cow  ======
+             Star-nosed mole  ======
+B D                Guinea pig  ------
+B D           Tasmanian devil  ======
+B D               Zebra finch  ======
+  D    Spiny softshell turtle  ======
+  D           Green seaturtle  ======
+  D  Chinese softshell turtle  ======
+B D            Painted turtle  ======
+B D               Stickleback  ======
+         Pundamilia nyererei  ======
+                 Zebra mbuna  ======
+       Burton's mouthbreeder  ======
+         Princess of Burundi  ======
+B D                 Orangutan  ------
+            Tibetan antelope  ======
+B D                   Dolphin  ======
+            Brush-tailed rat  ------
+B D                    Gibbon  ======
+                Killer whale  ======
+B D            Naked mole-rat  ------
+B D                   Megabat  ======
+        David's myotis (bat)  ======
+B D                     Panda  ======
+                  Chinchilla  ------
+            Black flying-fox  ======
+B D                       Dog  ======
+              Bactrian camel  NNNNNN
+B D                    Alpaca  ======
+B D                     Horse  NNNNNN
+B D                  Squirrel  NNNNNN
+
+Inserts between block 17 and 18 in window
+B D                    Shrew 46bp
+
+Alignment block 18 of 27 in window, 55865354 - 55865355, 2 bps 
+B D                     Human  cg-
+B D                     Chimp  cg-
+B D                   Gorilla  cg-
+B D                    Rhesus  cg-
+B D       Crab-eating macaque  cg-
+B D                    Baboon  cg-
+                 Green monkey  cg-
+B D                  Marmoset  cg-
+B D           Squirrel monkey  ag-
+B D                  Bushbaby  tg-
+           Chinese tree shrew  cg-
+                 Prairie vole  tg-
+B D           Chinese hamster  cg-
+               Golden hamster  cg-
+B D                     Mouse  cg-
+B D                       Rat  cg-
+B D                  Elephant  ca-
+B D                   Manatee  cg-
+             Cape golden mole  cg-
+B D                    Tenrec  tg-
+                     Aardvark  cg-
+B D                 Armadillo  gc-
+B D                   Opossum  cg-
+B D                  Platypus  ct-
+B D        American alligator  cg-
+B D             X. tropicalis  ta-
+                  Spotted gar  -gg
+         Cape elephant shrew  ---
+      Yellowbelly pufferfish  ===
+B D                   Lamprey  ===
+      Lesser Egyptian jerboa  ---
+B D                      Pika  ---
+B D                   Wallaby  ===
+B D                  Hedgehog  ===
+               Big brown bat  ===
+               Domestic goat  NNN
+B D                     Shrew  ===
+B D                     Sheep  ===
+B D                       Cow  ===
+             Star-nosed mole  ===
+B D                Guinea pig  ---
+B D           Tasmanian devil  ===
+B D               Zebra finch  ===
+  D    Spiny softshell turtle  ===
+  D           Green seaturtle  ===
+  D  Chinese softshell turtle  ===
+B D            Painted turtle  ===
+B D               Stickleback  ===
+         Pundamilia nyererei  ===
+                 Zebra mbuna  ===
+       Burton's mouthbreeder  ===
+         Princess of Burundi  ===
+B D                 Orangutan  ---
+            Tibetan antelope  ===
+B D                   Dolphin  ===
+            Brush-tailed rat  ---
+B D                    Gibbon  ===
+                Killer whale  ===
+B D            Naked mole-rat  ---
+B D                   Megabat  ===
+        David's myotis (bat)  ===
+                Weddell seal  ---
+B D                     Panda  ===
+B D                   Ferret   ---
+              Pacific walrus  ---
+                  Chinchilla  ---
+            Black flying-fox  ===
+B D                       Dog  ===
+B D                       Cat  ---
+              Bactrian camel  NNN
+B D                    Alpaca  ===
+B D          White rhinoceros  ---
+B D                     Horse  NNN
+B D                  Squirrel  NNN
+
+Inserts between block 18 and 19 in window
+B D            X. tropicalis 3bp
+
+Alignment block 19 of 27 in window, 55865356 - 55865362, 7 bps 
+B D                     Human  cggcaa------------g-----
+B D                     Chimp  cggcaa------------g-----
+B D                   Gorilla  ctgcaa------------g-----
+B D                    Rhesus  cgacaa------------g-----
+B D       Crab-eating macaque  cgacaa------------g-----
+B D                    Baboon  cgacaa------------g-----
+                 Green monkey  cgacaa------------g-----
+B D                  Marmoset  cggcaa------------g-----
+B D           Squirrel monkey  ccgcaa------------g-----
+B D                  Bushbaby  cggcca------------g-----
+           Chinese tree shrew  gggcgg------------g-----
+       Lesser Egyptian jerboa  ---caa------------g-----
+                 Prairie vole  agacaa------------g-----
+B D           Chinese hamster  agacaa------------g-----
+               Golden hamster  agacga------------g-----
+B D                     Mouse  agacaa------------g-----
+B D                       Rat  agacaa------------g-----
+B D            Naked mole-rat  ------------------g-----
+B D                Guinea pig  ------------------a-----
+                   Chinchilla  ------------------g-----
+             Brush-tailed rat  ------------------g-----
+B D                      Pika  ------------------g-----
+B D                    Alpaca  ----gc------------a-----
+B D                   Dolphin  ----ag------------g-----
+                 Killer whale  ---aag------------g-----
+B D                       Cow  ----gc------------g-----
+B D                     Sheep  ----gc------------g-----
+B D          White rhinoceros  ---cgcccctccaaacaag-----
+B D                       Cat  ---cca------------g-----
+B D                   Ferret   ---tgc------------g-----
+               Pacific walrus  ---tgc------------g-----
+                 Weddell seal  ---tgc------------g-----
+             Black flying-fox  ---cgt------------g-----
+B D                   Megabat  ---cgt------------g-----
+                Big brown bat  ---gcc------------g-----
+B D                  Hedgehog  ---ggt------------g-----
+B D                     Shrew  ---gac------------g-----
+B D                  Elephant  cagcca------------g-----
+          Cape elephant shrew  ----ag------------g-----
+B D                   Manatee  cagcca------------g-----
+             Cape golden mole  ccaccg------------g-----
+B D                    Tenrec  cagcaa------------g-----
+                     Aardvark  cggccg------------g-----
+B D                 Armadillo  ggtccc------------g-----
+B D                   Wallaby  taggaa------------g-----
+B D                  Platypus  caacaa------------g-----
+B D        American alligator  cggc--------------------
+B D             X. tropicalis  tcac--------------------
+                  Spotted gar  ----gg------------gttaaa
+      Yellowbelly pufferfish  ========================
+B D                   Lamprey  ========================
+               Domestic goat  NNNNNNNNNNNNNNNNNNNNNNNN
+             Star-nosed mole  ========================
+B D           Tasmanian devil  ========================
+B D               Zebra finch  ========================
+B D                   Opossum  ------------------------
+  D    Spiny softshell turtle  ========================
+  D           Green seaturtle  ========================
+  D  Chinese softshell turtle  ========================
+B D            Painted turtle  ========================
+B D               Stickleback  ========================
+         Pundamilia nyererei  ========================
+                 Zebra mbuna  ========================
+       Burton's mouthbreeder  ========================
+         Princess of Burundi  ========================
+B D                 Orangutan  ------------------------
+            Tibetan antelope  ========================
+B D                    Gibbon  ========================
+        David's myotis (bat)  ========================
+B D                     Panda  ========================
+B D                       Dog  ========================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNN
+B D                     Horse  NNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNN
+
+Inserts between block 19 and 20 in window
+          Chinese tree shrew 18bp
+B D                   Alpaca 13bp
+B D                  Dolphin 6bp
+                Killer whale 6bp
+B D                      Cow 14bp
+B D                    Sheep 285bp
+B D         White rhinoceros 7bp
+B D                      Cat 15bp
+B D                  Ferret  7bp
+              Pacific walrus 7bp
+                Weddell seal 2bp
+            Black flying-fox 4bp
+B D                  Megabat 4bp
+               Big brown bat 8bp
+B D                 Hedgehog 2bp
+B D                    Shrew 2bp
+B D                 Platypus 8bp
+
+Alignment block 20 of 27 in window, 55865363 - 55865363, 1 bps 
+B D                     Human  c
+B D                     Chimp  c
+B D                   Gorilla  c
+B D                    Rhesus  c
+B D       Crab-eating macaque  c
+B D                    Baboon  c
+                 Green monkey  c
+B D                  Marmoset  c
+B D           Squirrel monkey  c
+B D                  Bushbaby  c
+       Lesser Egyptian jerboa  c
+                 Prairie vole  c
+B D           Chinese hamster  c
+               Golden hamster  c
+B D                     Mouse  t
+B D                       Rat  c
+B D            Naked mole-rat  c
+B D                Guinea pig  c
+                   Chinchilla  c
+             Brush-tailed rat  c
+B D                      Pika  g
+B D                  Elephant  c
+          Cape elephant shrew  c
+B D                   Manatee  c
+             Cape golden mole  c
+B D                    Tenrec  c
+                     Aardvark  c
+B D                 Armadillo  c
+B D                   Wallaby  t
+B D                  Platypus  c
+B D             X. tropicalis  t
+                  Spotted gar  c
+      Yellowbelly pufferfish  =
+B D                   Lamprey  =
+          Chinese tree shrew  =
+B D                  Hedgehog  =
+               Big brown bat  =
+               Domestic goat  N
+B D                     Shrew  =
+B D                     Sheep  =
+B D                       Cow  =
+             Star-nosed mole  =
+B D           Tasmanian devil  =
+B D               Zebra finch  =
+B D                   Opossum  -
+  D    Spiny softshell turtle  =
+  D           Green seaturtle  =
+  D  Chinese softshell turtle  =
+B D            Painted turtle  =
+B D               Stickleback  =
+         Pundamilia nyererei  =
+                 Zebra mbuna  =
+       Burton's mouthbreeder  =
+         Princess of Burundi  =
+B D        American alligator  -
+B D                 Orangutan  -
+            Tibetan antelope  =
+B D                   Dolphin  =
+B D                    Gibbon  =
+                Killer whale  =
+B D                   Megabat  =
+        David's myotis (bat)  =
+                Weddell seal  =
+B D                     Panda  =
+B D                   Ferret   =
+              Pacific walrus  =
+            Black flying-fox  =
+B D                       Dog  =
+B D                       Cat  =
+              Bactrian camel  N
+B D                    Alpaca  =
+B D          White rhinoceros  =
+B D                     Horse  N
+B D                  Squirrel  N
+
+Alignment block 21 of 27 in window, 55865364 - 55865365, 2 bps 
+B D                     Human  ca
+B D                     Chimp  ca
+B D                   Gorilla  ca
+B D                    Rhesus  ca
+B D       Crab-eating macaque  ca
+B D                    Baboon  ca
+                 Green monkey  ca
+B D                  Marmoset  ca
+B D           Squirrel monkey  ca
+B D                  Bushbaby  ca
+       Lesser Egyptian jerboa  ca
+                 Prairie vole  ca
+B D           Chinese hamster  ca
+               Golden hamster  ca
+B D                     Mouse  ca
+B D                       Rat  cc
+B D            Naked mole-rat  ca
+B D                Guinea pig  gg
+                   Chinchilla  ca
+             Brush-tailed rat  ca
+B D                      Pika  ca
+B D                    Alpaca  ca
+B D                       Cow  cc
+B D          White rhinoceros  cc
+B D                       Cat  cc
+B D                   Ferret   cc
+               Pacific walrus  cc
+                 Weddell seal  cc
+B D                  Hedgehog  ca
+B D                     Shrew  ct
+B D                  Elephant  cc
+          Cape elephant shrew  ca
+B D                   Manatee  cc
+             Cape golden mole  ct
+B D                    Tenrec  ca
+                     Aardvark  cc
+B D                 Armadillo  gc
+B D                   Wallaby  ca
+B D                  Platypus  -c
+B D             X. tropicalis  ca
+                  Spotted gar  tg
+      Yellowbelly pufferfish  ==
+B D                   Lamprey  ==
+          Chinese tree shrew  ==
+               Big brown bat  ==
+               Domestic goat  NN
+B D                     Sheep  ==
+             Star-nosed mole  ==
+B D           Tasmanian devil  ==
+B D               Zebra finch  ==
+B D                   Opossum  --
+  D    Spiny softshell turtle  ==
+  D           Green seaturtle  ==
+  D  Chinese softshell turtle  ==
+B D            Painted turtle  ==
+B D               Stickleback  ==
+         Pundamilia nyererei  ==
+                 Zebra mbuna  ==
+       Burton's mouthbreeder  ==
+         Princess of Burundi  ==
+B D        American alligator  --
+B D                 Orangutan  --
+            Tibetan antelope  ==
+B D                   Dolphin  ==
+B D                    Gibbon  ==
+                Killer whale  ==
+B D                   Megabat  ==
+        David's myotis (bat)  ==
+B D                     Panda  ==
+            Black flying-fox  ==
+B D                       Dog  ==
+              Bactrian camel  NN
+B D                     Horse  NN
+B D                  Squirrel  NN
+
+Alignment block 22 of 27 in window, 55865366 - 55865369, 4 bps 
+B D                     Human  cg---------------cc
+B D                     Chimp  cg---------------cc
+B D                   Gorilla  cg---------------cc
+B D                    Rhesus  cg---------------cc
+B D       Crab-eating macaque  cg---------------cc
+B D                    Baboon  cg---------------cc
+                 Green monkey  cg---------------cc
+B D                  Marmoset  cg---------------cc
+B D           Squirrel monkey  cg---------------cc
+B D                  Bushbaby  cg---------------cc
+       Lesser Egyptian jerboa  cg---------------cc
+                 Prairie vole  cg---------------cc
+B D           Chinese hamster  cg---------------cc
+               Golden hamster  cg---------------cc
+B D                     Mouse  tg---------------cc
+B D                       Rat  tg---------------tc
+B D            Naked mole-rat  cg---------------cc
+B D                Guinea pig  cg---------------cc
+                   Chinchilla  cg---------------cc
+             Brush-tailed rat  cg---------------cc
+B D                      Pika  cg---------------cc
+B D                    Alpaca  cg---------------cc
+B D                       Cow  cg---------------cc
+B D          White rhinoceros  cgcgtggtcggtcccaccc
+B D                       Cat  cg---------------cc
+B D                   Ferret   cg---------------gc
+               Pacific walrus  cg---------------cc
+                 Weddell seal  cg---------------cc
+B D                  Hedgehog  cg---------------cc
+B D                     Shrew  cc---------------tc
+B D                  Elephant  cg----------------c
+          Cape elephant shrew  cg---------------cc
+B D                   Manatee  cg----------------c
+             Cape golden mole  cg---------------cc
+B D                    Tenrec  cg---------------cc
+                     Aardvark  cg---------------cc
+B D                 Armadillo  ca---------------cc
+B D                   Wallaby  ag---------------cc
+B D                  Platypus  cc---------------cc
+B D        American alligator  -----------------cc
+B D             X. tropicalis  cc---------------cc
+                  Spotted gar  gg---------------cc
+      Yellowbelly pufferfish  ===================
+B D                   Lamprey  ===================
+          Chinese tree shrew  ===================
+               Big brown bat  ===================
+               Domestic goat  NNNNNNNNNNNNNNNNNNN
+B D                     Sheep  ===================
+             Star-nosed mole  ===================
+B D           Tasmanian devil  ===================
+B D               Zebra finch  ===================
+B D                   Opossum  -------------------
+  D    Spiny softshell turtle  ===================
+  D           Green seaturtle  ===================
+  D  Chinese softshell turtle  ===================
+B D            Painted turtle  ===================
+B D               Stickleback  ===================
+         Pundamilia nyererei  ===================
+                 Zebra mbuna  ===================
+       Burton's mouthbreeder  ===================
+         Princess of Burundi  ===================
+B D                 Orangutan  -------------------
+            Tibetan antelope  ===================
+B D                   Dolphin  ===================
+B D                    Gibbon  ===================
+                Killer whale  ===================
+B D                   Megabat  ===================
+        David's myotis (bat)  ===================
+B D                     Panda  ===================
+            Black flying-fox  ===================
+B D                       Dog  ===================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNN
+B D                     Horse  NNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNN
+
+Inserts between block 22 and 23 in window
+B D                   Alpaca 7bp
+B D                      Cow 22bp
+B D         White rhinoceros 10bp
+B D                      Cat 1bp
+B D                  Ferret  10bp
+              Pacific walrus 10bp
+                Weddell seal 10bp
+B D                 Platypus 1bp
+B D       American alligator 12bp
+
+Alignment block 23 of 27 in window, 55865370 - 55865380, 11 bps 
+B D                     Human  c----------attccagg----------ac--------
+B D                     Chimp  c----------attccagg----------ac--------
+B D                   Gorilla  c----------actccagg----------ac--------
+B D                 Orangutan  ----------------aggnnnnnnnnnnac--------
+B D                    Rhesus  c----------attccagg----------ag--------
+B D       Crab-eating macaque  c----------attccagg----------ac--------
+B D                    Baboon  c----------attccagg----------ac--------
+                 Green monkey  c----------gttccagg----------ac--------
+B D                  Marmoset  c----------accccggg----------ac--------
+B D           Squirrel monkey  c----------acccaagg----------ac--------
+B D                  Bushbaby  c----------agaccgca----------ga--------
+       Lesser Egyptian jerboa  ca--------gcccccaac--------------------
+                 Prairie vole  c----------ctctagac--------------------
+B D           Chinese hamster  c----------ctctagac--------------------
+               Golden hamster  c----------ctctagac--------------------
+B D                     Mouse  c----------aggcaagaac------------------
+B D                       Rat  c----------agttaagaag------------------
+B D            Naked mole-rat  c----------gcttcaga----------ac--------
+B D                Guinea pig  c----------acttcaga----------ac--------
+                   Chinchilla  c----------accgcaga----------gc--------
+             Brush-tailed rat  c----------acc-caga----------aa--------
+B D                      Pika  c----------acgccagg----------ac--------
+B D                       Cat  ------------------------------a--------
+             Black flying-fox  ------------------------------c--------
+B D                   Megabat  ------------------------------c--------
+         David's myotis (bat)  ------------------------------c--------
+                Big brown bat  ------------------------------c--------
+B D                  Elephant  ------------------------------c--------
+          Cape elephant shrew  ------------------------------c--------
+B D                   Manatee  ------------------------------c--------
+             Cape golden mole  ------------------------------c--------
+B D                    Tenrec  ------------------------------c--------
+                     Aardvark  ------------------------------c--------
+B D                 Armadillo  ------------------------------c--------
+B D                  Platypus  -----------cctccaag----------cc--------
+B D               Zebra finch  c--------------------------------------
+B D        American alligator  c--------------------------------------
+B D             X. tropicalis  ----------cagtctg----------------------
+                  Spotted gar  -gaaggctggaggctcagg----------tctgcaggag
+      Yellowbelly pufferfish  =======================================
+B D                   Lamprey  =======================================
+          Chinese tree shrew  =======================================
+B D                   Wallaby  ---------------------------------------
+B D                  Hedgehog  ---------------------------------------
+               Domestic goat  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                     Shrew  ---------------------------------------
+B D                     Sheep  =======================================
+B D                       Cow  =======================================
+             Star-nosed mole  =======================================
+B D           Tasmanian devil  =======================================
+B D                   Opossum  ---------------------------------------
+  D    Spiny softshell turtle  =======================================
+  D           Green seaturtle  =======================================
+  D  Chinese softshell turtle  =======================================
+B D            Painted turtle  =======================================
+B D               Stickleback  =======================================
+         Pundamilia nyererei  =======================================
+                 Zebra mbuna  =======================================
+       Burton's mouthbreeder  =======================================
+         Princess of Burundi  =======================================
+            Tibetan antelope  =======================================
+B D                   Dolphin  =======================================
+B D                    Gibbon  =======================================
+                Killer whale  =======================================
+                Weddell seal  =======================================
+B D                     Panda  =======================================
+B D                   Ferret   =======================================
+              Pacific walrus  =======================================
+B D                       Dog  =======================================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                    Alpaca  =======================================
+B D          White rhinoceros  =======================================
+B D                     Horse  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+Inserts between block 23 and 24 in window
+      Lesser Egyptian jerboa 5bp
+                Prairie vole 15bp
+B D          Chinese hamster 899bp
+              Golden hamster 23bp
+B D                    Mouse 45bp
+B D                      Rat 40bp
+B D                      Cat 9bp
+            Black flying-fox 10bp
+B D                  Megabat 10bp
+        David's myotis (bat) 10bp
+               Big brown bat 10bp
+B D                 Elephant 13bp
+         Cape elephant shrew 1715bp
+B D                  Manatee 30bp
+            Cape golden mole 27bp
+B D                   Tenrec 26bp
+                    Aardvark 51bp
+B D                Armadillo 17bp
+B D                 Platypus 1bp
+
+Alignment block 24 of 27 in window, 55865381 - 55865382, 2 bps 
+B D                     Human  ag
+B D                     Chimp  ag
+B D                   Gorilla  ag
+B D                 Orangutan  ag
+B D                    Rhesus  ag
+B D       Crab-eating macaque  ag
+B D                    Baboon  ag
+                 Green monkey  ag
+B D                  Marmoset  ag
+B D           Squirrel monkey  ag
+B D                  Bushbaby  ag
+       Lesser Egyptian jerboa  ac
+B D                     Mouse  at
+B D                       Rat  at
+B D                  Platypus  aa
+B D               Zebra finch  ag
+B D        American alligator  ag
+                  Spotted gar  ag
+         Cape elephant shrew  ==
+              Golden hamster  ==
+                Prairie vole  ==
+      Yellowbelly pufferfish  ==
+B D                   Lamprey  ==
+B D           Chinese hamster  ==
+B D                      Pika  --
+            Cape golden mole  ==
+B D                    Tenrec  ==
+          Chinese tree shrew  ==
+B D                   Wallaby  --
+B D                  Hedgehog  --
+               Big brown bat  ==
+               Domestic goat  NN
+B D                     Shrew  --
+B D                     Sheep  ==
+B D                       Cow  ==
+             Star-nosed mole  ==
+B D                Guinea pig  --
+B D             X. tropicalis  --
+B D           Tasmanian devil  ==
+B D                   Opossum  --
+  D    Spiny softshell turtle  ==
+  D           Green seaturtle  ==
+  D  Chinese softshell turtle  ==
+B D            Painted turtle  ==
+B D               Stickleback  ==
+         Pundamilia nyererei  ==
+                 Zebra mbuna  ==
+       Burton's mouthbreeder  ==
+         Princess of Burundi  ==
+            Tibetan antelope  ==
+B D                   Dolphin  ==
+            Brush-tailed rat  --
+B D                    Gibbon  ==
+                Killer whale  ==
+B D            Naked mole-rat  --
+B D                   Megabat  ==
+        David's myotis (bat)  ==
+                Weddell seal  ==
+B D                     Panda  ==
+B D                   Ferret   ==
+              Pacific walrus  ==
+                  Chinchilla  --
+            Black flying-fox  ==
+B D                       Dog  ==
+B D                       Cat  ==
+              Bactrian camel  NN
+B D                    Alpaca  ==
+B D                 Armadillo  ==
+                    Aardvark  ==
+B D                   Manatee  ==
+B D                  Elephant  ==
+B D          White rhinoceros  ==
+B D                     Horse  NN
+B D                  Squirrel  NN
+
+Inserts between block 24 and 25 in window
+B D              Zebra finch 1bp
+B D       American alligator 1bp
+
+Alignment block 25 of 27 in window, 55865383 - 55865384, 2 bps 
+B D                     Human  -ga
+B D                     Chimp  -ga
+B D                   Gorilla  -ga
+B D                 Orangutan  -ga
+B D                    Rhesus  -ga
+B D       Crab-eating macaque  -ga
+B D                    Baboon  -ga
+                 Green monkey  -gc
+B D                  Marmoset  -ga
+B D           Squirrel monkey  -gc
+B D                  Bushbaby  -ga
+       Lesser Egyptian jerboa  -gc
+               Golden hamster  -gc
+B D                     Mouse  -gc
+B D                       Rat  -gc
+B D                  Elephant  -gg
+          Cape elephant shrew  -gg
+B D                   Manatee  -gc
+             Cape golden mole  -gc
+B D                    Tenrec  -gc
+                     Aardvark  -gc
+B D                 Armadillo  -gg
+B D               Zebra finch  -a-
+B D        American alligator  -g-
+                  Spotted gar  gg-
+                Prairie vole  ===
+      Yellowbelly pufferfish  ===
+B D                   Lamprey  ===
+B D           Chinese hamster  ===
+B D                      Pika  ---
+          Chinese tree shrew  ===
+B D                   Wallaby  ---
+B D                  Hedgehog  ---
+               Big brown bat  ===
+               Domestic goat  NNN
+B D                     Shrew  ---
+B D                     Sheep  ===
+B D                       Cow  ===
+             Star-nosed mole  ===
+B D                Guinea pig  ---
+B D                  Platypus  ---
+B D             X. tropicalis  ---
+B D           Tasmanian devil  ===
+B D                   Opossum  ---
+  D    Spiny softshell turtle  ===
+  D           Green seaturtle  ===
+  D  Chinese softshell turtle  ===
+B D            Painted turtle  ===
+B D               Stickleback  ===
+         Pundamilia nyererei  ===
+                 Zebra mbuna  ===
+       Burton's mouthbreeder  ===
+         Princess of Burundi  ===
+            Tibetan antelope  ===
+B D                   Dolphin  ===
+            Brush-tailed rat  ---
+B D                    Gibbon  ===
+                Killer whale  ===
+B D            Naked mole-rat  ---
+B D                   Megabat  ===
+        David's myotis (bat)  ===
+                Weddell seal  ===
+B D                     Panda  ===
+B D                   Ferret   ===
+              Pacific walrus  ===
+                  Chinchilla  ---
+            Black flying-fox  ===
+B D                       Dog  ===
+B D                       Cat  ===
+              Bactrian camel  NNN
+B D                    Alpaca  ===
+B D          White rhinoceros  ===
+B D                     Horse  NNN
+B D                  Squirrel  NNN
+
+Inserts between block 25 and 26 in window
+B D              Zebra finch 5bp
+
+Alignment block 26 of 27 in window, 55865385 - 55865391, 7 bps 
+B D                     Human  cc--c------------------------------------gc-----cc
+B D                     Chimp  cc--c------------------------------------gc-----cc
+B D                   Gorilla  cc--c------------------------------------gc-----cc
+B D                 Orangutan  ac--c------------------------------------gc-----cc
+B D                    Rhesus  gc--c------------------------------------gc-----cc
+B D       Crab-eating macaque  tc--c------------------------------------gc-----cc
+B D                    Baboon  tc--c------------------------------------gc-----cc
+                 Green monkey  cc--c------------------------------------gc-----cc
+B D                  Marmoset  cc--c------------------------------------tc-----tc
+B D           Squirrel monkey  cc--c------------------------------------tc-----cc
+B D                  Bushbaby  cc--c------------------------------------tc-----c-
+       Lesser Egyptian jerboa  cctgt------------------------------------gc-----cc
+                 Prairie vole  -----------------------------------------cc-----ca
+B D           Chinese hamster  -----------------------------------------gc-----cc
+               Golden hamster  cc--g------------------------------------gc-----cc
+B D                     Mouse  cc--a------------------------------------gc-----cc
+B D                       Rat  cc--a------------------------------------gc-----cc
+B D            Naked mole-rat  ---ag------------------------------------gc-----cc
+B D                Guinea pig  ---ag------------------------------------gc-----cc
+                   Chinchilla  ---ag------------------------------------gc-----ct
+             Brush-tailed rat  ---ag------------------------------------gc-----tc
+B D                      Pika  ----g------------------------------------gc-----ca
+B D                    Alpaca  ----t------------------------------------cc-----c-
+B D                   Dolphin  ------------------------------------------------c-
+                 Killer whale  ------------------------------------------------c-
+B D                       Cow  ----c------------------------------------gc-----c-
+B D          White rhinoceros  ----t------------------------------------gg-----cc
+B D                       Cat  ----a------------------------------------gg-----cc
+B D                   Ferret   ----t------------------------------------gg-----cc
+               Pacific walrus  ----t------------------------------------ag-----ca
+                 Weddell seal  ----t------------------------------------ag-----ca
+             Black flying-fox  ----c------------------------------------gc-----cc
+B D                   Megabat  ----c------------------------------------gc-----cc
+         David's myotis (bat)  ----a------------------------------------gggcc--cc
+                Big brown bat  ----a------------------------------------gg-----cc
+B D                  Elephant  cc--c------------------------------------gc-----c-
+          Cape elephant shrew  cc--a------------------------------------gc-----ct
+B D                   Manatee  cc--c------------------------------------gc-----cc
+             Cape golden mole  cc--ctccggatctcgccacacccccattcccttcatccaggc-----cc
+B D                    Tenrec  cc--c------------------------------------gc-----cc
+                     Aardvark  cc--c------------------------------------gc-----cc
+B D                 Armadillo  tc--c------------------------------------gt-----cc
+B D                  Platypus  -------------------------------------cactgc-----tc
+  D       Collared flycatcher  --------------------------------------------cccccc
+B D               Zebra finch  --------------------------------------------cctgcc
+B D        American alligator  ------------------------------------------------cc
+B D             X. tropicalis  -----------------------------------------gc-----ct
+                  Spotted gar  ----------------------------------------cac-----cc
+      Yellowbelly pufferfish  ==================================================
+B D                   Lamprey  ==================================================
+          Chinese tree shrew  ==================================================
+B D                   Wallaby  --------------------------------------------------
+B D                  Hedgehog  --------------------------------------------------
+               Domestic goat  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                     Shrew  --------------------------------------------------
+B D                     Sheep  ==================================================
+             Star-nosed mole  ==================================================
+B D           Tasmanian devil  ==================================================
+B D                   Opossum  --------------------------------------------------
+  D    Spiny softshell turtle  ==================================================
+  D           Green seaturtle  ==================================================
+  D  Chinese softshell turtle  ==================================================
+B D            Painted turtle  ==================================================
+B D               Stickleback  ==================================================
+         Pundamilia nyererei  ==================================================
+                 Zebra mbuna  ==================================================
+       Burton's mouthbreeder  ==================================================
+         Princess of Burundi  ==================================================
+            Tibetan antelope  ==================================================
+B D                    Gibbon  ==================================================
+B D                     Panda  ==================================================
+B D                       Dog  ==================================================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                     Horse  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+Inserts between block 26 and 27 in window
+B D                   Alpaca 55bp
+B D                  Dolphin 22bp
+                Killer whale 22bp
+B D                      Cow 48bp
+B D         White rhinoceros 6bp
+B D                      Cat 6bp
+B D                  Ferret  6bp
+              Pacific walrus 6bp
+                Weddell seal 6bp
+            Black flying-fox 4bp
+B D                  Megabat 4bp
+        David's myotis (bat) 4bp
+               Big brown bat 4bp
+B D                 Elephant 1bp
+         Cape elephant shrew 5bp
+B D                  Manatee 6bp
+            Cape golden mole 12bp
+B D                   Tenrec 14bp
+                    Aardvark 2bp
+B D                Armadillo 17bp
+B D                 Platypus 1bp
+  D      Collared flycatcher 1bp
+B D              Zebra finch 1bp
+B D       American alligator 1bp
+
+Alignment block 27 of 27 in window, 55865392 - 55865410, 19 bps 
+B D                     Human  ctcca----ctg---------------------------------------------ctcgggccctc
+B D                     Chimp  ctcca----ctg---------------------------------------------ctcggtccctc
+B D                   Gorilla  ctcca----ctg---------------------------------------------ctcggtccctc
+B D                 Orangutan  ct------------------------------------------------------------------
+B D       Crab-eating macaque  ttcca----cta---------------------------------------------ctcggtccctc
+B D                    Baboon  ttcca----cta---------------------------------------------ctgggtccctc
+                 Green monkey  ttcca----cta---------------------------------------------ctcggtccctc
+B D                  Marmoset  ctccg----cta---------------------------------------------ctcgc-ccctc
+B D           Squirrel monkey  ctcca----cgg---------------------------------------------cttgctccctc
+B D                  Bushbaby  ---------------------------------------------------------------cacca
+       Lesser Egyptian jerboa  tc---------------------------------------------------------gggtcccac
+                 Prairie vole  ttcta----gga---------------------------------------------ctcagtcttac
+B D           Chinese hamster  ctccg----cgg---------------------------------------------ttctgccccac
+               Golden hamster  ttcca----gga---------------------------------------------ctcagtcttat
+B D                     Mouse  ttcct----gga-----------------------------------------------cagtctcac
+B D                       Rat  ttcca----aga-----------------------------------------------cagtctcac
+B D            Naked mole-rat  ctcct-ctgggc---------------------------------------------cttggctccgc
+B D                Guinea pig  cgccctcagggg---------------------------------------------cttggccccgc
+                   Chinchilla  tcccc----ggg---------------------------------------------cctggccccac
+             Brush-tailed rat  cacct----g----------------------------------------------------------
+B D                      Pika  tgccccccagac---------------------------------------------aacagccccgc
+B D          White rhinoceros  ---------ctccggg-----------------------------------------ccaggccccgc
+B D                       Cat  ---------ctccacggtcggtccaccccctccaggccatgcccagcccctccaggactcggtcccgc
+B D                   Ferret   ---------------------------------------------------------ctcac-cccgc
+               Pacific walrus  ---------------------------------------------------------cttgctccctc
+                 Weddell seal  ---------------------------------------------------------cttgctcccgc
+             Black flying-fox  ---------------------------------------------------------caggctcggac
+B D                   Megabat  ---------------------------------------------------------caggctcggac
+         David's myotis (bat)  ---------------------------------------------------------tccattcctac
+                Big brown bat  ---------------------------------------------------------cccctccctgc
+B D                  Hedgehog  -------------------------------------------ca-----------tcaaccctccac
+B D                     Shrew  -------------------------------------------cacctggaccaagtctggcctccac
+B D                  Elephant  ccact----------------------------------------------------ctaggccccgc
+          Cape elephant shrew  cttct----------------------------------------------------catccccccac
+B D                   Manatee  ctcct----------------------------------------------------ccactccacat
+             Cape golden mole  acacc----------------------------------------------------ccaggctccac
+B D                    Tenrec  gtccc----------------------------------------------------attagctttgc
+                     Aardvark  ctctc----------------------------------------------------tcaggccccgc
+B D                 Armadillo  gccgc----------------------------------------------------ccggccccggc
+B D                   Wallaby  ------------------------------------------------------------ggcactcc
+B D                  Platypus  -----------------------------------------------ccccgcaacacccagcccagc
+  D       Collared flycatcher  ------------------------------------------------cccccccccccccccccccc
+B D               Zebra finch  ------------------------------------------------ccaaacccctcggggcctcc
+B D        American alligator  ------------------------------------------------cttccagcactgaggcccgc
+B D             X. tropicalis  -------------------------------------------------gtcctacactcactcaccc
+                  Spotted gar  ---------------------------------------------tgcctttcctcacgtctccctcc
+      Yellowbelly pufferfish  ====================================================================
+B D                   Lamprey  ====================================================================
+          Chinese tree shrew  ====================================================================
+               Domestic goat  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                     Sheep  ====================================================================
+B D                       Cow  ====================================================================
+             Star-nosed mole  ====================================================================
+B D           Tasmanian devil  ====================================================================
+B D                   Opossum  --------------------------------------------------------------------
+  D    Spiny softshell turtle  ====================================================================
+  D           Green seaturtle  ====================================================================
+  D  Chinese softshell turtle  ====================================================================
+B D            Painted turtle  ====================================================================
+B D               Stickleback  ====================================================================
+         Pundamilia nyererei  ====================================================================
+                 Zebra mbuna  ====================================================================
+       Burton's mouthbreeder  ====================================================================
+         Princess of Burundi  ====================================================================
+            Tibetan antelope  ====================================================================
+B D                   Dolphin  ====================================================================
+B D                    Gibbon  ====================================================================
+                Killer whale  ====================================================================
+B D                     Panda  ====================================================================
+B D                       Dog  ====================================================================
+              Bactrian camel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                    Alpaca  ====================================================================
+B D                     Horse  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                  Squirrel  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+B D                    Rhesus  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+View table schema
+
+Go to Conservation track controls
+Data last updated at UCSC: 2014-02-07
+
+Downloads for data in this track are available:
+
+    Multiz alignments (MAF format), and phylogenetic trees
+    PhyloP conservation (WIG format)
+    PhastCons conservation (WIG format) 
+
+Description
+
+This track shows multiple alignments of 100 vertebrate species and measurements of evolutionary conservation using two methods (phastCons and phyloP) from the PHAST package, for all species. The multiple alignments were generated using multiz and other tools in the UCSC/Penn State Bioinformatics comparative genomics alignment pipeline. Conserved elements identified by phastCons are also displayed in this track. PHAST/Multiz are built from chains ("alignable") and nets ("syntenic"), see the documentation of the Chain/Net tracks for a description of the complete alignment process.
+
+PhastCons is a hidden Markov model-based method that estimates the probability that each nucleotide belongs to a conserved element, based on the multiple alignment. It considers not just each individual alignment column, but also its flanking columns. By contrast, phyloP separately measures conservation at individual columns, ignoring the effects of their neighbors. As a consequence, the phyloP plots have a less smooth appearance than the phastCons plots, with more "texture" at individual sites. The two methods have different strengths and weaknesses. PhastCons is sensitive to "runs" of conserved sites, and is therefore effective for picking out conserved elements. PhyloP, on the other hand, is more appropriate for evaluating signatures of selection at particular nucleotides or classes of nucleotides (e.g., third codon positions, or first positions of miRNA target sites).
+
+Another important difference is that phyloP can measure acceleration (faster evolution than expected under neutral drift) as well as conservation (slower than expected evolution). In the phyloP plots, sites predicted to be conserved are assigned positive scores (and shown in blue), while sites predicted to be fast-evolving are assigned negative scores (and shown in red). The absolute values of the scores represent -log p-values under a null hypothesis of neutral evolution. The phastCons scores, by contrast, represent probabilities of negative selection and range between 0 and 1.
+
+Both phastCons and phyloP treat alignment gaps and unaligned nucleotides as missing data, and both were run with the same parameters.
+
+UCSC has repeatmasked and aligned all genome assemblies, and provides all the sequences for download. For genome assemblies not available in the genome browser, there are alternative assembly hub genome browsers. Missing sequence in any assembly is highlighted in the track display by regions of yellow when zoomed out and by Ns when displayed at base level (see Gap Annotation, below).
+
+    Primate subset
+    Organism	Species	Release date	UCSC version	Alignment type
+    Baboon	Papio hamadryas	Nov 2008	Baylor Pham_1.0/papHam1	Reciprocal best net
+    Bushbaby	Otolemur garnettii	Mar 2011	Broad/otoGar3	Syntenic net
+    Chimp	Pan troglodytes	Feb 2011	CSAC 2.1.4/panTro4	Syntenic net
+    Crab-eating macaque	Macaca fascicularis	Jun 2013	Macaca_fascicularis_5.0/macFas5	Syntenic net
+    Gibbon	Nomascus leucogenys	Oct 2012	GGSC Nleu3.0/nomLeu3	Syntenic net
+    Gorilla	Gorilla gorilla gorilla	May 2011	gorGor3.1/gorGor3	Reciprocal best net
+    Green monkey	Chlorocebus sabaeus	Jun 2013	Chlorocebus_sabeus 1.0/chlSab1	Syntenic net
+    Human	Homo sapiens	Feb 2009	GRCh37/hg19	reference species
+    Marmoset	Callithrix jacchus	Mar 2009	WUGSC 3.2/calJac3	Syntenic net
+    Orangutan	Pongo pygmaeus abelii	July 2007	WUGSC 2.0.2/ponAbe2	Reciprocal best net
+    Rhesus	Macaca mulatta	Oct 2010	BGI CR_1.0/rheMac3	Syntenic net
+    Squirrel monkey	Saimiri boliviensis	Oct 2011	Broad/saiBol1	Syntenic net
+    Euarchontoglires subset
+    Brush-tailed rat	Octodon degus	Apr 2012	OctDeg1.0/octDeg1	Syntenic net
+    Chinchilla	Chinchilla lanigera	May 2012 	ChiLan1.0/chiLan1	Syntenic net
+    Chinese hamster	Cricetulus griseus	Jul 2013	C_griseus_v1.0/criGri1	Syntenic net
+    Chinese tree shrew	Tupaia chinensis	Jan 2013	TupChi_1.0/tupChi1	Syntenic net
+    Golden hamster	Mesocricetus auratus	Mar 2013	MesAur1.0/mesAur1	Syntenic net
+    Guinea pig	Cavia porcellus	Feb 2008	Broad/cavPor3	Syntenic net
+    Lesser Egyptian jerboa	Jaculus jaculus	May 2012	JacJac1.0/jacJac1	Syntenic net
+    Mouse	Mus musculus	Dec 2011	GRCm38/mm10	Syntenic net
+    Naked mole-rat	Heterocephalus glaber	Jan 2012	Broad HetGla_female_1.0/hetGla2	Syntenic net
+    Pika	Ochotona princeps	May 2012	OchPri3.0/ochPri3	Syntenic net
+    Prairie vole	Microtus ochrogaster	Oct 2012	MicOch1.0/micOch1	Syntenic net
+    Rabbit	Oryctolagus cuniculus	Apr 2009	Broad/oryCun2	Syntenic net
+    Rat	Rattus norvegicus	Mar 2012	RGSC 5.0/rn5	Syntenic net
+    Squirrel	Spermophilus tridecemlineatus	Nov 2011	Broad/speTri2	Syntenic net
+    Laurasiatheria subset
+    Alpaca	Vicugna pacos	Mar 2013	Vicugna_pacos-2.0.1/vicPac2	Syntenic net
+    Bactrian camel	Camelus ferus	Dec 2011	CB1/camFer1	Syntenic net
+    Big brown bat	Eptesicus fuscus	Jul 2012	EptFus1.0/eptFus1	Syntenic net
+    Black flying-fox	Pteropus alecto	Aug 2012	ASM32557v1/pteAle1	Syntenic net
+    Cat	Felis catus	Sep 2011	ICGSC Felis_catus 6.2/felCat5	Syntenic net
+    Cow	Bos taurus	Oct 2011	Baylor Btau_4.6.1/bosTau7	Syntenic net
+    David's myotis bat	Myotis davidii	Aug 2012	ASM32734v1/myoDav1	Syntenic net
+    Dog	Canis lupus familiaris	Sep 2011	Broad CanFam3.1/canFam3	Syntenic net
+    Dolphin	Tursiops truncatus	Oct 2011	Baylor Ttru_1.4/turTru2	Reciprocal best net
+    Domestic goat	Capra hircus	May 2012	CHIR_1.0/capHir1	Syntenic net
+    Ferret 	Mustela putorius furo	Apr 2011	MusPutFur1.0/musFur1	Syntenic net
+    Hedgehog	Erinaceus europaeus	May 2012	EriEur2.0/eriEur2	Syntenic net
+    Horse	Equus caballus	Sep 2007	Broad/equCab2	Syntenic net
+    Killer whale	Orcinus orca	Jan 2013	Oorc_1.1/orcOrc1	Syntenic net
+    Megabat	Pteropus vampyrus	Jul 2008	Broad/pteVam1	Reciprocal best net
+    Microbat	Myotis lucifugus	Jul 2010	Broad Institute Myoluc2.0/myoLuc2	Syntenic net
+    Pacific walrus	Odobenus rosmarus divergens	Jan 2013	Oros_1.0/odoRosDiv1	Syntenic net
+    Panda	Ailuropoda melanoleuca	Dec 2009	BGI-Shenzhen 1.0/ailMel1	Syntenic net
+    Pig	Sus scrofa	Aug 2011	SGSC Sscrofa10.2/susScr3	Syntenic net
+    Sheep	Ovis aries	Aug 2012	ISGC Oar_v3.1/oviAri3	Syntenic net
+    Shrew	Sorex araneus	Aug 2008	Broad/sorAra2	Syntenic net
+    Star-nosed mole	Condylura cristata	Mar 2012	ConCri1.0/conCri1	Syntenic net
+    Tibetan antelope	Pantholops hodgsonii	May 2013	PHO1.0/panHod1	Syntenic net
+    Weddell seal	Leptonychotes weddellii	Mar 2013	LepWed1.0/lepWed1	Reciprocal best net
+    White rhinoceros	Ceratotherium simum	May 2012	CerSimSim1.0/cerSim1	Syntenic net
+    Afrotheria subset
+    Aardvark	Orycteropus afer afer	May 2012	OryAfe1.0/oryAfe1	Syntenic net
+    Cape elephant shrew	Elephantulus edwardii	Aug 2012	EleEdw1.0/eleEdw1	Syntenic net
+    Cape golden mole	Chrysochloris asiatica	Aug 2012	ChrAsi1.0/chrAsi1	Syntenic net
+    Elephant	Loxodonta africana	Jul 2009	Broad/loxAfr3	Syntenic net
+    Manatee	Trichechus manatus latirostris	Oct 2011	Broad v1.0/triMan1	Syntenic net
+    Tenrec	Echinops telfairi	Nov 2012	Broad/echTel2	Syntenic net
+    Mammal subset
+    Armadillo	Dasypus novemcinctus	Dec 2011	Baylor/dasNov3	Syntenic net
+    Opossum	Monodelphis domestica	Oct 2006	Broad/monDom5	Net
+    Platypus	Ornithorhynchus anatinus	Mar 2007	WUGSC 5.0.1/ornAna1	Reciprocal best net
+    Tasmanian devil	Sarcophilus harrisii	Feb 2011	WTSI Devil_ref v7.0/sarHar1	Net
+    Wallaby	Macropus eugenii	Sep 2009	TWGS Meug_1.1/macEug2	Reciprocal best net
+    Aves subset
+    Budgerigar	Melopsittacus undulatus	Sep 2011	WUSTL v6.3/melUnd1	Net
+    Chicken	Gallus gallus	Nov 2011	ICGSC Gallus_gallus-4.0/galGal4	Net
+    Collared flycatcher	Ficedula albicollis	Jun 2013	FicAlb1.5/ficAlb2	Net
+    Mallard duck	Anas platyrhynchos	Apr 2013	BGI_duck_1.0/anaPla1	Net
+    Medium ground finch	Geospiza fortis	Apr 2012	GeoFor_1.0/geoFor1	Net
+    Parrot	Amazona vittata	Jan 2013	AV1/amaVit1	Net
+    Peregrine falcon	Falco peregrinus	Feb 2013	F_peregrinus_v1.0/falPer1	Net
+    Rock pigeon	Columba livia	Feb 2013	Cliv_1.0/colLiv1	Net
+    Saker falcon	Falco cherrug	Feb 2013	F_cherrug_v1.0/falChe1	Net
+    Scarlet macaw	Ara macao	Jun 2013	SMACv1.1/araMac1	Net
+    Tibetan ground jay	Pseudopodoces humilis	Jan 2013	PseHum1.0/pseHum1	Net
+    Turkey	Meleagris gallopavo	Dec 2009	TGC Turkey_2.01/melGal1	Net
+    White-throated sparrow	Zonotrichia albicollis	Apr 2013	ASM38545v1/zonAlb1	Net
+    Zebra finch	Taeniopygia guttata	Feb 2013	WashU taeGut324/taeGut2	Net
+    Sarcopterygii subset
+    American alligator	Alligator mississippiensis	Aug 2012	allMis0.2/allMis1	Net
+    Chinese softshell turtle	Pelodiscus sinensis	Oct 2011	PelSin_1.0/pelSin1	Net
+    Coelacanth	Latimeria chalumnae	Aug 2011	Broad/latCha1	Net
+    Green seaturtle	Chelonia mydas	Mar 2013	CheMyd_1.0/cheMyd1	Net
+    Lizard	Anolis carolinensis	May 2010	Broad AnoCar2.0/anoCar2	Net
+    Painted turtle	Chrysemys picta bellii	Dec 2011	v3.0.1/chrPic1	Net
+    Spiny softshell turtle	Apalone spinifera	May 2013	ASM38561v1/apaSpi1	Net
+    X. tropicalis	Xenopus tropicalis	Sep 2012	JGI 7.0/xenTro7	Net
+    Fish subset
+    Atlantic cod	Gadus morhua	May 2010	Genofisk GadMor_May2010/gadMor1	Net
+    Burton's mouthbreeder	Haplochromis burtoni	Oct 2011	AstBur1.0/hapBur1	Net
+    Fugu	Takifugu rubripes	Oct 2011	FUGU5/fr3	Net
+    Lamprey	Petromyzon marinus	Sep 2010	WUGSC 7.0/petMar2	Net
+    Medaka	Oryzias latipes	Oct 2005	NIG/UT MEDAKA1/oryLat2	Net
+    Mexican tetra (cavefish)	Astyanax mexicanus	Apr 2013	Astyanax_mexicanus-1.0.2/astMex1	Net
+    Nile tilapia	Oreochromis niloticus	Jan 2011	Broad oreNil1.1/oreNil2	Net
+    Princess of Burundi	Neolamprologus brichardi	May 2011	NeoBri1.0/neoBri1	Net
+    Pundamilia nyererei	Pundamilia nyererei	Oct 2011	PunNye1.0/punNye1	Net
+    Southern platyfish	Xiphophorus maculatus	Jan 2012	Xiphophorus_maculatus-4.4.2/xipMac1	Net
+    Spotted gar	Lepisosteus oculatus	Dec 2011	LepOcu1/lepOcu1	Net
+    Stickleback	Gasterosteus aculeatus	Feb 2006	Broad/gasAcu1	Net
+    Tetraodon	Tetraodon nigroviridis	Mar 2007	Genoscope 8.0/tetNig2	Net
+    Yellowbelly pufferfish	Takifugu flavidus	May 2013	version 1 of Takifugu flavidus genome/takFla1	Net
+    Zebra mbuna	Maylandia zebra	Mar 2012	MetZeb1.1/mayZeb1	Net
+    Zebrafish	Danio rerio	Jul 2010	Zv9/danRer7	Net
+
+    Table 1. Genome assemblies included in the 100-way Conservation track.
+
+Display Conventions and Configuration
+
+In full and pack display modes, conservation scores are displayed as a wiggle track (histogram) in which the height reflects the size of the score. The conservation wiggles can be configured in a variety of ways to highlight different aspects of the displayed information. Click the Graph configuration help link for an explanation of the configuration options.
+
+Pairwise alignments of each species to the human genome are displayed below the conservation histogram as a grayscale density plot (in pack mode) or as a wiggle (in full mode) that indicates alignment quality. In dense display mode, conservation is shown in grayscale using darker values to indicate higher levels of overall conservation as scored by phastCons.
+
+Checkboxes on the track configuration page allow selection of the species to include in the pairwise display. Note that excluding species from the pairwise display does not alter the the conservation score display.
+
+To view detailed information about the alignments at a specific position, zoom the display in to 30,000 or fewer bases, then click on the alignment.
+Gap Annotation
+
+The Display chains between alignments configuration option enables display of gaps between alignment blocks in the pairwise alignments in a manner similar to the Chain track display. The following conventions are used:
+
+    Single line: No bases in the aligned species. Possibly due to a lineage-specific insertion between the aligned blocks in the human genome or a lineage-specific deletion between the aligned blocks in the aligning species.
+    Double line: Aligning species has one or more unalignable bases in the gap region. Possibly due to excessive evolutionary distance between species or independent indels in the region between the aligned blocks in both species.
+    Pale yellow coloring: Aligning species has Ns in the gap region. Reflects uncertainty in the relationship between the DNA of both species, due to lack of sequence in relevant portions of the aligning species. 
+
+Genomic Breaks
+
+Discontinuities in the genomic context (chromosome, scaffold or region) of the aligned DNA in the aligning species are shown as follows:
+
+    Vertical blue bar: Represents a discontinuity that persists indefinitely on either side, e.g. a large region of DNA on either side of the bar comes from a different chromosome in the aligned species due to a large scale rearrangement.
+    Green square brackets: Enclose shorter alignments consisting of DNA from one genomic context in the aligned species nested inside a larger chain of alignments from a different genomic context. The alignment within the brackets may represent a short misalignment, a lineage-specific insertion of a transposon in the human genome that aligns to a paralogous copy somewhere else in the aligned species, or other similar occurrence. 
+
+Base Level
+
+When zoomed-in to the base-level display, the track shows the base composition of each alignment. The numbers and symbols on the Gaps line indicate the lengths of gaps in the human sequence at those alignment positions relative to the longest non-human sequence. If there is sufficient space in the display, the size of the gap is shown. If the space is insufficient and the gap size is a multiple of 3, a "*" is displayed; other gap sizes are indicated by "+".
+
+Codon translation is available in base-level display mode if the displayed region is identified as a coding segment. To display this annotation, select the species for translation from the pull-down menu in the Codon Translation configuration section at the top of the page. Then, select one of the following modes:
+
+    No codon translation: The gene annotation is not used; the bases are displayed without translation.
+    Use default species reading frames for translation: The annotations from the genome displayed in the Default species to establish reading frame pull-down menu are used to translate all the aligned species present in the alignment.
+    Use reading frames for species if available, otherwise no translation: Codon translation is performed only for those species where the region is annotated as protein coding.
+    Use reading frames for species if available, otherwise use default species: Codon translation is done on those species that are annotated as being protein coding over the aligned region using species-specific annotation; the remaining species are translated using the default species annotation. 
+
+Codon translation uses the following gene tracks as the basis for translation:
+
+    Gene Track	Species
+    UCSC Genes	Human, Mouse
+    RefSeq Genes	Cow, Frog (X. tropicalis)
+    Ensembl Genes v73	Atlantic cod, Bushbaby, Cat, Chicken, Chimp, Coelacanth, Dog, Elephant, Ferret, Fugu, Gorilla, Horse, Lamprey, Lizard, Mallard duck, Marmoset, Medaka, Megabat, Microbat, Orangutan, Panda, Pig, Platypus, Rat, Soft-shell Turtle, Southern platyfish, Squirrel, Tasmanian devil, Tetraodon, Zebrafish
+    no annotation	Aardvark, Alpaca, American alligator, Armadillo, Baboon, Bactrian camel, Big brown bat, Black flying-fox, Brush-tailed rat, Budgerigar, Burton's mouthbreeder, Cape elephant shrew, Cape golden mole, Chinchilla, Chinese hamster, Chinese tree shrew, Collared flycatcher, Crab-eating macaque, David's myotis (bat), Dolphin, Domestic goat, Gibbon, Golden hamster, Green monkey, Green seaturtle, Hedgehog, Killer whale, Lesser Egyptian jerboa, Manatee, Medium ground finch, Mexican tetra (cavefish), Naked mole-rat, Nile tilapia, Pacific walrus, Painted turtle, Parrot, Peregrine falcon, Pika, Prairie vole, Princess of Burundi, Pundamilia nyererei, Rhesus, Rock pigeon, Saker falcon, Scarlet Macaw, Sheep, Shrew, Spiny softshell turtle, Spotted gar, Squirrel monkey, Star-nosed mole, Tawny puffer fish, Tenrec, Tibetan antelope, Tibetan ground jay, Wallaby, Weddell seal, White rhinoceros, White-throated sparrow, Zebra Mbuna, Zebra finch
+    Table 2. Gene tracks used for codon translation. 
+
+Methods
+
+Pairwise alignments with the human genome were generated for each species using lastz from repeat-masked genomic sequence. Lineage-specific repeats were removed prior to alignment, then reinserted. Pairwise alignments were then linked into chains using a dynamic programming algorithm that finds maximally scoring chains of gapless subsections of the alignments organized in a kd-tree. The scoring matrix and parameters for pairwise alignment and chaining were tuned for each species based on phylogenetic distance from the reference. High-scoring chains were then placed along the genome, with gaps filled by lower-scoring chains, to produce an alignment net. For more information about the chaining and netting process and parameters for each species, see the description pages for the Chain and Net tracks.
+
+An additional filtering step was introduced in the generation of the 60-way conservation track to reduce the number of paralogs and pseudogenes from the high-quality assemblies and the suspect alignments from the low-quality assemblies: the pairwise alignments of high-quality mammalian sequences (placental and marsupial) were filtered based on synteny; those for 2X mammalian genomes were filtered to retain only alignments of best quality in both the target and query ("reciprocal best").
+
+The resulting best-in-genome pairwise alignments were progressively aligned using multiz/autoMZ, following the tree topology diagrammed above, to produce multiple alignments. The multiple alignments were post-processed to add annotations indicating alignment gaps, genomic breaks, and base quality of the component sequences. The annotated multiple alignments, in MAF format, are available for bulk download. An alignment summary table containing an entry for each alignment block in each species was generated to improve track display performance at large scales. Framing tables were constructed to enable visualization of codons in the multiple alignment display.
+Phylogenetic Tree Model
+
+Both phastCons and phyloP are phylogenetic methods that rely on a tree model containing the tree topology, branch lengths representing evolutionary distance at neutrally evolving sites, the background distribution of nucleotides, and a substitution rate matrix. The all-species tree model for this track was generated using the phyloFit program from the PHAST package (REV model, EM algorithm, medium precision) using multiple alignments of 4-fold degenerate sites extracted from the 60-way alignment (msa_view). The 4d sites were derived from the RefSeq (Reviewed+Coding) gene set, filtered to select single-coverage long transcripts.
+
+This same tree model was used in the phyloP calculations; however, the background frequencies were modified to maintain reversibility. The resulting tree model: all species.
+PhastCons Conservation
+
+The phastCons program computes conservation scores based on a phylo-HMM, a type of probabilistic model that describes both the process of DNA substitution at each site in a genome and the way this process changes from one site to the next (Felsenstein and Churchill 1996, Yang 1995, Siepel and Haussler 2005). PhastCons uses a two-state phylo-HMM, with a state for conserved regions and a state for non-conserved regions. The value plotted at each site is the posterior probability that the corresponding alignment column was "generated" by the conserved state of the phylo-HMM. These scores reflect the phylogeny (including branch lengths) of the species in question, a continuous-time Markov model of the nucleotide substitution process, and a tendency for conservation levels to be autocorrelated along the genome (i.e., to be similar at adjacent sites). The general reversible (REV) substitution model was used. Unlike many conservation-scoring programs, phastCons does not rely on a sliding window of fixed size; therefore, short highly-conserved regions and long moderately conserved regions can both obtain high scores. More information about phastCons can be found in Siepel et al. 2005.
+
+The phastCons parameters used were: expected-length=45, target-coverage=0.3, rho=0.3.
+PhyloP Conservation
+
+The phyloP program supports several different methods for computing p-values of conservation or acceleration, for individual nucleotides or larger elements ( http://compgen.cshl.edu/phast/). Here it was used to produce separate scores at each base (--wig-scores option), considering all branches of the phylogeny rather than a particular subtree or lineage (i.e., the --subtree option was not used). The scores were computed by performing a likelihood ratio test at each alignment column (--method LRT), and scores for both conservation and acceleration were produced (--mode CONACC).
+Conserved Elements
+
+The conserved elements were predicted by running phastCons with the --viterbi option. The predicted elements are segments of the alignment that are likely to have been "generated" by the conserved state of the phylo-HMM. Each element is assigned a log-odds score equal to its log probability under the conserved model minus its log probability under the non-conserved model. The "score" field associated with this track contains transformed log-odds scores, taking values between 0 and 1000. (The scores are transformed using a monotonic function of the form a * log(x) + b.) The raw log odds scores are retained in the "name" field and can be seen on the details page or in the browser when the track's display mode is set to "pack" or "full".
+Credits
+
+This track was created using the following programs:
+
+    Alignment tools: lastz (formerly blastz) and multiz by Minmei Hou, Scott Schwartz and Webb Miller of the Penn State Bioinformatics Group
+    Chaining and Netting: axtChain, chainNet by Jim Kent at UCSC
+    Conservation scoring: phastCons, phyloP, phyloFit, tree_doctor, msa_view and other programs in PHAST by Adam Siepel at Cold Spring Harbor Laboratory (original development done at the Haussler lab at UCSC).
+    MAF Annotation tools: mafAddIRows by Brian Raney, UCSC; mafAddQRows by Richard Burhans, Penn State; genePredToMafFrames by Mark Diekhans, UCSC
+    Tree image generator: phyloPng by Galt Barber, UCSC
+    Conservation track display: Kate Rosenbloom, Hiram Clawson (wiggle display), and Brian Raney (gap annotation and codon framing) at UCSC 
+
+The phylogenetic tree is based on Murphy et al. (2001) and general consensus in the vertebrate phylogeny community. Thanks to Giacomo Bernardi for help with the fish relationships.
+References
+Phylo-HMMs, phastCons, and phyloP:
+
+Felsenstein J, Churchill GA. A Hidden Markov Model approach to variation among sites in rate of evolution. Mol Biol Evol. 1996 Jan;13(1):93-104. PMID: 8583911
+
+Pollard KS, Hubisz MJ, Rosenbloom KR, Siepel A. Detection of nonneutral substitution rates on mammalian phylogenies. Genome Res. 2010 Jan;20(1):110-21. PMID: 19858363; PMC: PMC2798823
+
+Siepel A, Bejerano G, Pedersen JS, Hinrichs AS, Hou M, Rosenbloom K, Clawson H, Spieth J, Hillier LW, Richards S, et al. Evolutionarily conserved elements in vertebrate, insect, worm, and yeast genomes. Genome Res. 2005 Aug;15(8):1034-50. PMID: 16024819; PMC: PMC1182216
+
+Siepel A, Haussler D. Phylogenetic Hidden Markov Models. In: Nielsen R, editor. Statistical Methods in Molecular Evolution. New York: Springer; 2005. pp. 325-351.
+
+Yang Z. A space-time process model for the evolution of DNA sequences. Genetics. 1995 Feb;139(2):993-1005. PMID: 7713447; PMC: PMC1206396
+Chain/Net:
+
+Kent WJ, Baertsch R, Hinrichs A, Miller W, Haussler D. Evolution's cauldron: duplication, deletion, and rearrangement in the mouse and human genomes. Proc Natl Acad Sci U S A. 2003 Sep 30;100(20):11484-9. PMID: 14500911; PMC: PMC208784
+Multiz:
+
+Blanchette M, Kent WJ, Riemer C, Elnitski L, Smit AF, Roskin KM, Baertsch R, Rosenbloom K, Clawson H, Green ED, et al. Aligning multiple genomic sequences with the threaded blockset aligner. Genome Res. 2004 Apr;14(4):708-15. PMID: 15060014; PMC: PMC383317
+Lastz (formerly Blastz):
+
+Chiaromonte F, Yap VB, Miller W. Scoring pairwise genomic sequence alignments. Pac Symp Biocomput. 2002:115-26. PMID: 11928468
+
+Harris RS. Improved pairwise alignment of genomic DNA. Ph.D. Thesis. Pennsylvania State University, USA. 2007.
+
+Schwartz S, Kent WJ, Smit A, Zhang Z, Baertsch R, Hardison RC, Haussler D, Miller W. Human-mouse alignments with BLASTZ. Genome Res. 2003 Jan;13(1):103-7. PMID: 12529312; PMC: PMC430961
+Phylogenetic Tree:
+
+Murphy WJ, Eizirik E, O'Brien SJ, Madsen O, Scally M, Douady CJ, Teeling E, Ryder OA, Stanhope MJ, de Jong WW, Springer MS. Resolution of the early placental mammal radiation using Bayesian phylogenetics. Science. 2001 Dec 14;294(5550):2348-51. PMID: 11743200
+
+	

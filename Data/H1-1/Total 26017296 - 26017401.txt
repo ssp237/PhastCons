@@ -1,0 +1,854 @@
+Alignment block 1 of 6 in window, 
+B D                     Human  g----aaac----ttctaact-ga--a-------------------------------------------
+B D                     Chimp  g----aaac----ttctaact-ga--a-------------------------------------------
+B D                   Gorilla  g----aagc----ttctaact-ga--a-------------------------------------------
+B D                 Orangutan  g----aagt----ttccaacc-ga--a-------------------------------------------
+B D                    Gibbon  g----aagc----ttccaacc-ga--a-------------------------------------------
+B D                    Rhesus  g----aagt----ttccaacc-ga--a-------------------------------------------
+B D       Crab-eating macaque  g----aagt----ttccaacc-ga--a-------------------------------------------
+B D                    Baboon  g----aagt----ttccaaca-ga--a-------------------------------------------
+                 Green monkey  g----aagt----ttccaacc-ga--a-------------------------------------------
+B D           Squirrel monkey  g----aagc----ttccaactgga--a-------------------------------------------
+B D                  Bushbaby  g----aagc----ttccaacc-aa--aac-----------------------------------------
+           Chinese tree shrew  g----aagc----ttccaacc-ag--acg-----------------------------------------
+B D                  Squirrel  a----aagt----ttccagca-gg--att-----------------------------------------
+       Lesser Egyptian jerboa  g----aagc----ctccaaccgga--actg----------------------------------------
+                 Prairie vole  g----aagc----ctccaacc-gatgtctg----------------------------------------
+B D           Chinese hamster  a----aagc----ctccaacc-ga--actg----------------------------------------
+               Golden hamster  a----aagc----ctccaacc-ga--actg----------------------------------------
+B D                     Mouse  g----aagc----ctcca--------actg----------------------------------------
+B D                       Rat  g----aagc----ctcca--------actg----------------------------------------
+B D            Naked mole-rat  g----gacc----ttccaacc-ag--actg----------------------------------------
+B D                Guinea pig  g----gatc----ttccaact-gg--actg----------------------------------------
+                   Chinchilla  g----gatc----ttccaacc-ag--actgct--------------------------------------
+             Brush-tailed rat  g----gatc----ttccaacc-ag--actgct--------------------------------------
+B D                    Rabbit  g----cagc----ttccaaccagg--ac------------------------------------------
+B D                      Pika  g----cagc----ttccaaccaga--ac------------------------------------------
+B D                    Alpaca  g----gattgccgctccaac--------------------------------------------------
+               Bactrian camel  g----gagc----ttccaacc-gg--gact----------------------------------------
+B D                   Dolphin  g----cagc----ttccaacc-ag--aacc----------------------------------------
+                 Killer whale  g----cagc----ttccaacc-aa--aacc----------------------------------------
+             Tibetan antelope  g----cagc----ttccaacc-ag--aact----------------------------------------
+B D                       Cow  g----cagc----ttccaacc-gg--aact----------------------------------------
+B D                     Sheep  g----cagc----ttccaacc-ag--aact----------------------------------------
+                Domestic goat  g----cagc----ttccaacc-ag--aact----------------------------------------
+B D                     Horse  g----aaac----ttccaacc-gg--aact----------------------------------------
+B D          White rhinoceros  t----gagc----ttccaact-gc--aact----------------------------------------
+B D                       Cat  g----aagc----ttccaact-gg--aacc----------------------------------------
+B D                       Dog  c----aag-----ttccaact-gc--aacg----------------------------------------
+B D                   Ferret   c----aag-----ttccaact-gc--aact----------------------------------------
+B D                     Panda  t----aag-----ttccaact-gc--aact----------------------------------------
+               Pacific walrus  t----aag-----ttccaact-gc--aacg----------------------------------------
+                 Weddell seal  t----aag-----ttccaact-gc--aacg----------------------------------------
+             Black flying-fox  c----gag-----gtctaacg-gg--gact----------------------------------------
+B D                   Megabat  c----gag-----gtctaaca-gg--gact----------------------------------------
+B D                  Microbat  c----agg-----ttccaacc-cg--gac-----------------------------------------
+                Big brown bat  c----agg-----ttccaa-c-cg--gac-----------------------------------------
+B D                  Hedgehog  g----c-------ctccaaccaaa--ataa----------------------------------------
+B D                     Shrew  g----c-------ttccaact------caa----------------------------------------
+              Star-nosed mole  t----c-------ctccaact-------ag----------------------------------------
+B D                  Elephant  g----aagc----ttccaacc-ag--aac-----------------------------------------
+          Cape elephant shrew  g----aagc----ttccaacc-ag--aact----------------------------------------
+B D                   Manatee  g----aagc----ttccaacc-ag--aac-----------------------------------------
+             Cape golden mole  g----aagc----ttccaacc-ag--cac-----------------------------------------
+B D                    Tenrec  g----aaac----ttcccacc-ag--aac-----------------------------------------
+                     Aardvark  g----aagc----ttccaacc-ag--aact----------------------------------------
+B D                 Armadillo  g----aagt----ttccaacc-ag--aact----------------------------------------
+B D                   Opossum  g------------ttcccgcg-ga--gacc----------------------------------------
+B D           Tasmanian devil  agcggaagt----ttcccgga-gc--accc----------------------------------------
+B D                   Wallaby  agcggaatt----tttccgta-gc--accc----------------------------------------
+B D                  Platypus  t----aaaa----tagta--t-aa--acac----------------------------------------
+  D              Saker falcon  -------------------------------tgtagagcagc-----actcctgttatag----------
+  D          Peregrine falcon  ---------------------------------ttaagtatt-----tccacttgaaaac----------
+  D       Collared flycatcher  -------------------------------tgtagaacaaaac---tctcctggtacaa----------
+  D    White-throated sparrow  -------------------------------agcagaacaaaac---tctcctggaacaa----------
+B D       Medium ground finch  -------------------------------agagtgacga---------tccgaggcgc----------
+B D               Zebra finch  -------------------------------ggagaaaggag--------gcagaaaccg----------
+           Tibetan ground jay  -------------------------------tgcagagcaagac---tt-cctcagtggc----------
+B D                Budgerigar  -------------------------------tgtagatcaaaac---tcttctggtatga----------
+  D                    Parrot  -------------------------------gcaagact--------ttcacaggagct-----------
+  D             Scarlet macaw  -------------------------------agcagactaaaattacttctcaagtctt-----------
+  D               Rock pigeon  -------------------------------tacaaggcaaaataatttttcagga--------------
+B D                   Chicken  -------------------------------ggtagagcaggac---tcttctgggataa----------
+B D                    Turkey  -------------------------------ggtagagcaggac---tcttctgggataa----------
+B D        American alligator  -------------------------------tataggtgcaagc---atcttcaaatcag----------
+  D           Green seaturtle  ------------------------------------------------tgtttggctgagacgat-----
+B D            Painted turtle  ------------------------------------------------catctaaaaggaaag-------
+  D  Chinese softshell turtle  ------------------------------------------------catgtagaagacaaata-----
+  D    Spiny softshell turtle  ------------------------------------------------tctcatcaagacattta-----
+B D                    Lizard  ---------------------------------aaaaggtgaagccttttgcaggagtataggg------
+B D             X. tropicalis  ------------------------------------------------------------atgcgc--ag
+B D                Coelacanth  -----------------------------------------------------------------ttgaa
+B D                 Tetraodon  ----------------------------------------------------------------------
+B D                      Fugu  ----------------------------------------------------------------------
+       Yellowbelly pufferfish  ----------------------------------------------------------------------
+B D              Nile tilapia  ----------------------------------------------------------------------
+          Princess of Burundi  ----------------------------------------------------------------------
+        Burton's mouthbreeder  ----------------------------------------------------------------------
+                  Zebra mbuna  ----------------------------------------------------------------------
+          Pundamilia nyererei  ----------------------------------------------------------------------
+B D                    Medaka  ----------------------------------------------------------------------
+           Southern platyfish  ----------------------------------------------------------------------
+B D               Stickleback  ----------------------------------------------------------------------
+B D              Atlantic cod  ----------------------------------------------------------------------
+B D                 Zebrafish  ----------------------------------------------------------------------
+B D                   Lamprey  ------------------------------------------------------------------gagg
+B D                  Marmoset  ======================================================================
+  D              Mallard duck  ----------------------------------------------------------------------
+                 Spotted gar  ======================================================================
+B D                       Pig  ----------------------------------------------------------------------
+
+                        Human  -----------------------t--------tta
+                        Chimp  -----------------------t--------tta
+                      Gorilla  -----------------------t--------tta
+                    Orangutan  -----------------------t--------tta
+                       Gibbon  -----------------------t--------tta
+                       Rhesus  -----------------------t--------tta
+          Crab-eating macaque  -----------------------t--------tta
+                       Baboon  -----------------------t--------tta
+                 Green monkey  -----------------------t--------tta
+              Squirrel monkey  -----------------------t--------tta
+                     Bushbaby  -----------------------t--------tta
+           Chinese tree shrew  -----------------------t--------cta
+                     Squirrel  -----------------------t--------tca
+       Lesser Egyptian jerboa  -----------------------t--------tca
+                 Prairie vole  -----------------------t--------tca
+              Chinese hamster  -----------------------t--------tca
+               Golden hamster  -----------------------t--------tca
+                        Mouse  -----------------------t--------tca
+                          Rat  -----------------------t--------tca
+               Naked mole-rat  -----------------------c--------tca
+                   Guinea pig  -----------------------c--------tca
+                   Chinchilla  -----------------------c--------tca
+             Brush-tailed rat  -----------------------c--------tca
+                       Rabbit  -----------------------t--------tta
+                         Pika  -----------------------t--------tta
+                       Alpaca  -----------------------t--------tta
+               Bactrian camel  -----------------------t--------tta
+                      Dolphin  -----------------------t--------tta
+                 Killer whale  -----------------------t--------tta
+             Tibetan antelope  -----------------------c--------tta
+                          Cow  -----------------------c--------tta
+                        Sheep  -----------------------c--------tta
+                Domestic goat  -----------------------c--------tta
+                        Horse  -----------------------t--------tta
+             White rhinoceros  -----------------------t--------tta
+                          Cat  -----------------------t--------tta
+                          Dog  -----------------------c--------tta
+                      Ferret   -----------------------c---------ta
+                        Panda  -----------------------c--------tta
+               Pacific walrus  -----------------------c--------tta
+                 Weddell seal  -----------------------c--------tta
+             Black flying-fox  -----------------------t--------tta
+                      Megabat  -----------------------t--------tta
+                     Microbat  --------------------------------cta
+                Big brown bat  --------------------------------cta
+                     Hedgehog  -----------------------t--------tta
+                        Shrew  -----------------------c--------tca
+              Star-nosed mole  -----------------------c--------tta
+                     Elephant  -----------------------t--------tta
+          Cape elephant shrew  -----------------------t--------tta
+                      Manatee  -----------------------t--------tta
+             Cape golden mole  -----------------------t--------tta
+                       Tenrec  -----------------------t--------cta
+                     Aardvark  -----------------------t--------tta
+                    Armadillo  -----------------------c--------tta
+                      Opossum  -----------------------t----------a
+              Tasmanian devil  -----------------------ttgac----tca
+                      Wallaby  -----------------------tt-------tca
+                     Platypus  -----------------------c--------tta
+                 Saker falcon  -----------------------t--------tta
+             Peregrine falcon  -----------------------t--------tca
+          Collared flycatcher  -----------------------t--------tta
+       White-throated sparrow  -----------------------t--------tta
+          Medium ground finch  -----------------------t--------tta
+                  Zebra finch  -----------------------t--------cta
+           Tibetan ground jay  -----------------------t--------tta
+                   Budgerigar  -----------------------t--------tta
+                       Parrot  -----------------------------------
+                Scarlet macaw  -----------------------t--------tta
+                  Rock pigeon  --------------------------------tta
+                      Chicken  -----------------------c--------tta
+                       Turkey  -----------------------c--------tta
+           American alligator  -----------------------c--------tta
+              Green seaturtle  --tcctttcctc-----------t--------tta
+               Painted turtle  ------tgactc-----------t--------tta
+     Chinese softshell turtle  -----------------------t--------tta
+       Spiny softshell turtle  --gtccagccct-----------t--------cta
+                       Lizard  -----------------------t--------tca
+                X. tropicalis  gggccccggggc-----------c--------cca
+                   Coelacanth  aagtattgttgt-----------t--------ttt
+                    Tetraodon  ---------------------------gtcgcagc
+                         Fugu  ---------------------------g----agt
+       Yellowbelly pufferfish  ---------------------------g----aac
+                 Nile tilapia  ---------------------------c----aaa
+          Princess of Burundi  ---------------------------c----aaa
+        Burton's mouthbreeder  ---------------------------g----tga
+                  Zebra mbuna  ---------------------------c----aaa
+          Pundamilia nyererei  ---------------------------c----aaa
+                       Medaka  ---------------------------t----aac
+           Southern platyfish  ---------------------------g----cgc
+                  Stickleback  ---------------------------g----gtt
+                 Atlantic cod  ---------------------------g----tgc
+                    Zebrafish  ---------------------------tttggaag
+                      Lamprey  gaatcgcgcatcgtccgatcggat--------tca
+                     Marmoset  ===================================
+                 Mallard duck  -----------------------------------
+                  Spotted gar  ===================================
+                          Pig  -----------------------------------
+
+Inserts between block 1 and 2 in window
+B D                Tetraodon 19bp
+B D                     Fugu 14bp
+      Yellowbelly pufferfish 17bp
+B D             Nile tilapia 18bp
+         Princess of Burundi 21bp
+       Burton's mouthbreeder 19bp
+                 Zebra mbuna 21bp
+         Pundamilia nyererei 21bp
+B D                   Medaka 22bp
+          Southern platyfish 30bp
+B D              Stickleback 21bp
+B D             Atlantic cod 19bp
+B D                Zebrafish 19bp
+
+Alignment block 2 of 6 in window, 26017316 - 26017318, 3 bps 
+B D                     Human  ctt
+B D                     Chimp  ctt
+B D                   Gorilla  ctt
+B D                 Orangutan  ctt
+B D                    Gibbon  ctt
+B D                    Rhesus  ctt
+B D       Crab-eating macaque  ctt
+B D                    Baboon  ctt
+                 Green monkey  ctt
+B D           Squirrel monkey  ctt
+B D                  Bushbaby  ctt
+           Chinese tree shrew  ctt
+B D                  Squirrel  ctt
+       Lesser Egyptian jerboa  cct
+                 Prairie vole  ctt
+B D           Chinese hamster  ctt
+               Golden hamster  ctt
+B D                     Mouse  ctt
+B D                       Rat  ctt
+B D            Naked mole-rat  ctt
+B D                Guinea pig  ctt
+                   Chinchilla  ctt
+             Brush-tailed rat  ctt
+B D                    Rabbit  ctt
+B D                      Pika  ctt
+B D                    Alpaca  ctt
+               Bactrian camel  ctt
+B D                   Dolphin  ctt
+                 Killer whale  ctt
+             Tibetan antelope  ctt
+B D                       Cow  ctt
+B D                     Sheep  ctt
+                Domestic goat  ctt
+B D                     Horse  ctt
+B D          White rhinoceros  ctt
+B D                       Cat  ctt
+B D                       Dog  ctt
+B D                   Ferret   ctt
+B D                     Panda  ctt
+               Pacific walrus  ctt
+                 Weddell seal  ctt
+             Black flying-fox  ttt
+B D                   Megabat  ttt
+B D                  Microbat  ctt
+                Big brown bat  ctt
+B D                  Hedgehog  ctt
+B D                     Shrew  ctt
+              Star-nosed mole  ctt
+B D                  Elephant  ctt
+          Cape elephant shrew  ctt
+B D                   Manatee  ctt
+             Cape golden mole  ctt
+B D                    Tenrec  ctt
+                     Aardvark  ctt
+B D                 Armadillo  ctt
+B D                   Opossum  ctt
+B D           Tasmanian devil  ttt
+B D                   Wallaby  ctt
+B D                  Platypus  ttt
+  D              Saker falcon  ctt
+  D       Collared flycatcher  ctt
+  D    White-throated sparrow  ctt
+B D       Medium ground finch  ctt
+B D               Zebra finch  ctt
+           Tibetan ground jay  ctt
+B D                Budgerigar  ctt
+  D                    Parrot  -ta
+  D             Scarlet macaw  ctt
+  D               Rock pigeon  ttt
+B D                   Chicken  ctt
+B D                    Turkey  ttt
+B D        American alligator  ctt
+  D           Green seaturtle  atc
+B D            Painted turtle  ctt
+  D  Chinese softshell turtle  ctt
+  D    Spiny softshell turtle  ttt
+B D                    Lizard  ctt
+B D             X. tropicalis  tta
+B D                Coelacanth  tta
+B D                 Tetraodon  ctt
+B D                      Fugu  ctt
+       Yellowbelly pufferfish  ctt
+B D              Nile tilapia  ctt
+          Princess of Burundi  ctt
+        Burton's mouthbreeder  ctt
+                  Zebra mbuna  ctt
+          Pundamilia nyererei  ctt
+B D                    Medaka  ctt
+           Southern platyfish  cct
+B D               Stickleback  ctt
+B D              Atlantic cod  ctt
+B D                 Zebrafish  ctt
+                  Spotted gar  cct
+B D                   Lamprey  ctt
+B D                  Marmoset  ===
+  D          Peregrine falcon  ---
+  D              Mallard duck  ---
+B D                       Pig  ---
+
+Inserts between block 2 and 3 in window
+  D          Green seaturtle 7bp
+B D                   Medaka 21bp
+          Southern platyfish 36bp
+                 Spotted gar 1bp
+
+Alignment block 3 of 6 in window, 26017319 - 26017343, 25 bps 
+B D                     Human  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                     Chimp  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                   Gorilla  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                 Orangutan  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                    Gibbon  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                    Rhesus  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D       Crab-eating macaque  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D                    Baboon  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+                 Green monkey  ------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---
+B D           Squirrel monkey  ------------tttcttggg------tg-ctgc---ttt-ctt---------g-------gg---t---
+B D                  Bushbaby  ------------tttcttggc------tg-ttgc---ctt-ctt---------g-------gg---t---
+           Chinese tree shrew  ------------cttcctggg------cg-ccgc---ctt-ctt---------g-------gg---c---
+B D                  Squirrel  ------------tttcttggg------gg-ctgc---ctt-ctt---------g-------gg---c---
+       Lesser Egyptian jerboa  ------------tttcttggg------tg-ccgc---ctt-ctt---------g-------gg---c---
+                 Prairie vole  ------------tttcttagg------tg-cagc---ctt-ctt---------g-------gg---c---
+B D           Chinese hamster  ------------tttcttggg------cg-ccgc---ctt-ctt---------g-------gg---c---
+               Golden hamster  ------------cttcttggg------cg-ccgg---ctt-ctt---------g-------gg---c---
+B D                     Mouse  ------------tttcttggg------cg-ctgc---ctt-ctt---------g-------gg---c---
+B D                       Rat  ------------tttcttggg------cg-ccgc---ctt-ctt---------c-------gg---c---
+B D            Naked mole-rat  ------------tttcttggg------tg-ctgc---ctt-ctt---------g-------gg---c---
+B D                Guinea pig  ------------cttctttgg------tg-ctgc---ctt-ctt---------g-------gg---c---
+                   Chinchilla  ------------tttcttggg------cg-ttgc---ctt-ttt---------g-------gg---c---
+             Brush-tailed rat  ------------tttcttggg------cg-ctgc---ctt-ttt---------g-------ga---c---
+B D                    Rabbit  ------------tttcttggg------tg-ctgc---ctt-ctt---------g-------gg---c---
+B D                      Pika  ------------tttcttggg------tg-ccgt---ctt-ctt---------g-------gg---t---
+B D                    Alpaca  ------------cttcttgga------ga-ccgc---ctt-ctt---------c-------gc---c---
+               Bactrian camel  ------------cttcttggg------tg-ctgc---ctt-ctt---------g-------gg---c---
+B D                   Dolphin  ------------tttcttcgg------tg-ctgc---ctt-ctt---------g-------gg---c---
+                 Killer whale  ------------tttcttcgg------tg-ctgc---ctt-ctt---------g-------gg---c---
+             Tibetan antelope  ------------cttcttggg------tg-ctgc---ctt-ctt---------g-------gg---t---
+B D                       Cow  ------------cttcttggg------tg-ctgc---ctt-ctt---------g-------gg---t---
+B D                     Sheep  ------------cttcttggg------tg-ctgc---ctt-ctt---------g-------gg---t---
+                Domestic goat  ------------cttcttggg------tg-ctgc---ctt-ctt---------g-------gg---t---
+B D                     Horse  ------------tttcttggg------gg-ctgc---ctt-ctt---------g-------gg---t---
+B D          White rhinoceros  ------------tttcttggg------cg-ctgc---ctt-ctt---------g-------gg---c---
+B D                       Cat  ------------cttcttggg------cg-ctgc---ttt-ttt---------g-------gg---c---
+B D                       Dog  ------------cttcttggg------tg-ccgc---ctt-ctt---------g-------gg---c---
+B D                   Ferret   ------------tttcttggg------tg-cggc---ctt-ttt---------g-------gg---c---
+B D                     Panda  ------------tttcttggg------cg-ctgc---ctt-ttt---------g-------gg---c---
+               Pacific walrus  ------------tttcttggg------cg-cagc---ctt-ttt---------g-------gg---c---
+                 Weddell seal  ------------cttcttggg------tg-cggc---ctt-ttt---------g-------gg---c---
+             Black flying-fox  ------------cttcttggg------cg-ctgc---ctt-ctt---------c-------gg---c---
+B D                   Megabat  ------------cttcttggg------cg-ctgc---ctt-ctt---------c-------gg---c---
+B D                  Microbat  ------------cttggggcg------cg-cctc------------------------------------
+                Big brown bat  ------------cttcttggg------cg-ccgc---ctt-ctt---------g-------gc---c---
+B D                  Hedgehog  ------------tttcttagg------cg-ctgc---ttt-ctt---------a-------gg---t---
+B D                     Shrew  ------------cctcttggg------cg-ccgc---ctt-ctt---------g-------gg---c---
+              Star-nosed mole  ------------tctcttggg------cg-ctgc---ctt-ctt---------g-------gg---c---
+B D                  Elephant  ------------tttcttggg------ag-ccgc---ctt-ctt---------g-------gg---c---
+          Cape elephant shrew  ------------ttttttcgg------ag-ctgc---ctt-ctt---------c-------gg---c---
+B D                   Manatee  ------------tttcttggg------ag-ccgc---ctt-ctt---------c-------gg---c---
+             Cape golden mole  ------------tttcttggg------ag-ctgc---ctt-ctt---------c-------gg---c---
+B D                    Tenrec  ------------tttcttagg------cg-cggc---ctt-ttt---------g-------gg---c---
+                     Aardvark  ------------tttcttggg------ag-ccgc---ctt-ctt---------c-------gg---c---
+B D                 Armadillo  ------------tttcttggg------cg-ccgc---ctt-ctt---------a-------gg---c---
+B D                   Opossum  ------------cttttttgg------cg-ccgc---ctt-ctt---------g-------gg---c---
+B D           Tasmanian devil  ------------tttctttgg------cg-ctgc---ctt-ctt---------a-------gg---c---
+B D                   Wallaby  ------------tttctttgg------cg-ctgc---ctt-ctt---------a-------ga---c---
+B D                  Platypus  ------------tttcttggg------cg-ccgctgcctt-ttt---------g-------gg---t---
+  D              Saker falcon  ------------cttcttagg------tg-ccgc---ttt-ctt---------c-------gc---c---
+  D          Peregrine falcon  ------------cttcttgga------cg-ccgc---ctt-ctt---------t-------gg---c---
+  D       Collared flycatcher  ------------cttcttggg------cg-ctgc---ctt-ctt---------c-------gc---c---
+  D    White-throated sparrow  ------------ctttttggg------cg-ccgc---ctt-ctt---------c-------gc---c---
+B D       Medium ground finch  -------------------gg------ag-ctgg---tgt-act---------tggtgacagc---c---
+B D               Zebra finch  -------------------gg------ag-ctgg---tgt-act---------tggtgacagc---c---
+           Tibetan ground jay  ------------cttttttgg------ag-ccgc---ctt-ctt---------t-------gc---c---
+B D                Budgerigar  ------------tttcttggg------cg-ccgc---ctt-ctt---------c-------gc---c---
+  D                    Parrot  ------------cttcttgag------cg-ccgc---cct-ttt---------c-------gc---c---
+  D             Scarlet macaw  ------------ctttttggg------cg-ccgc---ctt-ctt---------t-------gt---c---
+  D               Rock pigeon  ------------ctttttcgg------gg-ctgc---ttt-ctt---------t-------gc---c---
+  D              Mallard duck  ------------gtttgttgc------ta-cggt---tttactt---------g-------gc---c---
+B D                   Chicken  ------------cttcttggc------tg-ccgt---ctt-ctt---------c-------gc---c---
+B D                    Turkey  ------------cttcttggc------tg-ccgt---ctt-ctt---------c-------gc---c---
+B D        American alligator  ------------cttcttggg------cg-ccgc---ctt-ctt---------g-------gc---c---
+  D           Green seaturtle  ------------cttcttggg------gg-ccgc---ctt-c----------------------------
+B D            Painted turtle  ------------cttcttggg------cg-ctgc---ctt-ctt---------a-------gc---c---
+  D  Chinese softshell turtle  ------------cttcttggg------ag-ccgc---ctt-ttt---------a-------gc---c---
+  D    Spiny softshell turtle  ------------cttcttggg------cg-ctgc---ctt-ctt---------g-------gc---c---
+B D                    Lizard  ------------ctttttggg------gg-cgag---ttt-a-------------------gg---c---
+B D             X. tropicalis  ------------cttcttagg------cg-ccgc---ctt-ctt---------t-------gc---t---
+B D                Coelacanth  ------------ctttttagg------tg-ctcc---ttt-ttt---------a-------ggaatc---
+B D                 Tetraodon  ------------cttcttggc------cg-ccgc---ctt-ctt---------g-------gc---t---
+B D                      Fugu  ------------cttcttggg------tg-ctgc---ctt-ctt---------g-------gc---t---
+       Yellowbelly pufferfish  ------------tttcttggc------tg-aagc---cct-ctt---------c-------gt---t---
+B D              Nile tilapia  ------------cttcttggc------tg-cggt---ctt-ttt---------g-------gc---t---
+          Princess of Burundi  ------------cttcttggc------tg-cggt---ctt-ttt---------c-------gc---t---
+        Burton's mouthbreeder  ------------cttcttagg------tg-tagc---ctt-cttggccttggca-------gc---t---
+                  Zebra mbuna  ------------cttcttggc------tg-cggt---ctt-ttt---------c-------gc---t---
+          Pundamilia nyererei  ------------cttcttggc------tg-cggt---ctt-ttt---------c-------gc---t---
+B D                    Medaka  ------------tttcttggc------gg-tggt---ctt-ctt---------g-------ac---t---
+           Southern platyfish  ------------tttcttggc------taccggt---ctt-cta---------g--------c---t---
+B D               Stickleback  ------------cttcttggg------tg-ctgc---ttt-ctt---------g-------gc---t---
+B D              Atlantic cod  ------------cttctttgg------gg-ctgc---ctt-ctt---------t-------ac---t---
+B D                 Zebrafish  ------------cttcttggg------ag-ccgc---ctt-ttt---------a-------gg-------
+                  Spotted gar  ------------tttttcgga------gc-cggt---ttt-ctg---------g-------gc-------
+B D                   Lamprey  ctttagcgcggccttcttgggcttggcca-cggc---ctt-ctt---------g-------gg---cttg
+B D                  Marmoset  ======================================================================
+B D                       Pig  ----------------------------------------------------------------------
+
+                        Human  ------------
+                        Chimp  ------------
+                      Gorilla  ------------
+                    Orangutan  ------------
+                       Gibbon  ------------
+                       Rhesus  ------------
+          Crab-eating macaque  ------------
+                       Baboon  ------------
+                 Green monkey  ------------
+              Squirrel monkey  ------------
+                     Bushbaby  ------------
+           Chinese tree shrew  ------------
+                     Squirrel  ------------
+       Lesser Egyptian jerboa  ------------
+                 Prairie vole  ------------
+              Chinese hamster  ------------
+               Golden hamster  ------------
+                        Mouse  ------------
+                          Rat  ------------
+               Naked mole-rat  ------------
+                   Guinea pig  ------------
+                   Chinchilla  ------------
+             Brush-tailed rat  ------------
+                       Rabbit  ------------
+                         Pika  ------------
+                       Alpaca  ------------
+               Bactrian camel  ------------
+                      Dolphin  ------------
+                 Killer whale  ------------
+             Tibetan antelope  ------------
+                          Cow  ------------
+                        Sheep  ------------
+                Domestic goat  ------------
+                        Horse  ------------
+             White rhinoceros  ------------
+                          Cat  ------------
+                          Dog  ------------
+                      Ferret   ------------
+                        Panda  ------------
+               Pacific walrus  ------------
+                 Weddell seal  ------------
+             Black flying-fox  ------------
+                      Megabat  ------------
+                     Microbat  ------------
+                Big brown bat  ------------
+                     Hedgehog  ------------
+                        Shrew  ------------
+              Star-nosed mole  ------------
+                     Elephant  ------------
+          Cape elephant shrew  ------------
+                      Manatee  ------------
+             Cape golden mole  ------------
+                       Tenrec  ------------
+                     Aardvark  ------------
+                    Armadillo  ------------
+                      Opossum  ------------
+              Tasmanian devil  ------------
+                      Wallaby  ------------
+                     Platypus  ------------
+                 Saker falcon  ------------
+             Peregrine falcon  ------------
+          Collared flycatcher  ------------
+       White-throated sparrow  ------------
+          Medium ground finch  ------------
+                  Zebra finch  ------------
+           Tibetan ground jay  ------------
+                   Budgerigar  ------------
+                       Parrot  ------------
+                Scarlet macaw  ------------
+                  Rock pigeon  ------------
+                 Mallard duck  ------------
+                      Chicken  ------------
+                       Turkey  ------------
+           American alligator  ------------
+              Green seaturtle  ------------
+               Painted turtle  ------------
+     Chinese softshell turtle  ------------
+       Spiny softshell turtle  ------------
+                       Lizard  ------------
+                X. tropicalis  ------------
+                   Coelacanth  ------------
+                    Tetraodon  ------------
+                         Fugu  ------------
+       Yellowbelly pufferfish  ------------
+                 Nile tilapia  ------------
+          Princess of Burundi  ------------
+        Burton's mouthbreeder  ------------
+                  Zebra mbuna  ------------
+          Pundamilia nyererei  ------------
+                       Medaka  ------------
+           Southern platyfish  ------------
+                  Stickleback  ------------
+                 Atlantic cod  ------------
+                    Zebrafish  ------------
+                  Spotted gar  ------------
+                      Lamprey  gccaccttgggt
+                     Marmoset  ============
+                          Pig  ------------
+
+Inserts between block 3 and 4 in window
+B D                Tetraodon 6bp
+B D                     Fugu 1bp
+B D             Nile tilapia 6bp
+         Princess of Burundi 6bp
+       Burton's mouthbreeder 6bp
+                 Zebra mbuna 6bp
+         Pundamilia nyererei 6bp
+B D                   Medaka 9bp
+          Southern platyfish 9bp
+B D              Stickleback 6bp
+B D             Atlantic cod 9bp
+B D                Zebrafish 1bp
+
+Alignment block 4 of 6 in window, 26017344 - 26017354, 11 bps 
+B D                     Human  ttg------gca------------gt------ctt
+B D                     Chimp  ttg------gca------------gt------ctt
+B D                   Gorilla  ttg------gca------------gt------ctt
+B D                 Orangutan  ttg------gca------------gt------ctt
+B D                    Gibbon  ttg------gca------------gt------ctt
+B D                    Rhesus  ttg------gca------------gt------ctt
+B D       Crab-eating macaque  ttg------gca------------gt------ctt
+B D                    Baboon  ttg------gca------------gt------ctt
+                 Green monkey  ttg------gca------------gt------ctt
+B D           Squirrel monkey  ttg------gca------------gt------ctt
+B D                  Bushbaby  ttg---gcagca------------gt------ctt
+           Chinese tree shrew  ttg---gaggca------------gc------ctt
+B D                  Squirrel  ttg---gccgca------------gt------ctt
+       Lesser Egyptian jerboa  ttg---actgca------------gc------ctt
+                 Prairie vole  ttagctgctgcg------------gt------ctt
+B D           Chinese hamster  tta---gccgcg------------gt------ttt
+               Golden hamster  tta---gctgcg------------gt------ctt
+B D                     Mouse  tta---gctggg------------gt------ctt
+B D                       Rat  tta---gctgga------------gt------ctt
+B D            Naked mole-rat  ttg------gca------------gg------ctt
+B D                Guinea pig  ttt------gca------------ga------ctt
+                   Chinchilla  ttg------gca------------gc------ctt
+             Brush-tailed rat  ttg------gca------------gc------ctt
+B D                    Rabbit  ttg------gca---------cccgt------ctt
+B D                      Pika  ttg------gca------------gc------ctt
+B D                    Alpaca  ttt---gta---------------gc------ctt
+               Bactrian camel  ttg---gtagtt------------gt------ctt
+B D                   Dolphin  ttg---gcagca------------gt------ctt
+                 Killer whale  ttg---gcagca------------ga------ctt
+             Tibetan antelope  ttg---gcagtg------------gt------ctt
+B D                       Cow  ttg---gcagcg------------gt------ctt
+B D                     Sheep  ttg---gcagcg------------gt------ctt
+                Domestic goat  ttg---gcagcg------------gt------ctt
+B D                     Horse  tta---gaggcc------------gt------ctt
+B D          White rhinoceros  ttg---gcagcc------------gt------ctt
+B D                       Cat  ttg---gcagcg------------gt------ctt
+B D                       Dog  ttg---gcagcc------------gc------ctt
+B D                   Ferret   ttc---gcagcc------------gt------ctt
+B D                     Panda  ttg---gcagcg------------gt------ctt
+               Pacific walrus  ttg---gcagcc------------gt------ctt
+                 Weddell seal  ttg---gcggcc------------gt------ctt
+             Black flying-fox  ttg---gcagca------------gt------ctt
+B D                   Megabat  ttg---gcagca------------gt------ctt
+B D                  Microbat  ---------------------------------tt
+                Big brown bat  ttg---gccgcg------------gc------ttt
+B D                  Hedgehog  ttg---gcagca------------gc------ctt
+B D                     Shrew  ttg---gtcgcc------------gc------ctt
+              Star-nosed mole  ttg---gcggcc------------gt------ttt
+B D                  Elephant  ttg---gca---------------gt------ctt
+          Cape elephant shrew  ttg---gcagcc------------gt------ctt
+B D                   Manatee  ttg---gca---------------gt------ttt
+             Cape golden mole  ttg---gca---------------gcagcagtctt
+B D                    Tenrec  ttg---gaa---------------gc------ttt
+                     Aardvark  ttg---acagca------------gt------ctt
+B D                 Armadillo  ttg---acggcg------------gc------ctt
+B D                   Opossum  ttg------gcg------------gt------ttt
+B D           Tasmanian devil  tta------gtt------------gc------ctt
+B D                   Wallaby  tta------gct------------gc------ctt
+B D                  Platypus  ttg------aca------------gc------ttt
+  D              Saker falcon  ttg------gcc------------gc------ttt
+  D          Peregrine falcon  ttg------gcc------------gc------ttt
+  D       Collared flycatcher  ttg------gcc------------gc------ttt
+  D    White-throated sparrow  ttg------gcc------------gc------ttt
+B D       Medium ground finch  ttg------gtg------------cc------ctc
+B D               Zebra finch  ttg------gtg------------cc------ctc
+           Tibetan ground jay  ttg------gcc------------ac------ttt
+B D                Budgerigar  ttg------gct------------gc------ttt
+  D                    Parrot  ttg------gct------------gc------ttt
+  D             Scarlet macaw  ttg------gca------------gc------ttt
+  D               Rock pigeon  ttg------gct------------gc------ttt
+  D              Mallard duck  ttg------gccttgtggctgtcggt------ctt
+B D                   Chicken  ttg------gcc------------gc------ctt
+B D                    Turkey  ttg------gct------------gc------ctt
+B D        American alligator  ttg------gct------------gc------ctt
+  D           Green seaturtle  ---------gct------------ac------ttt
+B D            Painted turtle  ttt------gct------------ac------ttt
+  D  Chinese softshell turtle  ttt------gtt------------ag------ttt
+  D    Spiny softshell turtle  ttg------gtt------------gc------ttt
+B D                    Lizard  ttg------gta------------gt------ctt
+B D             X. tropicalis  tta------gcc------------gc------ttt
+B D                Coelacanth  tt---------------------------------
+B D                 Tetraodon  ttg------gcc------------gc------ttt
+B D                      Fugu  gct------gga------------gc------ctt
+       Yellowbelly pufferfish  cca------gaa------------gc------ctt
+B D              Nile tilapia  ttg------gca------------gc------ctt
+          Princess of Burundi  ttt------gca------------gc------ctt
+        Burton's mouthbreeder  ttt------gca------------gc------ctt
+                  Zebra mbuna  ttg------gca------------gc------ctt
+          Pundamilia nyererei  ttg------gca------------gc------ctt
+B D                    Medaka  ttg------gcg------------gc------ctt
+           Southern platyfish  cta------gca------------gg------ctt
+B D               Stickleback  tta------gcg------------ac------ctt
+B D              Atlantic cod  ttg------gtt------------gc------ctt
+B D                 Zebrafish  ttc------gcc------------gc---------
+     Mexican tetra (cavefish)  ttg------gca------------gc------ctt
+                  Spotted gar  ------------------------gc------ctt
+B D                   Lamprey  ttg------gcg------------gc------ctt
+B D                  Marmoset  ===================================
+B D                       Pig  -----------------------------------
+
+Inserts between block 4 and 5 in window
+  D             Mallard duck 19838bp
+B D            X. tropicalis 5bp
+
+Alignment block 5 of 6 in window, 26017355 - 26017385, 31 bps 
+B D                     Human  tggcttcgtc------------------accctag------------------------ccttggc---c
+B D                     Chimp  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                   Gorilla  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                 Orangutan  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                    Gibbon  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                    Rhesus  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D       Crab-eating macaque  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D                    Baboon  tggcttcgtc------------------accttag------------------------ccttggc---c
+                 Green monkey  tggcttcgtc------------------accttag------------------------ccttggc---c
+B D           Squirrel monkey  tgacttcgtc------------------actttag------------------------ccttggc---c
+B D                  Bushbaby  tggcttagtc------------------atcctca------------------------ccttggc---c
+           Chinese tree shrew  gggcttggtg------------------gctttcg------------------------ccttggc---c
+B D                  Squirrel  tggcttggtc------------------accttcg------------------------ccttggc---c
+       Lesser Egyptian jerboa  gggcttggtc------------------accttgg------------------------ccttggg---c
+                 Prairie vole  cggctttgtc------------------accttcg------------------------ccttggc---a
+B D           Chinese hamster  cggcttcgtc------------------accttcg------------------------cctttgc---a
+               Golden hamster  cggctttgtc------------------accttcg------------------------ccttggc---a
+B D                     Mouse  tggctttgtc------------------actttcg------------------------ccttgga---a
+B D                       Rat  tggctttgtc------------------accttca------------------------ccttggc---a
+B D            Naked mole-rat  gggcttagtc------------------accttga------------------------ccttaga---t
+B D                Guinea pig  aggcttagtc------------------accttgg------------------------tcttagg---t
+                   Chinchilla  aggcttaatc------------------accttcg------------------------ccttagc---c
+             Brush-tailed rat  cggcttaatc------------------accttgg------------------------ccttagc---c
+B D                    Rabbit  cggcttcgtc------------------accttcg------------------------ccttggc---c
+B D                      Pika  gggtttagta------------------acctttg------------------------ccttagc---g
+B D                    Alpaca  gggtttggca------------------gctttag------------------------ccttggc---t
+               Bactrian camel  tggcttggta------------------atcttcg------------------------ccttggc---c
+B D                   Dolphin  tggcttggtc------------------acctttg------------------------ctttggc---c
+                 Killer whale  tggcttggtc------------------acctttg------------------------ctttggc---c
+             Tibetan antelope  tggcttggtt------------------accttca------------------------ctttggc---c
+B D                       Cow  tggcttggtt------------------accttca------------------------ctttggc---c
+B D                     Sheep  tggcttggtt------------------accttca------------------------ctttggc---c
+                Domestic goat  tggcttggtt------------------accttca------------------------ctttggc---c
+B D                     Horse  cggcttcgtc------------------acctttg------------------------ccttggc---c
+B D          White rhinoceros  tgaactggtc------------------ccctttg------------------------ccttggt---c
+B D                       Cat  tggcttggtc------------------accttcg------------------------ccttggc---c
+B D                       Dog  gggcttggtc------------------actttgg------------------------ccttggc---c
+B D                   Ferret   tggcttggtc------------------accttcg------------------------ccttggc---c
+B D                     Panda  tggcttggtc------------------accttcg------------------------ccttggc---c
+               Pacific walrus  tggcttggtc------------------accttcg------------------------ccttggc---c
+                 Weddell seal  tggcttggtc------------------accttcg------------------------ccttggc---c
+             Black flying-fox  tggcttggtc------------------accttag------------------------ccttggc---c
+B D                   Megabat  tggcttggtc------------------accttag------------------------ccttggc---c
+B D                  Microbat  gggcttgg--------------------accttgg------------------------ccttggc---c
+                Big brown bat  gggcttggcc------------------accttgg------------------------ccttggc---c
+B D                  Hedgehog  tggcttggta------------------accttgg------------------------tcttggt---c
+B D                     Shrew  cggcttggtc------------------accttgg------------------------ccttagc---c
+              Star-nosed mole  cggcttggtc------------------accttcg------------------------ccttggc---c
+B D                  Elephant  cggcttggtc------------------acctttg------------------------tcttcgc---t
+          Cape elephant shrew  tggcttggtc------------------acctttg------------------------ccttagc---a
+B D                   Manatee  cggcttggtc------------------acctttg------------------------ccttcgc---g
+             Cape golden mole  cggcttagtc------------------acctttg------------------------ccttcgc---t
+B D                    Tenrec  tggcttggtc------------------acctttg------------------------ccttcgc---g
+                     Aardvark  cggcttagtc------------------acttttg------------------------ccttcgc---t
+B D                 Armadillo  cggcttggtc------------------accttgg------------------------ccttggg---a
+B D                   Opossum  aggtttggtc------------------acctttg------------------------cctttgc---t
+B D           Tasmanian devil  cgg---------------------------------------------------------cttagc---c
+B D                   Wallaby  agg---------------------------------------------------------cttagc---a
+B D                  Platypus  gggttttgcg------------------gccttgg------------------------gcttggc---a
+  D              Saker falcon  cggcttggct------------------gccttgg------------------------gcttggc---t
+  D          Peregrine falcon  cggcttggcc------------------gccttgg------------------------gcttggc---t
+  D       Collared flycatcher  gggtttggct------------------gctttag------------------------gcttggc---t
+  D    White-throated sparrow  gggtttggct------------------gccttgg------------------------gcttggc---c
+B D       Medium ground finch  ggacacggc------------------------gt------------------------gcttggc---c
+B D               Zebra finch  ggacacggc------------------------gt------------------------gcttggc---c
+           Tibetan ground jay  tgcctttgca------------------gctttcg------------------------gcttggc---t
+B D                Budgerigar  tggctttgct------------------gccttgg------------------------gcttagc---t
+  D                    Parrot  aggcttagtt------------------gtcttcg------------------------gcttggc---t
+  D             Scarlet macaw  gggcttggct------------------gctttag------------------------gtttggc---t
+  D               Rock pigeon  gggcttggct------------------gccttag------------------------gcttagc---t
+  D              Mallard duck  tggcttggca------------------gccttgg------------------------gcttggc---a
+B D                   Chicken  gggtttggtc------------------gccttgg------------------------gcttggc---a
+B D                    Turkey  gggtttggtc------------------gccttgg------------------------gcttagc---a
+B D        American alligator  ---------------------------------gg------------------------gcttggc---a
+  D           Green seaturtle  aagttta------------------------ctcg------------------------gcttgac---a
+B D            Painted turtle  aggtttggtt------------------ggcttgg------------------------gcttggc---t
+  D  Chinese softshell turtle  aggcttggtt------------------ggcttag------------------------gcttagc---c
+  D    Spiny softshell turtle  aggcttggtt------------------gttttgg------------------------gcttggc---a
+B D                    Lizard  ---------------------------------gg------------------------gcttggc---t
+B D             X. tropicalis  tggcttggcctttgcggggctctttgtagctttaggcttgttgggcttcttagccgggctcttggc---a
+B D                Coelacanth  ---------------------------------------------------------tttcttg------
+B D                 Tetraodon  ---cttggcc------------------ggagcct------------------------tcttggccgct
+B D                      Fugu  ---ctttgct------------------ggagctt------------------------tcttggc---t
+       Yellowbelly pufferfish  ---cctcact--------------------actct------------------------ccttcgcc-tt
+B D              Nile tilapia  ---ctttgcc------------------ggggatt------------------------tcttggc---t
+          Princess of Burundi  ---ctttgcc------------------ggggatt------------------------tcttggc---t
+        Burton's mouthbreeder  ---ct------------------------------------------------------------t---t
+                  Zebra mbuna  ---ctttgcc------------------ggggatt------------------------tcttggc---t
+          Pundamilia nyererei  ---ctttgcc------------------ggggatt------------------------tcttggc---t
+B D                    Medaka  ---t---------------------------ggct------------------------tcttcgc---a
+           Southern platyfish  ---t---------------------------ggtt------------------------tctttgc---a
+B D               Stickleback  ---cttcact------------------ggagttt------------------------tcttggc---t
+B D              Atlantic cod  ---cttcacc------------------ggggtct------------------------tcttagc---a
+B D                 Zebrafish  ---cttgggt---------------------------------------------------ttggc---g
+     Mexican tetra (cavefish)  ---cttcgcc---------------------------------------------------ttggc---t
+                  Spotted gar  ---cttcgcc------------------gccctgc------------------------ctttcac---a
+B D                   Lamprey  tgccttgacg------------------gtcttgg------------------------gcttagc---g
+B D                  Marmoset  ======================================================================
+B D                       Pig  ----------------------------------------------------------------------
+
+                        Human  ---gccttg
+                        Chimp  ---gccttg
+                      Gorilla  ---gccttg
+                    Orangutan  ---gccttg
+                       Gibbon  ---gccttg
+                       Rhesus  ---gccttg
+          Crab-eating macaque  ---gccttg
+                       Baboon  ---gcctta
+                 Green monkey  ---gccttg
+              Squirrel monkey  ---gccttg
+                     Bushbaby  ---gctttg
+           Chinese tree shrew  ------ttg
+                     Squirrel  ---gccttg
+       Lesser Egyptian jerboa  ---gccttg
+                 Prairie vole  ---gccttg
+              Chinese hamster  ---gccttg
+               Golden hamster  ---gccttg
+                        Mouse  ---gcctta
+                          Rat  ---gcctta
+               Naked mole-rat  ---gctttg
+                   Guinea pig  ---gctttg
+                   Chinchilla  ---gcttta
+             Brush-tailed rat  ---gctttg
+                       Rabbit  ---gccttg
+                         Pika  ---gctttg
+                       Alpaca  ---gccttg
+               Bactrian camel  ---gctttg
+                      Dolphin  ---gctttg
+                 Killer whale  ---gctttg
+             Tibetan antelope  ---cctttg
+                          Cow  ---cctttt
+                        Sheep  ---cctttg
+                Domestic goat  ---cctttg
+                        Horse  ---gctttg
+             White rhinoceros  ---gctttg
+                          Cat  ---gctttg
+                          Dog  ---gccttg
+                      Ferret   ---gctttg
+                        Panda  ---gctttg
+               Pacific walrus  ---gccttg
+                 Weddell seal  ---gccttg
+             Black flying-fox  ---gctttg
+                      Megabat  ---gctttg
+                     Microbat  ---gctttg
+                Big brown bat  ---gctttg
+                     Hedgehog  ---gctttg
+                        Shrew  ---cctttg
+              Star-nosed mole  ---gccttg
+                     Elephant  ---ccttta
+          Cape elephant shrew  ---gcttta
+                      Manatee  ---gctttg
+             Cape golden mole  ---gccttg
+                       Tenrec  ---gcttta
+                     Aardvark  ---gctttc
+                    Armadillo  ---gctttg
+                      Opossum  ---gccttg
+              Tasmanian devil  ---cccttg
+                      Wallaby  ---gccttg
+                     Platypus  ---gctttg
+                 Saker falcon  ---gctttg
+             Peregrine falcon  ---gctttg
+          Collared flycatcher  ---gctttg
+       White-throated sparrow  ---gctttg
+          Medium ground finch  ---agctcg
+                  Zebra finch  ---agctcg
+           Tibetan ground jay  ---gccttc
+                   Budgerigar  ---gctttg
+                       Parrot  ---gctttg
+                Scarlet macaw  ---gctttg
+                  Rock pigeon  ---gctttg
+                 Mallard duck  ---gctttg
+                      Chicken  ---gccttg
+                       Turkey  ---gcttta
+           American alligator  ---gccttg
+              Green seaturtle  ---aacttg
+               Painted turtle  ---accttg
+     Chinese softshell turtle  ---accttc
+       Spiny softshell turtle  ---gctttg
+                       Lizard  ttcgccttg
+                X. tropicalis  ---gctttg
+                   Coelacanth  ---------
+                    Tetraodon  ---gcagga
+                         Fugu  ---gcaggt
+       Yellowbelly pufferfish  ---tttggg
+                 Nile tilapia  ---gcgggt
+          Princess of Burundi  ---gcgggc
+        Burton's mouthbreeder  ---gcaggt
+                  Zebra mbuna  ---gcgggc
+          Pundamilia nyererei  ---gcgggc
+                       Medaka  ---g-----
+           Southern platyfish  ---gccttc
+                  Stickleback  ---gcaggg
+                 Atlantic cod  ---acgggc
+                    Zebrafish  ---gttttg
+     Mexican tetra (cavefish)  ---gcttta
+                  Spotted gar  ---gctggg
+                      Lamprey  ---accttg
+                     Marmoset  =========
+                          Pig  ---------
+
+Inserts between block 5 and 6 in window
+B D      Medium ground finch 67908bp
+B D              Zebra finch 79096bp
+                 Spotted gar 5bp
+
+Alignment block 6 of 6 in window, 26017386 - , 16 bps 
+B D                     Human  ggtttt---------aca-g---------------------ccttag
+B D                     Chimp  ggtttt---------aca-g---------------------ccttag
+B D                   Gorilla  ggtttt---------aca-c---------------------ccttag
+B D                 Orangutan  ggtttt---------aca-g---------------------ccttag
+B D                    Gibbon  ggtttt---------aca-g---------------------ccttag
+B D                    Rhesus  ggtttt---------ata-g---------------------ccttag
+B D       Crab-eating macaque  ggtttt---------ata-g---------------------ccttag
+B D                    Baboon  ggtttt---------ata-g---------------------ccttag
+                 Green monkey  ggtttt---------atg-g---------------------ccttag
