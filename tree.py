@@ -38,6 +38,26 @@ ordering = [leaves[0], leaves[3], hum_dog, leaves[1], leaves[2], mouse_rat, root
     return sequences, size
 
 
+def read_dist(distances_file):
+    """ Reads the input file of distances between the sequences
+
+    Arguments:
+        distances_file: file name of distances between sequences
+    Returns:
+        D: matrix of distances (map of maps)
+        mapping: index to name mapping (dictionary)
+    """
+    with open(distances_file, "r") as f:
+        lines = [l.strip().split() for l in f.readlines()]
+        mapping = {i: s for i, s in enumerate(lines[0])}
+        lines = [l[1:] for l in lines[1:]]
+        D = {i: {} for i in range(len(lines))}
+        for i, l in enumerate(lines):
+            for j, sval in enumerate(l):
+                D[i][j] = float(sval)
+    return D, mapping
+
+
 # Classes for Kruskal's algorithm on generic graphs
 
 
@@ -90,16 +110,20 @@ class Vertex:
                 if c.d() == 1 and not c.name:
                     cur.children.remove(c)
                     cur.neighbors.remove((c.parent_len, c))
+                    c.neighbors.remove((c.parent_len, cur))
                 elif c.d() == 2 and not c.name:
                     cur.children.remove(c)
                     cur.neighbors.remove((c.parent_len, c))
+                    c.neighbors.remove((c.parent_len, cur))
                     assert(len(c.children) == 1)
                     new_child = c.children[0]
                     new_child.parent = cur
+                    new_child.neighbors.remove((new_child.parent_len, c))
                     new_child.parent_len += c.parent_len
                     cur.children.append(new_child)
                     cur.neighbors.append((new_child.parent_len, new_child))
                     children.append(new_child)
+                    new_child.neighbors.append((new_child.parent_len, cur))
                 else:
                     to_visit.appendleft(c)
 
@@ -132,6 +156,9 @@ class Vertex:
                         new_parent.children.append(c)
                         cur.children.remove(c)
                         cur.neighbors.remove((c.parent_len, c))
+                        c.parent = new_parent
+                        c.neighbors.remove((c.parent_len, cur))
+                        c.neighbors.append((c.parent_len, new_parent))
                     to_visit.appendleft(cur)
                 else:
                     for c in cur.children:
@@ -160,6 +187,9 @@ class Vertex:
                         new_parent.children.append(c)
                         cur.children.remove(c)
                         cur.neighbors.remove((c.parent_len, c))
+                        c.parent = new_parent
+                        c.neighbors.remove((c.parent_len, cur))
+                        c.neighbors.append((c.parent_len, new_parent))
                     to_visit.appendleft(cur)
                     for c in cur.children:
                         to_visit.append(c)
@@ -299,6 +329,11 @@ class Node:
         self.tot_prob = 0
         self.E_abij = None
 
+    def setParentLen(self, l):
+        bases = 'ACGT'
+        self.branch_length = l
+        self.bp = np.array([[Node.jcm(b, a, self.branch_length) for b in bases] for a in bases])
+
     def is_leaf(self):
         return (self.left is None) and (self.right is None)
 
@@ -307,7 +342,6 @@ class Node:
             n.id = i
 
         self.parent_id = -1
-        print(list(map(lambda x: x.id, self.preorder())))
 
     def __getitem__(self, item):
         """
@@ -412,10 +446,16 @@ class Node:
 
         for i_a, a in enumerate(bases):
             p_i, p_j = 0, 0
-            for i_b, b in enumerate(bases):
-                p_i += (self.left.probs[i_b] * self.left.bp[i_a, i_b])
-            for i_c, c in enumerate(bases):
-                p_j += (self.right.probs[i_c] * self.right.bp[i_a, i_c])
+            if self.left:
+                for i_b, b in enumerate(bases):
+                    p_i += (self.left.probs[i_b] * self.left.bp[i_a, i_b])
+            else:
+                p_i = 0
+            if self.right:
+                for i_c, c in enumerate(bases):
+                    p_j += (self.right.probs[i_c] * self.right.bp[i_a, i_c])
+            else:
+                p_j = 0
             self.probs[i_a] = p_i * p_j
 
         fel_probs[ind] = np.log(0.25 * np.sum(self.probs))
@@ -448,7 +488,7 @@ class Node:
         :return: Tree with new branch lengths. Cached data _is_ transferred.
         """
         left = self.left * other if self.left else None
-        right = self.right * other if self.left else None
+        right = self.right * other if self.right else None
         out = Node(self.name, left, right, self.branch_length * other, self.id, self.parent_id)
 
         if self.data:
@@ -550,7 +590,7 @@ class Node:
                                args=(i, j),
                                method="BFGS",
                                options={"maxiter": 250, "disp": False})
-                out[i, j] = res.x[0]
+                out[i, j] = self.L_local(res.x[0], i, j)
         return out
 
     def preorder(self):
@@ -560,6 +600,7 @@ class Node:
 
     def kruskal(self, adj_mat):
         pre_nodes = self.preorder()
+        print(len(pre_nodes))
         krusk_nodes = list(map(lambda x: Vertex(x.id, x.name), pre_nodes))
         krusk_graph = Graph(krusk_nodes)
         n = self.size()
@@ -569,4 +610,97 @@ class Node:
                     break
                 krusk_graph.addEdge(i, j, adj_mat[i, j])
         krusk_graph.KruskalMST()
+        assert(krusk_graph.V == len(pre_nodes))
         return krusk_nodes[0]
+
+    @classmethod
+    def neighbor_join(cls, D):
+        """ Performs the neighbor joining algorithm on a given set of sequences.
+
+        Arguments:
+            D: map of maps, defining distances between the sequences
+               (initially n x n, symmetric, 0 on the diagonal)
+               (index -> index -> distance)
+        Returns:
+            Root of the phylogenic tree resulting from neighbor joining algorithm
+                on D
+        """
+        nodes = {}
+        for k in D:
+            nodes[k] = Node(k, None, None)
+        while len(D) > 2:
+            # Find minimum distance
+            totalDistance = {k: sum(v.values()) for (k, v) in D.items()}
+            n = len(D)
+            njM = {i: {j: 0 if i == j else ((n - 2) * Dij - totalDistance[i] - totalDistance[j])
+                       for (j, Dij) in d.items()} for (i, d) in D.items()}
+            min_keys = {(k, min(v, key=v.get)): min(v.values()) for (k, v) in njM.items()}
+            i, j = min(min_keys, key=min_keys.get)
+            name = "".join(sorted((str(i), str(j))))
+
+            # Handle nodes
+            l, r = nodes[i], nodes[j]
+            l.setParentLen(0.5 * (D[i][j] + ((totalDistance[i] - totalDistance[j]) / (n - 2))))
+            r.setParentLen(0.5 * (D[i][j] + ((totalDistance[j] - totalDistance[i]) / (n - 2))))
+            m = Node(None, l, r)
+            nodes[name] = m
+            del nodes[i]
+            del nodes[j]
+
+            # Adjust D
+            for k in D:
+                if k != name and k != i and k != j:
+                    D[k][name] = 0.5 * (D[i][k] + D[j][k] - D[i][j])
+                    del D[k][i]
+                    del D[k][j]
+
+            del D[i]
+            del D[j]
+
+            D[name] = {k: v[name] for k, v in D.items()}
+            D[name][name] = 0.0
+
+        # Handle last 2 nodes
+        a, b = D
+
+        dab = sum(D[a].values()) / 2
+        l, r = nodes[a], nodes[b]
+        l.setParentLen(dab)
+        r.setParentLen(dab)
+
+        out = Node(None, l, r)
+        out.assignIDs()
+        return out
+
+    @classmethod
+    def EM(cls, t, data, seqlen):
+        """
+        Run em on the distances in file filename to find the optimal phylogeny
+        :param seqlen: sequence length
+        :param data: Sequence data
+        :param filename: File containing distances
+        :return: Optimal phylogeny
+        """
+        # D, mapping = read_dist(filename)
+        # t = Node.neighbor_join(D)
+        # t.swap_names(mapping)
+        print(t)
+        t.setData(data, seqlen)
+        p = t.tot_prob
+        print(p)
+        for i in range(10):
+            t.E(seqlen)
+            adj = t.findW()
+            g = t.kruskal(adj)
+            g.setChildren()
+            g.bifurcate_step_1()
+            g = g.bifurcate_step_2()
+            t_new = g.to_node()
+            t_new.setData(data, seqlen)
+            t_new = t_new * (1 / t_new.tot_branch_len())
+            p_new = t_new.tot_prob
+            print(p_new)
+            t = t_new
+            print(t)
+
+        return t
