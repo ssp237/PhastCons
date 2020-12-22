@@ -33,8 +33,16 @@ ordering = [leaves[0], leaves[3], hum_dog, leaves[1], leaves[2], mouse_rat, root
                     output = ""
                 curr = l[2:].strip()
             else:
-                output += l.strip().upper().replace("-", "")
+                output += l.strip().upper()
         sequences[curr] = output
+        size = min([len(v) for k, v in sequences.items()])
+        new_sequences = {k: "" for k, _ in sequences.items()}
+        for i in range(size):
+            if np.all([v[i] == '-' for _, v in sequences.items()]):
+                for k, v in new_sequences.items():
+                    new_sequences[k] = v + sequences[k][i]
+                size -= 1
+
     return sequences, size
 
 
@@ -432,10 +440,10 @@ class Node:
         bases = 'ACGT'
         if self.is_leaf():
             c = data[self.name][ind]
-            if c == '-':
-                self.probs = [1 for _ in bases]
-            else:
+            if c in bases:
                 self.probs = [int(c == a) for a in bases]
+            else:
+                self.probs = [1 for _ in bases]
             fel_probs[ind] = np.log(0.25 * np.sum(self.probs))
             return
 
@@ -526,7 +534,7 @@ class Node:
         n = len(bases)
         if self.id != 0:
             last = visited[-1]
-            tot = np.sum(self.probs)
+            tot = np.sum(last.probs)
             for a in range(n):
                 for b in range(n):
                     E_abij[a, b, self.id, last.id] = \
@@ -535,7 +543,7 @@ class Node:
                 for a in range(n):
                     for b in range(n):
                         E_abij[a, b, self.id, node.id] = \
-                            E_abij[a, b, self.id, last.id] + E_abij[a, b, last.id, node.id]
+                            E_abij[a, b, self.id, last.id] * E_abij[a, b, last.id, node.id]
 
         # if self.is_leaf():
         #     c = data[self.name][ind]
@@ -577,7 +585,7 @@ class Node:
         for a in range(num_b):
             for b in range(num_b):
                 out += self.E_abij[a, b, i, j] * (np.log(self.jcm(bases[a], bases[b], t) - np.log(0.25)))
-        return out
+        return -out
 
     def findW(self):
         n = self.size()
@@ -588,9 +596,10 @@ class Node:
                     break
                 res = minimize(self.L_local, np.array([0.0]),
                                args=(i, j),
-                               method="BFGS",
-                               options={"maxiter": 250, "disp": False})
-                out[i, j] = self.L_local(res.x[0], i, j)
+                               method="L-BFGS-B",
+                               options={"maxiter": 250, "disp": False},
+                               bounds=([(0, 1)]))
+                out[i, j] = -self.L_local(res.x[0], i, j)
         return out
 
     def preorder(self):
@@ -673,7 +682,7 @@ class Node:
         return out
 
     @classmethod
-    def EM(cls, t, data, seqlen):
+    def EM(cls, filename, data, seqlen):
         """
         Run em on the distances in file filename to find the optimal phylogeny
         :param seqlen: sequence length
@@ -681,9 +690,9 @@ class Node:
         :param filename: File containing distances
         :return: Optimal phylogeny
         """
-        # D, mapping = read_dist(filename)
-        # t = Node.neighbor_join(D)
-        # t.swap_names(mapping)
+        D, mapping = read_dist(filename)
+        t = Node.neighbor_join(D)
+        t.swap_names(mapping)
         print(t)
         t.setData(data, seqlen)
         p = t.tot_prob
@@ -697,7 +706,7 @@ class Node:
             g = g.bifurcate_step_2()
             t_new = g.to_node()
             t_new.setData(data, seqlen)
-            t_new = t_new * (1 / t_new.tot_branch_len())
+            # t_new = t_new * (1 / t_new.tot_branch_len())
             p_new = t_new.tot_prob
             print(p_new)
             t = t_new

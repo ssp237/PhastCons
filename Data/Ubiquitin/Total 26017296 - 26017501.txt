@@ -1,18 +1,18 @@
->Human  		
+> Human
 g----aaac----ttctaact-ga--a------------------------------------------------------------------t--------ttactt------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---------------ttg------gca------------gt------ctttggcttcgtc------------------accctag------------------------ccttggc---c---gccttgggtttt---------aca-g---------------------ccttagc--tttagcagggctttt---------a---------gc---t------a---------c--tttcttg------ggctttacagtt---ttgggtttttttggattctt---ggagga---tttccttg---ttgcc------gca---gg---ctttttagccttttt
->Chimp  		
+> Chimp
 g----aaac----ttctaact-ga--a------------------------------------------------------------------t--------ttactt------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---------------ttg------gca------------gt------ctttggcttcgtc------------------accctag------------------------ccttggc---c---gccttgggtttt---------aca-g---------------------ccttagc--tttagcagggctttt---------a---------gc---t------a---------c--tttcttg------ggctttacaatt---ttgggtttttttggattctt---ggagga---tttccttg---ttgcc------gca---gg---ctttttagccttttt
->Gorilla 		
+> Gorilla
 g----aagc----ttctaact-ga--a------------------------------------------------------------------t--------ttactt------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---------------ttg------gca------------gt------ctttggcttcgtc------------------accctag------------------------ccttggc---c---gccttgggtttt---------aca-c---------------------ccttagc--tttagcagggctttt---------a---------gc---t------a---------c--tttcttg------ggctttacagtt---ttgggttttttcggattctt---ggagga---tttccttg---ttgcc------gca---gg---ctttttagccttttt
->Orangutan 		
+> Orangutan
 g----aagt----ttccaacc-ga--a------------------------------------------------------------------t--------ttactt------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---------------ttg------gca------------gt------ctttggcttcgtc------------------accctag------------------------ccttggc---c---gccttgggtttt---------aca-g---------------------ccttagc--tttagcagggctttt---------a---------gc---t------a---------c--tttcttg------ggctttagagtt---ttgggtttttttggattctt---ggagga---tttccttg---ttgcc------gca---gg---ctttttagccttttt
->Gibbon  		
+> Gibbon
 g----aagc----ttccaacc-ga--a------------------------------------------------------------------t--------ttactt------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---------------ttg------gca------------gt------ctttggcttcgtc------------------accctag------------------------ccttggc---c---gccttgggtttt---------aca-g---------------------ccttagc--tttagcagggctttt---------g---------gc---t------a---------c--tttcttg------ggctttacagtt---ttgggtttt---------tt---ggaaga---tttccttg---ttgcc------gca---gg---ctttttagccttttt
->Rhesus  		
+> Rhesus
 g----aagt----ttccaacc-ga--a------------------------------------------------------------------t--------ttactt------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---------------ttg------gca------------gt------ctttggcttcgtc------------------accctag------------------------ccttggc---c---gccttgggtttt---------ata-g---------------------ccttagt--tttagcagggctttt---------a---------gc---t------a---------c--tttcttg------ggttttacagct---ttgggttttttgggactctt---agagga---tttccttg---ttgcc------gca---ga---ctttttagcattttt
->Crab-eating_macaque 	
+> Crab_eating_macaque
 g----aagt----ttccaacc-ga--a------------------------------------------------------------------t--------ttactt------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---------------ttg------gca------------gt------ctttggcttcgtc------------------accctag------------------------ccttggc---c---gccttgggtttt---------ata-g---------------------ccttagt--tttagcagggctttt---------a---------gc---t------a---------c--tttcttg------ggttttacagct---ttgggttttttgggactctt---agagga---tttccttg---ttgcc------gca---ga---ctttttagcattttt
->Baboon  		
+> Baboon
 g----aagt----ttccaaca-ga--a------------------------------------------------------------------t--------ttactt------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---------------ttg------gca------------gt------ctttggcttcgtc------------------accctag------------------------ccttggc---c---gccttgggtttt---------ata-g---------------------ccttagt--tttagcagggctttt---------a---------gc---t------a---------c--tttcttg------ggttttacagct---ttgggttttttgggactctt---agagga---tttccttg---ttgcc------gca---ga---ctttttagcattttt
->Green_monkey 		
+> Green_monkey
 g----aagt----ttccaacc-ga--a------------------------------------------------------------------t--------ttactt------------tttcttggg------tg-ccgc---ttt-ctt---------g-------gg---t---------------ttg------gca------------gt------ctttggcttcgtc------------------accctag------------------------ccttggc---c---gccttgggtttt---------atg-g---------------------ccttagt--tttagcagggctttt---------a---------gc---t------a---------c--tttcttg------ggttttacagct---ttgggttttttgggactctt---agagga---tttctttg---ttgcc------gca---gg---ctttttagcattttt

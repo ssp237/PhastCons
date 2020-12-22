@@ -165,7 +165,8 @@ def getProb(params, nstates, seqlen, trees):
     """
     init, trans, scale = unfold_params(params, nstates=nstates)
     p = 0
-    scale = 1
+    if scale == 0:
+        return np.NINF
     new_trees = trees * scale
     return -forward(seqlen, normalize(trans), normalize(init), new_trees)
 
@@ -199,10 +200,10 @@ def optimize(seqlen, trees, nstates=2):
     ]))
     s = 1.0 / trees[0].tot_branch_len()
 
-    guess = np.concatenate((i, np.ndarray.flatten(t)))
-    res = minimize(getProb, guess, args=(nstates, seqlen, trees), method="BFGS",
-                   options={"maxiter": 250, "disp": True})
-    # bounds=([(np.NINF, 0)] * num_params))
+    guess = np.concatenate((i, np.ndarray.flatten(t), [1]))
+    res = minimize(getProb, guess, args=(nstates, seqlen, trees), method="L-BFGS-B",
+                   options={"maxiter": 250, "disp": True},
+                   bounds=(([(np.NINF, 0)] * num_params) + [(0, np.Inf)]))
     i, t, s = unfold_params(res.x, nstates=nstates)
     i, t = normalize(i), normalize(t)
     print(forward(seqlen, t, i, (trees * s)))
@@ -224,7 +225,7 @@ def saveplot(probs, factor, smooth=False):
     n, m = probs.shape
     if smooth:
 
-        xnew = np.linspace(0, m ,300)
+        xnew = np.linspace(0, m, 300)
         spl_cons = make_interp_spline(range(m), probs[0, :], k=3)
         cons_smooth = spl_cons(xnew)
         spl_ncons = make_interp_spline(range(m), probs[1, :], k=3)
@@ -243,7 +244,6 @@ def main():
                 "(Baboon:0.008042, (Rhesus:0.004991, " \
                 "Crab_eating_macaque:0.004991):0.003000):0.019610):0.022040):0.003471):0.009693):0.000500, " \
                 "(Human:0.006550, Chimp:0.006840):0.000500):0.000000;"
-    primates = "(((((Gorilla:0.105245, (((Crab_eating_macaque:0.121283, Rhesus:0.120782):0.000000, Green_monkey:0.115524):0.000000, Baboon:0.115448):0.000000):0.000000, Human:0.105546):0.000000, Chimp:0.105463):0.000000, Gibbon:0.105355):0.000000, Orangutan:0.105355):0.000000;"
     parser = argparse.ArgumentParser(
         description='Compute posterior probabilities at each position of a given sequence.')
     parser.add_argument('-f', action="store", dest="f", type=str, default='apoe.fa')
@@ -251,9 +251,15 @@ def main():
     parser.add_argument('-c', action='store', dest='c', type=str, default=primates)
     parser.add_argument('-mul', action='store', dest='mul', type=float, default=4.0)
     parser.add_argument('-nc', action='store', dest='nc', type=str, default=None)
+    parser.add_argument('-d', action='store', dest='df', type=str, default=None)
 
     args = parser.parse_args()
     data, data_len = read_data(args.f)
+    if args.df:
+        t = Node.EM(args.df, data, data_len)
+        print(t)
+        return
+
     cons = Node.from_str(args.c)
     # cons = cons * (1 / cons.tot_branch_len())
     print(cons.tot_branch_len())
